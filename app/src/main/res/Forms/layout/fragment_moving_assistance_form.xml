@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Forms.MovingAssistanceForm">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Moving Assistance Form"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="24dp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/firstNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your First Name">
+
+            </EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/lastNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Last Name"></EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/emailInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Email"></EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/startLocationInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Start Location"></EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/endLocationInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your End Location"></EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/boxesNeededInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Number of boxes needed"
+                android:inputType="numberSigned"></EditText>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/birthdayInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Birthday (DD/MM/YYYY)"
+                android:inputType="date"></EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cancel" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/request"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/holo_green_light"
+                    android:text="Request" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

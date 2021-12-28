@@ -1,0 +1,75 @@
+@startuml
+
+class Dummy {
+- private
+# protected
+~ pkg method()
++ public()
+}
+
+class com.example.byblosmobile.LoginActivity {
+- FirebaseAuth mAuth
+- DatabaseReference mDatabase
+# void onCreate(Bundle)
+- void signIn(EditText,EditText)
++ void login(String,String)
+}
+class com.example.byblosmobile.UserInfo {
+# String userName
++ String getUserName()
++ String getFirstName()
++ String getLastName()
++ String getEmail()
++ String getPassword()
++ String getUserType()
++ void copy(UserInfo)
++ String toString()
+}
+class com.example.byblosmobile.WelcomePageActivity {
+- TextView welcomeText
+- String username
+- String userType
+- MyDatabase myDatabase
++ void updateUserInfo(UserInfo)
+# void onCreate(Bundle)
+}
+class com.example.byblosmobile.PasswordManager {
+- {static} String SECRET_KEY
+- {static} String SALT
++ {static} String encrypt(String)
++ {static} String decrypt(String)
+}
+class com.example.byblosmobile.MyDatabase {
+- String dbPath
+- FirebaseDatabase db
+- DatabaseReference dbRef
++ DatabaseReference getDbRef()
++ void setReference(String)
++ void addUser(FirebaseUser,UserInfo)
+}
+class com.example.byblosmobile.SignupActivity {
+- String userType
+- FirebaseAuth mAuth
+- DatabaseReference mDatabase
+- MyDatabase myDatabase
+# void onCreate(Bundle)
+- void userRegistration(EditText,EditText,EditText,EditText,EditText,String)
++ void createUser(String,String,UserInfo)
+}
+class com.example.byblosmobile.Utilities {
+# {static} boolean nameChecker(EditText,EditText)
+}
+class com.example.byblosmobile.MainActivity {
+- ActivityLoginBinding binding
+# void onCreate(Bundle)
+}
+
+
+androidx.appcompat.app.AppCompatActivity <|-- "1"   com.example.byblosmobile.LoginActivity
+androidx.appcompat.app.AppCompatActivity <|-- "1"   com.example.byblosmobile.WelcomePageActivity
+androidx.appcompat.app.AppCompatActivity <|-- "1"   com.example.byblosmobile.SignupActivity
+androidx.appcompat.app.AppCompatActivity <|-- "1"   com.example.byblosmobile.MainActivity
+com.example.byblosmobile.LoginActivity     --  "*"  com.example.byblosmobile.UserInfo
+com.example.byblosmobile.SignupActivity    --  "*"  com.example.byblosmobile.UserInfo
+com.example.byblosmobile.WelcomePageActivity --  "*"  com.example.byblosmobile.UserInfo
+@enduml

@@ -1,0 +1,247 @@
+{
+  "Branches" : {
+    "-Mr_-nM_q6nvRWEGqmSL" : {
+      "branchUID" : "-Mr_-nM_q6nvRWEGqmSL",
+      "daysOpen" : [ "Monday", "Saturday", "Sunday" ],
+      "location" : "13 Rideau Street",
+      "managerUID" : "tfULPw83lJUUDNSLBTHLQBtANrj2",
+      "serviceList" : [ "-Mr_AYltf77-I4ge6CdT", "-Mr_HlIkfhd_P0m4GJyK", "-Mr_HuOzYtBv5qNvALLY" ],
+      "timings" : [ 6, 18, 17, 40 ],
+      "userRating" : 2
+    },
+    "-MrbiLNAnErDDlyum3Us" : {
+      "branchUID" : "-MrbiLNAnErDDlyum3Us",
+      "daysOpen" : [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" ],
+      "location" : "64 Rideau Road",
+      "managerUID" : "C2KJthwIpDXGnioFQQ1vedcbcHq2",
+      "serviceList" : [ "-MrbibHG6qpQKLPa_Yja", "-Mrbid-GtCuLYgsw-42j", "-MrbiXPvT2SEq3Sv5BV5" ],
+      "timings" : [ 7, 0, 18, 23 ],
+      "userRating" : 2
+    }
+  },
+  "Forms" : {
+    "-Mr_AYlyHZMVPwLMEo3Q" : {
+      "address" : "Mars",
+      "carType" : "Sedan",
+      "dateOfBirth" : "12/12/1221",
+      "email" : "abba@c.io",
+      "firstName" : "aba",
+      "formIdentifier" : "-Mr_AYlyHZMVPwLMEo3Q",
+      "isApproved" : "APPROVED",
+      "lastName" : "baca",
+      "licenseType" : "G1",
+      "pickUpTime" : "1",
+      "returnTime" : "2",
+      "serviceIdentifier" : "-Mr_AYltf77-I4ge6CdT"
+    },
+    "-Mr_HlIu0ug2lwa6PiO9" : {
+      "address" : "ajanajan",
+      "dateOfBirth" : "7664",
+      "email" : "znN",
+      "firstName" : "sjsj",
+      "formIdentifier" : "-Mr_HlIu0ug2lwa6PiO9",
+      "isApproved" : "NO REQUEST",
+      "lastName" : "snan",
+      "licenseType" : "ajajajaj",
+      "pickUpTime" : "466",
+      "returnTime" : "466",
+      "serviceIdentifier" : "-Mr_HlIkfhd_P0m4GJyK",
+      "usageArea" : "sjsj"
+    },
+    "-Mr_HuP9E5Vsrjh_r1eD" : {
+      "dateOfBirth" : "12/21/1201",
+      "email" : "cc@c.com",
+      "endLocation" : "Mars",
+      "firstName" : "cc",
+      "formIdentifier" : "-Mr_HuP9E5Vsrjh_r1eD",
+      "isApproved" : "NO REQUEST",
+      "lastName" : "ccc",
+      "numberOfBoxes" : 99,
+      "numberOfMovers" : 0,
+      "serviceIdentifier" : "-Mr_HuOzYtBv5qNvALLY",
+      "startLocation" : "Earth"
+    },
+    "-MrbiXQ-4a5SVhNvV4Fr" : {
+      "address" : "Popat Street ",
+      "carType" : "Hatchback",
+      "dateOfBirth" : "12/06/1973",
+      "email" : "t@t.com",
+      "firstName" : "Aloha ",
+      "formIdentifier" : "-MrbiXQ-4a5SVhNvV4Fr",
+      "isApproved" : "NO REQUEST",
+      "lastName" : "Bolaa",
+      "licenseType" : "G",
+      "pickUpTime" : "1600",
+      "returnTime" : "1700",
+      "serviceIdentifier" : "-MrbiXPvT2SEq3Sv5BV5"
+    },
+    "-MrbibHROWQdeEjjXv-T" : {
+      "address" : "Mars",
+      "dateOfBirth" : "12/11/2321",
+      "email" : "apple@io.c",
+      "firstName" : "test1",
+      "formIdentifier" : "-MrbibHROWQdeEjjXv-T",
+      "isApproved" : "REJECTED",
+      "lastName" : "test1",
+      "licenseType" : "G2",
+      "pickUpTime" : "12",
+      "returnTime" : "02",
+      "serviceIdentifier" : "-MrbibHG6qpQKLPa_Yja",
+      "usageArea" : "Earth"
+    },
+    "-Mrbid-OC9eb-MiGJtUy" : {
+      "dateOfBirth" : "12/12/2102",
+      "email" : "Apple@ic.o",
+      "endLocation" : "Sun",
+      "firstName" : "Blon",
+      "formIdentifier" : "-Mrbid-OC9eb-MiGJtUy",
+      "isApproved" : "APPROVED",
+      "lastName" : "Must",
+      "numberOfBoxes" : 9,
+      "numberOfMovers" : 0,
+      "serviceIdentifier" : "-Mrbid-GtCuLYgsw-42j",
+      "startLocation" : "Mars"
+    },
+    "-MrdJRJbHUCDxVEMd3AW" : {
+      "carType" : "SUV",
+      "formIdentifier" : "-MrdJRJbHUCDxVEMd3AW",
+      "isApproved" : "NO REQUEST",
+      "serviceIdentifier" : "-MrdJRJZ6ikFVokJRRjc"
+    }
+  },
+  "Services" : {
+    "Cars" : {
+      "-Mr_AYltf77-I4ge6CdT" : {
+        "branch" : "-Mr_-nM_q6nvRWEGqmSL",
+        "branchIdentifier" : "NONE",
+        "formID" : "-Mr_AYlyHZMVPwLMEo3Q",
+        "identifier" : "-Mr_AYltf77-I4ge6CdT",
+        "make" : "Toyota",
+        "model" : "Camry",
+        "numberPlate" : "DJDJX",
+        "price" : "22",
+        "type" : "Sedan"
+      },
+      "-MrbiXPvT2SEq3Sv5BV5" : {
+        "branch" : "-MrbiLNAnErDDlyum3Us",
+        "branchIdentifier" : "NONE",
+        "formID" : "-MrbiXQ-4a5SVhNvV4Fr",
+        "identifier" : "-MrbiXPvT2SEq3Sv5BV5",
+        "make" : "Volkswagen",
+        "model" : "Golf",
+        "numberPlate" : "DHFW 123",
+        "price" : "18.50",
+        "type" : "Hatchback"
+      },
+      "-MrdJRJZ6ikFVokJRRjc" : {
+        "branch" : "NONE",
+        "branchIdentifier" : "NONE",
+        "formID" : "-MrdJRJbHUCDxVEMd3AW",
+        "identifier" : "-MrdJRJZ6ikFVokJRRjc",
+        "make" : "Tesla",
+        "model" : "Model X",
+        "numberPlate" : "12121",
+        "price" : "999",
+        "type" : "SUV"
+      }
+    },
+    "Moving Assistance" : {
+      "-Mr_HuOzYtBv5qNvALLY" : {
+        "branch" : "-Mr_-nM_q6nvRWEGqmSL",
+        "formID" : "-Mr_HuP9E5Vsrjh_r1eD",
+        "identifier" : "-Mr_HuOzYtBv5qNvALLY",
+        "numberOfMovers" : "5",
+        "price" : "35"
+      },
+      "-Mrbid-GtCuLYgsw-42j" : {
+        "branch" : "-MrbiLNAnErDDlyum3Us",
+        "formID" : "-Mrbid-OC9eb-MiGJtUy",
+        "identifier" : "-Mrbid-GtCuLYgsw-42j",
+        "numberOfMovers" : "10",
+        "price" : "22"
+      }
+    },
+    "Trucks" : {
+      "-Mr_HlIkfhd_P0m4GJyK" : {
+        "branch" : "-Mr_-nM_q6nvRWEGqmSL",
+        "branchIdentifier" : "NONE",
+        "distanceRestriction" : "250",
+        "formID" : "-Mr_HlIu0ug2lwa6PiO9",
+        "identifier" : "-Mr_HlIkfhd_P0m4GJyK",
+        "make" : "Ford",
+        "model" : "F150",
+        "numberPlate" : "FHTY",
+        "price" : "30",
+        "type" : "Small"
+      },
+      "-MrbibHG6qpQKLPa_Yja" : {
+        "branch" : "-MrbiLNAnErDDlyum3Us",
+        "branchIdentifier" : "NONE",
+        "distanceRestriction" : "250",
+        "formID" : "-MrbibHROWQdeEjjXv-T",
+        "identifier" : "-MrbibHG6qpQKLPa_Yja",
+        "make" : "Toyota",
+        "model" : "Tundra",
+        "numberPlate" : "DEFG 234",
+        "price" : "23",
+        "type" : "Medium"
+      }
+    }
+  },
+  "Users" : {
+    "Admin" : {
+      "E7aYsNA7GQW28YvlocjwV9ZRJ2I3" : {
+        "email" : "admin@admin.com",
+        "firstName" : "Erlich ",
+        "identifier" : "E7aYsNA7GQW28YvlocjwV9ZRJ2I3",
+        "lastName" : "Bachman",
+        "password" : "_admin",
+        "userType" : "_admin"
+      }
+    },
+    "Customers" : {
+      "dCltU1SFXVP9cC7A0i6GEcGRWeW2" : {
+        "email" : "homersimp@gmail.com",
+        "firstName" : "Homer",
+        "formUID" : "-Mrbid-OC9eb-MiGJtUy",
+        "identifier" : "dCltU1SFXVP9cC7A0i6GEcGRWeW2",
+        "lastName" : "Simpson",
+        "password" : "password",
+        "preferredBranchUID" : "-MrbiLNAnErDDlyum3Us",
+        "serviceSelectedUID" : "-Mrbid-GtCuLYgsw-42j",
+        "userType" : "_customer"
+      },
+      "mHcEUq7k8ufkcuezuAMgxsoQYtx2" : {
+        "email" : "t@t.com",
+        "firstName" : "Aloha",
+        "formUID" : "",
+        "identifier" : "mHcEUq7k8ufkcuezuAMgxsoQYtx2",
+        "lastName" : "Bolaa",
+        "password" : "password",
+        "preferredBranchUID" : "-MrbiLNAnErDDlyum3Us",
+        "serviceSelectedUID" : "-Mrbid-GtCuLYgsw-42j",
+        "userType" : "_customer"
+      }
+    },
+    "Employees" : {
+      "C2KJthwIpDXGnioFQQ1vedcbcHq2" : {
+        "branchUID" : "-MrbiLNAnErDDlyum3Us",
+        "email" : "rh@gmail.com",
+        "firstName" : "Richard",
+        "identifier" : "C2KJthwIpDXGnioFQQ1vedcbcHq2",
+        "lastName" : "Hendrix",
+        "password" : "password",
+        "userType" : "_employee"
+      },
+      "tfULPw83lJUUDNSLBTHLQBtANrj2" : {
+        "branchUID" : "-Mr_-nM_q6nvRWEGqmSL",
+        "email" : "gr@gmail.com",
+        "firstName" : "George",
+        "identifier" : "tfULPw83lJUUDNSLBTHLQBtANrj2",
+        "lastName" : "Russel",
+        "password" : "password",
+        "userType" : "_employee"
+      }
+    }
+  }
+}

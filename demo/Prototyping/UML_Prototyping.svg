@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1898px" preserveAspectRatio="none" style="width:1148px;height:1898px;background:#FFFFFF;" version="1.1" viewBox="0 0 1148 1898" width="1148px" zoomAndPan="magnify"><defs><filter height="300%" id="fcfxqo1by9xew" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e169ac431914a6adb8cf110c9da1459f]
+cluster DB--><polygon fill="#FFFFFF" filter="url(#fcfxqo1by9xew)" points="271,6.294,297,6.294,304,29.0939,1027,29.0939,1027,359.294,271,359.294,271,6.294" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="271" x2="304" y1="29.0939" y2="29.0939"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="20" x="275" y="21.2999">DB</text><!--MD5=[651a9cb98d76a5fd8afbbb3ec3aad80c]
+cluster Users--><polygon fill="#FFFFFF" filter="url(#fcfxqo1by9xew)" points="358,392.294,403,392.294,410,415.0939,932,415.0939,932,939.294,358,939.294,358,392.294" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="358" x2="410" y1="415.0939" y2="415.0939"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="39" x="362" y="407.2999">Users</text><!--MD5=[21e045f3422a4e906944b43fefc3dafb]
+cluster Services.Forms--><polygon fill="#FFFFFF" filter="url(#fcfxqo1by9xew)" points="406,1326.294,517,1326.294,524,1349.0939,913,1349.0939,913,1719.294,406,1719.294,406,1326.294" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="406" x2="524" y1="1349.0939" y2="1349.0939"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="105" x="410" y="1341.2999">Services.Forms</text><!--MD5=[9cc6aeb75d5d29ebf81ab8a0330a8fa9]
+cluster Services.Forms.Rental--><polygon fill="#FFFFFF" filter="url(#fcfxqo1by9xew)" points="282,1752.294,441,1752.294,448,1775.0939,768,1775.0939,768,1891.294,282,1891.294,282,1752.294" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="282" x2="448" y1="1775.0939" y2="1775.0939"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="153" x="286" y="1767.2999">Services.Forms.Rental</text><!--MD5=[cdfd548b3455e70392372b1f27091970]
+cluster Services--><polygon fill="#FFFFFF" filter="url(#fcfxqo1by9xew)" points="572,1128.294,636,1128.294,643,1151.0939,696,1151.0939,696,1293.294,572,1293.294,572,1128.294" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="572" x2="643" y1="1151.0939" y2="1151.0939"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="576" y="1143.2999">Services</text><!--MD5=[99f1202c20af6327a1f4b64fa184355a]
+cluster Branches--><polygon fill="#FFFFFF" filter="url(#fcfxqo1by9xew)" points="884,1128.294,955,1128.294,962,1151.0939,1010,1151.0939,1010,1293.294,884,1293.294,884,1128.294" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="884" x2="962" y1="1151.0939" y2="1151.0939"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="65" x="888" y="1143.2999">Branches</text><!--MD5=[1dfdb84994952133b049b57489fd479c]
+class DB.MyDatabase--><rect codeLine="9" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="100.7996" id="DB.MyDatabase" style="stroke:#A80036;stroke-width:1.5;" width="101" x="600.5" y="41.294"/><ellipse cx="615.5" cy="57.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M610.5,58.4502 C610.5,60.9502 612.6406,62.7627 615.5625,62.7627 C616.7969,62.7627 617.9688,62.4659 618.7188,61.9502 C619.3281,61.5284 619.6563,61.1065 619.6563,60.7002 C619.6563,60.2315 619.2344,59.8252 618.7344,59.8252 C618.5,59.8252 618.2813,59.9034 618.0781,60.1065 C617.6406,60.544 617.6406,60.544 617.4688,60.6377 C617.0156,60.8721 616.375,61.0127 615.6094,61.0127 C613.6094,61.0127 612.3281,59.9971 612.3281,58.419 L612.3281,57.3721 C612.3281,55.669 613.5469,54.4659 615.25,54.4659 C615.8281,54.4659 616.4063,54.6065 616.875,54.8565 C617.3438,55.1221 617.5156,55.3096 617.5781,55.669 C617.7031,56.3409 617.9531,56.5909 618.4844,56.5909 C618.7656,56.5909 619.0469,56.4502 619.2344,56.2315 C619.3594,56.0596 619.4063,55.8877 619.4063,55.4502 L619.4063,54.0909 C619.4063,53.669 619.3906,53.5284 619.2656,53.3565 C619.0938,53.1065 618.8125,52.9502 618.4844,52.9502 C618.1719,52.9502 617.9688,53.0596 617.75,53.3252 C616.5781,52.8252 616.1406,52.7159 615.1875,52.7159 C612.5156,52.7159 610.5,54.7315 610.5,57.3565 L610.5,58.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="69" x="629.5" y="61.242">MyDatabase</text><line style="stroke:#A80036;stroke-width:1.5;" x1="601.5" x2="700.5" y1="73.294" y2="73.294"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="608.5" y="81.294"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="12" x="620.5" y="87.5129">db</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="608.5" y="94.4939"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="29" x="620.5" y="100.7128">dbRef</text><ellipse cx="611.5" cy="110.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="620.5" y="113.9127">dbPath</text><line style="stroke:#A80036;stroke-width:1.5;" x1="601.5" x2="700.5" y1="120.8937" y2="120.8937"/><ellipse cx="611.5" cy="131.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="620.5" y="135.1126">setReference()</text><!--MD5=[c35f6dd1cc86b80c818e2e44fc8ed053]
+class DB.UserDB--><rect codeLine="27" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="113.9995" id="DB.UserDB" style="stroke:#A80036;stroke-width:1.5;" width="104" x="287" y="216.294"/><ellipse cx="315.05" cy="232.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M310.05,233.4502 C310.05,235.9502 312.1906,237.7627 315.1125,237.7627 C316.3469,237.7627 317.5188,237.4659 318.2688,236.9502 C318.8781,236.5284 319.2063,236.1065 319.2063,235.7002 C319.2063,235.2315 318.7844,234.8252 318.2844,234.8252 C318.05,234.8252 317.8313,234.9034 317.6281,235.1065 C317.1906,235.544 317.1906,235.544 317.0188,235.6377 C316.5656,235.8721 315.925,236.0127 315.1594,236.0127 C313.1594,236.0127 311.8781,234.9971 311.8781,233.419 L311.8781,232.3721 C311.8781,230.669 313.0969,229.4659 314.8,229.4659 C315.3781,229.4659 315.9563,229.6065 316.425,229.8565 C316.8938,230.1221 317.0656,230.3096 317.1281,230.669 C317.2531,231.3409 317.5031,231.5909 318.0344,231.5909 C318.3156,231.5909 318.5969,231.4502 318.7844,231.2315 C318.9094,231.0596 318.9563,230.8877 318.9563,230.4502 L318.9563,229.0909 C318.9563,228.669 318.9406,228.5284 318.8156,228.3565 C318.6438,228.1065 318.3625,227.9502 318.0344,227.9502 C317.7219,227.9502 317.5188,228.0596 317.3,228.3252 C316.1281,227.8252 315.6906,227.7159 314.7375,227.7159 C312.0656,227.7159 310.05,229.7315 310.05,232.3565 L310.05,233.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="43" x="331.95" y="236.242">UserDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="288" x2="390" y1="248.294" y2="248.294"/><ellipse cx="298" cy="259.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="21" x="307" y="262.5129">auth</text><line style="stroke:#A80036;stroke-width:1.5;" x1="288" x2="390" y1="269.4939" y2="269.4939"/><ellipse cx="298" cy="280.4939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="26" x="307" y="283.7128">add()</text><ellipse cx="298" cy="293.6938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="307" y="296.9127">queryByName()</text><ellipse cx="298" cy="306.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="307" y="310.1126">queryAll()</text><ellipse cx="298" cy="320.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="307" y="323.3125">deleteByUIDs()</text><!--MD5=[90177ddf1b4f215e1d7fad6ccd0abc0f]
+class DB.ServiceDB--><rect codeLine="35" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="127.1994" id="DB.ServiceDB" style="stroke:#A80036;stroke-width:1.5;" width="101" x="738.5" y="209.794"/><ellipse cx="758.45" cy="225.794" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M753.45,226.9502 C753.45,229.4502 755.5906,231.2627 758.5125,231.2627 C759.7469,231.2627 760.9188,230.9659 761.6688,230.4502 C762.2781,230.0284 762.6063,229.6065 762.6063,229.2002 C762.6063,228.7315 762.1844,228.3252 761.6844,228.3252 C761.45,228.3252 761.2313,228.4034 761.0281,228.6065 C760.5906,229.044 760.5906,229.044 760.4188,229.1377 C759.9656,229.3721 759.325,229.5127 758.5594,229.5127 C756.5594,229.5127 755.2781,228.4971 755.2781,226.919 L755.2781,225.8721 C755.2781,224.169 756.4969,222.9659 758.2,222.9659 C758.7781,222.9659 759.3563,223.1065 759.825,223.3565 C760.2938,223.6221 760.4656,223.8096 760.5281,224.169 C760.6531,224.8409 760.9031,225.0909 761.4344,225.0909 C761.7156,225.0909 761.9969,224.9502 762.1844,224.7315 C762.3094,224.5596 762.3563,224.3877 762.3563,223.9502 L762.3563,222.5909 C762.3563,222.169 762.3406,222.0284 762.2156,221.8565 C762.0438,221.6065 761.7625,221.4502 761.4344,221.4502 C761.1219,221.4502 760.9188,221.5596 760.7,221.8252 C759.5281,221.3252 759.0906,221.2159 758.1375,221.2159 C755.4656,221.2159 753.45,223.2315 753.45,225.8565 L753.45,226.9502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="773.55" y="229.742">ServiceDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="739.5" x2="838.5" y1="241.794" y2="241.794"/><line style="stroke:#A80036;stroke-width:1.5;" x1="739.5" x2="838.5" y1="249.794" y2="249.794"/><ellipse cx="749.5" cy="260.794" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="26" x="758.5" y="264.0129">add()</text><ellipse cx="749.5" cy="273.9939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="758.5" y="277.2128">update()</text><ellipse cx="749.5" cy="287.1938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="758.5" y="290.4127">updateRate()</text><ellipse cx="749.5" cy="300.3937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="758.5" y="303.6126">queryByType()</text><ellipse cx="749.5" cy="313.5936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="758.5" y="316.8125">deleteByType()</text><ellipse cx="749.5" cy="326.7935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="758.5" y="330.0124">deleteByKeys()</text><!--MD5=[086a04d10e205073fe21aef67afd2dd8]
+class DB.FormDB--><rect codeLine="46" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="100.7996" id="DB.FormDB" style="stroke:#A80036;stroke-width:1.5;" width="104" x="599" y="222.794"/><ellipse cx="626.15" cy="238.794" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M621.15,239.9502 C621.15,242.4502 623.2906,244.2627 626.2125,244.2627 C627.4469,244.2627 628.6188,243.9659 629.3688,243.4502 C629.9781,243.0284 630.3063,242.6065 630.3063,242.2002 C630.3063,241.7315 629.8844,241.3252 629.3844,241.3252 C629.15,241.3252 628.9313,241.4034 628.7281,241.6065 C628.2906,242.044 628.2906,242.044 628.1188,242.1377 C627.6656,242.3721 627.025,242.5127 626.2594,242.5127 C624.2594,242.5127 622.9781,241.4971 622.9781,239.919 L622.9781,238.8721 C622.9781,237.169 624.1969,235.9659 625.9,235.9659 C626.4781,235.9659 627.0563,236.1065 627.525,236.3565 C627.9938,236.6221 628.1656,236.8096 628.2281,237.169 C628.3531,237.8409 628.6031,238.0909 629.1344,238.0909 C629.4156,238.0909 629.6969,237.9502 629.8844,237.7315 C630.0094,237.5596 630.0563,237.3877 630.0563,236.9502 L630.0563,235.5909 C630.0563,235.169 630.0406,235.0284 629.9156,234.8565 C629.7438,234.6065 629.4625,234.4502 629.1344,234.4502 C628.8219,234.4502 628.6188,234.5596 628.4,234.8252 C627.2281,234.3252 626.7906,234.2159 625.8375,234.2159 C623.1656,234.2159 621.15,236.2315 621.15,238.8565 L621.15,239.9502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="642.85" y="242.742">FormDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="600" x2="702" y1="254.794" y2="254.794"/><line style="stroke:#A80036;stroke-width:1.5;" x1="600" x2="702" y1="262.794" y2="262.794"/><ellipse cx="610" cy="273.794" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="26" x="619" y="277.0129">add()</text><ellipse cx="610" cy="286.9939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="619" y="290.2128">queryByName()</text><ellipse cx="610" cy="300.1938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="619" y="303.4127">update()</text><ellipse cx="610" cy="313.3937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="37" x="619" y="316.6126">delete()</text><!--MD5=[5b490bb0e594383bd79bee79592355ed]
+class DB.BranchDB--><rect codeLine="53" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="140.3993" id="DB.BranchDB" style="stroke:#A80036;stroke-width:1.5;" width="136" x="875" y="203.294"/><ellipse cx="911.6" cy="219.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M906.6,220.4502 C906.6,222.9502 908.7406,224.7627 911.6625,224.7627 C912.8969,224.7627 914.0688,224.4659 914.8188,223.9502 C915.4281,223.5284 915.7563,223.1065 915.7563,222.7002 C915.7563,222.2315 915.3344,221.8252 914.8344,221.8252 C914.6,221.8252 914.3813,221.9034 914.1781,222.1065 C913.7406,222.544 913.7406,222.544 913.5688,222.6377 C913.1156,222.8721 912.475,223.0127 911.7094,223.0127 C909.7094,223.0127 908.4281,221.9971 908.4281,220.419 L908.4281,219.3721 C908.4281,217.669 909.6469,216.4659 911.35,216.4659 C911.9281,216.4659 912.5063,216.6065 912.975,216.8565 C913.4438,217.1221 913.6156,217.3096 913.6781,217.669 C913.8031,218.3409 914.0531,218.5909 914.5844,218.5909 C914.8656,218.5909 915.1469,218.4502 915.3344,218.2315 C915.4594,218.0596 915.5063,217.8877 915.5063,217.4502 L915.5063,216.0909 C915.5063,215.669 915.4906,215.5284 915.3656,215.3565 C915.1938,215.1065 914.9125,214.9502 914.5844,214.9502 C914.2719,214.9502 914.0688,215.0596 913.85,215.3252 C912.6781,214.8252 912.2406,214.7159 911.2875,214.7159 C908.6156,214.7159 906.6,216.7315 906.6,219.3565 L906.6,220.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="930.4" y="223.242">BranchDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="876" x2="1010" y1="235.294" y2="235.294"/><line style="stroke:#A80036;stroke-width:1.5;" x1="876" x2="1010" y1="243.294" y2="243.294"/><ellipse cx="886" cy="254.294" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="26" x="895" y="257.5129">add()</text><ellipse cx="886" cy="267.4939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="895" y="270.7128">updateBusinessHour()</text><ellipse cx="886" cy="280.6938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="895" y="283.9127">updateRating()</text><ellipse cx="886" cy="293.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="895" y="297.1126">queryByLocations()</text><ellipse cx="886" cy="307.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="895" y="310.3125">queryServices()</text><ellipse cx="886" cy="320.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="895" y="323.5124">deleteByLocations()</text><ellipse cx="886" cy="333.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="895" y="336.7123">deleteByKeys()</text><!--MD5=[5e74c8be5fb8254fa9386766fa5196c4]
+class DB.UserRequestDB--><rect codeLine="63" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="140.3993" id="DB.UserRequestDB" style="stroke:#A80036;stroke-width:1.5;" width="137" x="426.5" y="203.294"/><ellipse cx="448.7" cy="219.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M443.7,220.4502 C443.7,222.9502 445.8406,224.7627 448.7625,224.7627 C449.9969,224.7627 451.1688,224.4659 451.9188,223.9502 C452.5281,223.5284 452.8563,223.1065 452.8563,222.7002 C452.8563,222.2315 452.4344,221.8252 451.9344,221.8252 C451.7,221.8252 451.4813,221.9034 451.2781,222.1065 C450.8406,222.544 450.8406,222.544 450.6688,222.6377 C450.2156,222.8721 449.575,223.0127 448.8094,223.0127 C446.8094,223.0127 445.5281,221.9971 445.5281,220.419 L445.5281,219.3721 C445.5281,217.669 446.7469,216.4659 448.45,216.4659 C449.0281,216.4659 449.6063,216.6065 450.075,216.8565 C450.5438,217.1221 450.7156,217.3096 450.7781,217.669 C450.9031,218.3409 451.1531,218.5909 451.6844,218.5909 C451.9656,218.5909 452.2469,218.4502 452.4344,218.2315 C452.5594,218.0596 452.6063,217.8877 452.6063,217.4502 L452.6063,216.0909 C452.6063,215.669 452.5906,215.5284 452.4656,215.3565 C452.2938,215.1065 452.0125,214.9502 451.6844,214.9502 C451.3719,214.9502 451.1688,215.0596 450.95,215.3252 C449.7781,214.8252 449.3406,214.7159 448.3875,214.7159 C445.7156,214.7159 443.7,216.7315 443.7,219.3565 L443.7,220.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="89" x="464.3" y="223.242">UserRequestDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="427.5" x2="562.5" y1="235.294" y2="235.294"/><line style="stroke:#A80036;stroke-width:1.5;" x1="427.5" x2="562.5" y1="243.294" y2="243.294"/><ellipse cx="437.5" cy="254.294" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="26" x="446.5" y="257.5129">add()</text><ellipse cx="437.5" cy="267.4939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="446.5" y="270.7128">update()</text><ellipse cx="437.5" cy="280.6938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="48" x="446.5" y="283.9127">approve()</text><ellipse cx="437.5" cy="293.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="446.5" y="297.1126">queryByUserIDs()</text><ellipse cx="437.5" cy="307.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="446.5" y="310.3125">queryAll()</text><ellipse cx="437.5" cy="320.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="446.5" y="323.5124">deleteByFormNames()</text><ellipse cx="437.5" cy="333.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="446.5" y="336.7123">deleteByKeys()</text><!--MD5=[6f7f282d8858f4a1cdb226a9a6f83f26]
+class Users.UserInfo--><rect codeLine="16" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="153.5992" id="Users.UserInfo" style="stroke:#A80036;stroke-width:1.5;" width="83" x="374.5" y="446.794"/><ellipse cx="391.75" cy="462.794" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M386.75,463.9502 C386.75,466.4502 388.8906,468.2627 391.8125,468.2627 C393.0469,468.2627 394.2188,467.9659 394.9688,467.4502 C395.5781,467.0284 395.9063,466.6065 395.9063,466.2002 C395.9063,465.7315 395.4844,465.3252 394.9844,465.3252 C394.75,465.3252 394.5313,465.4034 394.3281,465.6065 C393.8906,466.044 393.8906,466.044 393.7188,466.1377 C393.2656,466.3721 392.625,466.5127 391.8594,466.5127 C389.8594,466.5127 388.5781,465.4971 388.5781,463.919 L388.5781,462.8721 C388.5781,461.169 389.7969,459.9659 391.5,459.9659 C392.0781,459.9659 392.6563,460.1065 393.125,460.3565 C393.5938,460.6221 393.7656,460.8096 393.8281,461.169 C393.9531,461.8409 394.2031,462.0909 394.7344,462.0909 C395.0156,462.0909 395.2969,461.9502 395.4844,461.7315 C395.6094,461.5596 395.6563,461.3877 395.6563,460.9502 L395.6563,459.5909 C395.6563,459.169 395.6406,459.0284 395.5156,458.8565 C395.3438,458.6065 395.0625,458.4502 394.7344,458.4502 C394.4219,458.4502 394.2188,458.5596 394,458.8252 C392.8281,458.3252 392.3906,458.2159 391.4375,458.2159 C388.7656,458.2159 386.75,460.2315 386.75,462.8565 L386.75,463.9502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="46" x="406.25" y="466.742">UserInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="375.5" x2="456.5" y1="478.794" y2="478.794"/><ellipse cx="385.5" cy="489.794" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="394.5" y="493.0129">userName</text><ellipse cx="385.5" cy="502.9939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="394.5" y="506.2128">firstName</text><ellipse cx="385.5" cy="516.1938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="394.5" y="519.4127">lastName</text><ellipse cx="385.5" cy="529.3937" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="25" x="394.5" y="532.6126">email</text><ellipse cx="385.5" cy="542.5936" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="394.5" y="545.8125">userType</text><ellipse cx="385.5" cy="555.7935" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="48" x="394.5" y="559.0124">password</text><ellipse cx="385.5" cy="568.9934" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="394.5" y="572.2123">userID</text><line style="stroke:#A80036;stroke-width:1.5;" x1="375.5" x2="456.5" y1="579.1933" y2="579.1933"/><ellipse cx="385.5" cy="590.1933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="394.5" y="593.4122">copy(other)</text><!--MD5=[498892046d15e203799efcf820d8edf0]
+class Users.User--><rect codeLine="80" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="193.1989" id="Users.User" style="stroke:#A80036;stroke-width:1.5;" width="105" x="492.5" y="427.294"/><ellipse cx="528.65" cy="443.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M523.65,444.4502 C523.65,446.9502 525.7906,448.7627 528.7125,448.7627 C529.9469,448.7627 531.1188,448.4659 531.8688,447.9502 C532.4781,447.5284 532.8063,447.1065 532.8063,446.7002 C532.8063,446.2315 532.3844,445.8252 531.8844,445.8252 C531.65,445.8252 531.4313,445.9034 531.2281,446.1065 C530.7906,446.544 530.7906,446.544 530.6188,446.6377 C530.1656,446.8721 529.525,447.0127 528.7594,447.0127 C526.7594,447.0127 525.4781,445.9971 525.4781,444.419 L525.4781,443.3721 C525.4781,441.669 526.6969,440.4659 528.4,440.4659 C528.9781,440.4659 529.5563,440.6065 530.025,440.8565 C530.4938,441.1221 530.6656,441.3096 530.7281,441.669 C530.8531,442.3409 531.1031,442.5909 531.6344,442.5909 C531.9156,442.5909 532.1969,442.4502 532.3844,442.2315 C532.5094,442.0596 532.5563,441.8877 532.5563,441.4502 L532.5563,440.0909 C532.5563,439.669 532.5406,439.5284 532.4156,439.3565 C532.2438,439.1065 531.9625,438.9502 531.6344,438.9502 C531.3219,438.9502 531.1188,439.0596 530.9,439.3252 C529.7281,438.8252 529.2906,438.7159 528.3375,438.7159 C525.6656,438.7159 523.65,440.7315 523.65,443.3565 L523.65,444.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="547.35" y="447.242">User</text><line style="stroke:#A80036;stroke-width:1.5;" x1="493.5" x2="596.5" y1="459.294" y2="459.294"/><ellipse cx="503.5" cy="470.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="37" x="512.5" y="473.5129">userDB</text><ellipse cx="503.5" cy="483.4939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="512.5" y="486.7128">userRequestDB</text><ellipse cx="503.5" cy="496.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="512.5" y="499.9127">userInfo</text><ellipse cx="503.5" cy="509.8937" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="512.5" y="513.1126">fbUser</text><ellipse cx="503.5" cy="523.0936" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="512.5" y="526.3125">sharedPrefState</text><line style="stroke:#A80036;stroke-width:1.5;" x1="493.5" x2="596.5" y1="533.2935" y2="533.2935"/><ellipse cx="503.5" cy="544.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="512.5" y="547.5124">deleteAccount()</text><ellipse cx="503.5" cy="557.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="37" x="512.5" y="560.7123">logout()</text><ellipse cx="503.5" cy="570.6933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="512.5" y="573.9122">login()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="500.5" y="580.8932"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="512.5" y="587.1121">emailAuth()</text><ellipse cx="503.5" cy="597.0931" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="512.5" y="600.312">createAccount()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="500.5" y="607.293"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="512.5" y="613.5119">addAccount()</text><!--MD5=[684093deba542c1356ebb5d655e1257f]
+class Users.Admin--><rect codeLine="98" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="179.999" id="Users.Admin" style="stroke:#A80036;stroke-width:1.5;" width="144" x="374" y="743.294"/><ellipse cx="424.25" cy="759.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M419.25,760.4502 C419.25,762.9502 421.3906,764.7627 424.3125,764.7627 C425.5469,764.7627 426.7188,764.4659 427.4688,763.9502 C428.0781,763.5284 428.4063,763.1065 428.4063,762.7002 C428.4063,762.2315 427.9844,761.8252 427.4844,761.8252 C427.25,761.8252 427.0313,761.9034 426.8281,762.1065 C426.3906,762.544 426.3906,762.544 426.2188,762.6377 C425.7656,762.8721 425.125,763.0127 424.3594,763.0127 C422.3594,763.0127 421.0781,761.9971 421.0781,760.419 L421.0781,759.3721 C421.0781,757.669 422.2969,756.4659 424,756.4659 C424.5781,756.4659 425.1563,756.6065 425.625,756.8565 C426.0938,757.1221 426.2656,757.3096 426.3281,757.669 C426.4531,758.3409 426.7031,758.5909 427.2344,758.5909 C427.5156,758.5909 427.7969,758.4502 427.9844,758.2315 C428.1094,758.0596 428.1563,757.8877 428.1563,757.4502 L428.1563,756.0909 C428.1563,755.669 428.1406,755.5284 428.0156,755.3565 C427.8438,755.1065 427.5625,754.9502 427.2344,754.9502 C426.9219,754.9502 426.7188,755.0596 426.5,755.3252 C425.3281,754.8252 424.8906,754.7159 423.9375,754.7159 C421.2656,754.7159 419.25,756.7315 419.25,759.3565 L419.25,760.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="444.75" y="763.242">Admin</text><line style="stroke:#A80036;stroke-width:1.5;" x1="375" x2="517" y1="775.294" y2="775.294"/><ellipse cx="385" cy="786.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="394" y="789.5129">serviceDB</text><ellipse cx="385" cy="799.4939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="37" x="394" y="802.7128">formDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="375" x2="517" y1="809.6938" y2="809.6938"/><ellipse cx="385" cy="820.6938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="394" y="823.9127">deleteAccounts()</text><ellipse cx="385" cy="833.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="394" y="837.1126">deleteAccount()</text><ellipse cx="385" cy="847.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="394" y="850.3125">createService()</text><ellipse cx="385" cy="860.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="394" y="863.5124">setHourlyRate()</text><ellipse cx="385" cy="873.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="394" y="876.7123">createForm()</text><ellipse cx="385" cy="886.6933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="394" y="889.9122">updateFormTemplate()</text><ellipse cx="385" cy="899.8932" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="394" y="903.1121">queryAllUserRequests()</text><ellipse cx="385" cy="913.0931" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="394" y="916.312">updateUserRequest()</text><!--MD5=[7784aaeed3ed7623316ec763903fdd90]
+class Users.Employee--><rect codeLine="110" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="140.3993" id="Users.Employee" style="stroke:#A80036;stroke-width:1.5;" width="152" x="553" y="763.294"/><ellipse cx="597.25" cy="779.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M592.25,780.4502 C592.25,782.9502 594.3906,784.7627 597.3125,784.7627 C598.5469,784.7627 599.7188,784.4659 600.4688,783.9502 C601.0781,783.5284 601.4063,783.1065 601.4063,782.7002 C601.4063,782.2315 600.9844,781.8252 600.4844,781.8252 C600.25,781.8252 600.0313,781.9034 599.8281,782.1065 C599.3906,782.544 599.3906,782.544 599.2188,782.6377 C598.7656,782.8721 598.125,783.0127 597.3594,783.0127 C595.3594,783.0127 594.0781,781.9971 594.0781,780.419 L594.0781,779.3721 C594.0781,777.669 595.2969,776.4659 597,776.4659 C597.5781,776.4659 598.1563,776.6065 598.625,776.8565 C599.0938,777.1221 599.2656,777.3096 599.3281,777.669 C599.4531,778.3409 599.7031,778.5909 600.2344,778.5909 C600.5156,778.5909 600.7969,778.4502 600.9844,778.2315 C601.1094,778.0596 601.1563,777.8877 601.1563,777.4502 L601.1563,776.0909 C601.1563,775.669 601.1406,775.5284 601.0156,775.3565 C600.8438,775.1065 600.5625,774.9502 600.2344,774.9502 C599.9219,774.9502 599.7188,775.0596 599.5,775.3252 C598.3281,774.8252 597.8906,774.7159 596.9375,774.7159 C594.2656,774.7159 592.25,776.7315 592.25,779.3565 L592.25,780.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="617.75" y="783.242">Employee</text><line style="stroke:#A80036;stroke-width:1.5;" x1="554" x2="704" y1="795.294" y2="795.294"/><ellipse cx="564" cy="806.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="573" y="809.5129">serviceDB</text><ellipse cx="564" cy="819.4939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="573" y="822.7128">branchDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="554" x2="704" y1="829.6938" y2="829.6938"/><ellipse cx="564" cy="840.6938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="573" y="843.9127">queryServicesByType()</text><ellipse cx="564" cy="853.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="573" y="857.1126">addBranch()</text><ellipse cx="564" cy="867.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="573" y="870.3125">setBusinessHour()</text><ellipse cx="564" cy="880.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="573" y="883.5124">queryAllUserRequests()</text><ellipse cx="564" cy="893.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="126" x="573" y="896.7123">processServiceRequest()</text><!--MD5=[1dd9901c4c93975d33b7384d739b8358]
+class Users.Customer--><rect codeLine="120" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="140.3993" id="Users.Customer" style="stroke:#A80036;stroke-width:1.5;" width="176" x="740" y="763.294"/><ellipse cx="797.25" cy="779.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M792.25,780.4502 C792.25,782.9502 794.3906,784.7627 797.3125,784.7627 C798.5469,784.7627 799.7188,784.4659 800.4688,783.9502 C801.0781,783.5284 801.4063,783.1065 801.4063,782.7002 C801.4063,782.2315 800.9844,781.8252 800.4844,781.8252 C800.25,781.8252 800.0313,781.9034 799.8281,782.1065 C799.3906,782.544 799.3906,782.544 799.2188,782.6377 C798.7656,782.8721 798.125,783.0127 797.3594,783.0127 C795.3594,783.0127 794.0781,781.9971 794.0781,780.419 L794.0781,779.3721 C794.0781,777.669 795.2969,776.4659 797,776.4659 C797.5781,776.4659 798.1563,776.6065 798.625,776.8565 C799.0938,777.1221 799.2656,777.3096 799.3281,777.669 C799.4531,778.3409 799.7031,778.5909 800.2344,778.5909 C800.5156,778.5909 800.7969,778.4502 800.9844,778.2315 C801.1094,778.0596 801.1563,777.8877 801.1563,777.4502 L801.1563,776.0909 C801.1563,775.669 801.1406,775.5284 801.0156,775.3565 C800.8438,775.1065 800.5625,774.9502 800.2344,774.9502 C799.9219,774.9502 799.7188,775.0596 799.5,775.3252 C798.3281,774.8252 797.8906,774.7159 796.9375,774.7159 C794.2656,774.7159 792.25,776.7315 792.25,779.3565 L792.25,780.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="817.75" y="783.242">Customer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="741" x2="915" y1="795.294" y2="795.294"/><ellipse cx="751" cy="806.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="760" y="809.5129">serviceDB</text><ellipse cx="751" cy="819.4939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="37" x="760" y="822.7128">formDB</text><ellipse cx="751" cy="832.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="760" y="835.9127">branchDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="741" x2="915" y1="842.8937" y2="842.8937"/><ellipse cx="751" cy="853.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="760" y="857.1126">updateRequest()</text><ellipse cx="751" cy="867.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="760" y="870.3125">updateRequestByFormName()</text><ellipse cx="751" cy="880.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="760" y="883.5124">addForm()</text><ellipse cx="751" cy="893.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="760" y="896.7123">rateBranch()</text><!--MD5=[3d8782c52f488746a95bf1b558914f51]
+class Services.Forms.FormInfo--><rect codeLine="142" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="153.5992" id="Services.Forms.FormInfo" style="stroke:#A80036;stroke-width:1.5;" width="128" x="530" y="1361.294"/><ellipse cx="566.6" cy="1377.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M561.6,1378.4502 C561.6,1380.9502 563.7406,1382.7627 566.6625,1382.7627 C567.8969,1382.7627 569.0688,1382.4659 569.8188,1381.9502 C570.4281,1381.5284 570.7563,1381.1065 570.7563,1380.7002 C570.7563,1380.2315 570.3344,1379.8252 569.8344,1379.8252 C569.6,1379.8252 569.3813,1379.9034 569.1781,1380.1065 C568.7406,1380.544 568.7406,1380.544 568.5688,1380.6377 C568.1156,1380.8721 567.475,1381.0127 566.7094,1381.0127 C564.7094,1381.0127 563.4281,1379.9971 563.4281,1378.419 L563.4281,1377.3721 C563.4281,1375.669 564.6469,1374.4659 566.35,1374.4659 C566.9281,1374.4659 567.5063,1374.6065 567.975,1374.8565 C568.4438,1375.1221 568.6156,1375.3096 568.6781,1375.669 C568.8031,1376.3409 569.0531,1376.5909 569.5844,1376.5909 C569.8656,1376.5909 570.1469,1376.4502 570.3344,1376.2315 C570.4594,1376.0596 570.5063,1375.8877 570.5063,1375.4502 L570.5063,1374.0909 C570.5063,1373.669 570.4906,1373.5284 570.3656,1373.3565 C570.1938,1373.1065 569.9125,1372.9502 569.5844,1372.9502 C569.2719,1372.9502 569.0688,1373.0596 568.85,1373.3252 C567.6781,1372.8252 567.2406,1372.7159 566.2875,1372.7159 C563.6156,1372.7159 561.6,1374.7315 561.6,1377.3565 L561.6,1378.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="585.4" y="1381.242">FormInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="531" x2="657" y1="1393.294" y2="1393.294"/><ellipse cx="541" cy="1404.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="550" y="1407.5129">formName := "_form"</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="553" y="1420.7128"/><ellipse cx="541" cy="1430.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="550" y="1433.9127">firstName</text><ellipse cx="541" cy="1443.8937" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="550" y="1447.1126">lastName</text><ellipse cx="541" cy="1457.0936" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="550" y="1460.3125">dateOfBirth</text><ellipse cx="541" cy="1470.2935" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="550" y="1473.5124">address</text><ellipse cx="541" cy="1483.4934" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="25" x="550" y="1486.7123">email</text><ellipse cx="541" cy="1496.6933" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="550" y="1499.9122">isApproved</text><line style="stroke:#A80036;stroke-width:1.5;" x1="531" x2="657" y1="1506.8932" y2="1506.8932"/><!--MD5=[40566bfd8720f7dd136848d8c2d4bb8f]
+class Services.Forms.RentalInfo--><rect codeLine="152" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="113.9995" id="Services.Forms.RentalInfo" style="stroke:#A80036;stroke-width:1.5;" width="216" x="422" y="1582.794"/><ellipse cx="497.75" cy="1598.794" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M492.75,1599.9502 C492.75,1602.4502 494.8906,1604.2627 497.8125,1604.2627 C499.0469,1604.2627 500.2188,1603.9659 500.9688,1603.4502 C501.5781,1603.0284 501.9063,1602.6065 501.9063,1602.2002 C501.9063,1601.7315 501.4844,1601.3252 500.9844,1601.3252 C500.75,1601.3252 500.5313,1601.4034 500.3281,1601.6065 C499.8906,1602.044 499.8906,1602.044 499.7188,1602.1377 C499.2656,1602.3721 498.625,1602.5127 497.8594,1602.5127 C495.8594,1602.5127 494.5781,1601.4971 494.5781,1599.919 L494.5781,1598.8721 C494.5781,1597.169 495.7969,1595.9659 497.5,1595.9659 C498.0781,1595.9659 498.6563,1596.1065 499.125,1596.3565 C499.5938,1596.6221 499.7656,1596.8096 499.8281,1597.169 C499.9531,1597.8409 500.2031,1598.0909 500.7344,1598.0909 C501.0156,1598.0909 501.2969,1597.9502 501.4844,1597.7315 C501.6094,1597.5596 501.6563,1597.3877 501.6563,1596.9502 L501.6563,1595.5909 C501.6563,1595.169 501.6406,1595.0284 501.5156,1594.8565 C501.3438,1594.6065 501.0625,1594.4502 500.7344,1594.4502 C500.4219,1594.4502 500.2188,1594.5596 500,1594.8252 C498.8281,1594.3252 498.3906,1594.2159 497.4375,1594.2159 C494.7656,1594.2159 492.75,1596.2315 492.75,1598.8565 L492.75,1599.9502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="518.25" y="1602.742">RentalInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="423" x2="637" y1="1614.794" y2="1614.794"/><ellipse cx="433" cy="1625.794" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="190" x="442" y="1629.0129">formName := this.formName + "_rental"</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="445" y="1642.2128"/><ellipse cx="433" cy="1652.1938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="442" y="1655.4127">pickupTime</text><ellipse cx="433" cy="1665.3937" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="442" y="1668.6126">returnTime</text><ellipse cx="433" cy="1678.5936" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="442" y="1681.8125">licenseType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="423" x2="637" y1="1688.7935" y2="1688.7935"/><!--MD5=[acf492b215eac6456144e25085a32e8b]
+class Services.Forms.MovingInfo--><rect codeLine="171" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="127.1994" id="Services.Forms.MovingInfo" style="stroke:#A80036;stroke-width:1.5;" width="224" x="673" y="1576.294"/><ellipse cx="750.75" cy="1592.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M745.75,1593.4502 C745.75,1595.9502 747.8906,1597.7627 750.8125,1597.7627 C752.0469,1597.7627 753.2188,1597.4659 753.9688,1596.9502 C754.5781,1596.5284 754.9063,1596.1065 754.9063,1595.7002 C754.9063,1595.2315 754.4844,1594.8252 753.9844,1594.8252 C753.75,1594.8252 753.5313,1594.9034 753.3281,1595.1065 C752.8906,1595.544 752.8906,1595.544 752.7188,1595.6377 C752.2656,1595.8721 751.625,1596.0127 750.8594,1596.0127 C748.8594,1596.0127 747.5781,1594.9971 747.5781,1593.419 L747.5781,1592.3721 C747.5781,1590.669 748.7969,1589.4659 750.5,1589.4659 C751.0781,1589.4659 751.6563,1589.6065 752.125,1589.8565 C752.5938,1590.1221 752.7656,1590.3096 752.8281,1590.669 C752.9531,1591.3409 753.2031,1591.5909 753.7344,1591.5909 C754.0156,1591.5909 754.2969,1591.4502 754.4844,1591.2315 C754.6094,1591.0596 754.6563,1590.8877 754.6563,1590.4502 L754.6563,1589.0909 C754.6563,1588.669 754.6406,1588.5284 754.5156,1588.3565 C754.3438,1588.1065 754.0625,1587.9502 753.7344,1587.9502 C753.4219,1587.9502 753.2188,1588.0596 753,1588.3252 C751.8281,1587.8252 751.3906,1587.7159 750.4375,1587.7159 C747.7656,1587.7159 745.75,1589.7315 745.75,1592.3565 L745.75,1593.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="60" x="771.25" y="1596.242">MovingInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="674" x2="896" y1="1608.294" y2="1608.294"/><ellipse cx="684" cy="1619.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="198" x="693" y="1622.5129">formName := this.formName + "_moving"</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="696" y="1635.7128"/><ellipse cx="684" cy="1645.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="693" y="1648.9127">startLocation</text><ellipse cx="684" cy="1658.8937" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="693" y="1662.1126">endLocation</text><ellipse cx="684" cy="1672.0936" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="86" x="693" y="1675.3125">numberOfMovers</text><ellipse cx="684" cy="1685.2935" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="693" y="1688.5124">numberOfBoxes</text><line style="stroke:#A80036;stroke-width:1.5;" x1="674" x2="896" y1="1695.4934" y2="1695.4934"/><!--MD5=[0a48d10240939689446d05097996fd72]
+class Services.Forms.Rental.CarInfo--><rect codeLine="161" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="87.5997" id="Services.Forms.Rental.CarInfo" style="stroke:#A80036;stroke-width:1.5;" width="205" x="297.5" y="1787.294"/><ellipse cx="375.75" cy="1803.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M370.75,1804.4502 C370.75,1806.9502 372.8906,1808.7627 375.8125,1808.7627 C377.0469,1808.7627 378.2188,1808.4659 378.9688,1807.9502 C379.5781,1807.5284 379.9063,1807.1065 379.9063,1806.7002 C379.9063,1806.2315 379.4844,1805.8252 378.9844,1805.8252 C378.75,1805.8252 378.5313,1805.9034 378.3281,1806.1065 C377.8906,1806.544 377.8906,1806.544 377.7188,1806.6377 C377.2656,1806.8721 376.625,1807.0127 375.8594,1807.0127 C373.8594,1807.0127 372.5781,1805.9971 372.5781,1804.419 L372.5781,1803.3721 C372.5781,1801.669 373.7969,1800.4659 375.5,1800.4659 C376.0781,1800.4659 376.6563,1800.6065 377.125,1800.8565 C377.5938,1801.1221 377.7656,1801.3096 377.8281,1801.669 C377.9531,1802.3409 378.2031,1802.5909 378.7344,1802.5909 C379.0156,1802.5909 379.2969,1802.4502 379.4844,1802.2315 C379.6094,1802.0596 379.6563,1801.8877 379.6563,1801.4502 L379.6563,1800.0909 C379.6563,1799.669 379.6406,1799.5284 379.5156,1799.3565 C379.3438,1799.1065 379.0625,1798.9502 378.7344,1798.9502 C378.4219,1798.9502 378.2188,1799.0596 378,1799.3252 C376.8281,1798.8252 376.3906,1798.7159 375.4375,1798.7159 C372.7656,1798.7159 370.75,1800.7315 370.75,1803.3565 L370.75,1804.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="396.25" y="1807.242">CarInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="298.5" x2="501.5" y1="1819.294" y2="1819.294"/><ellipse cx="308.5" cy="1830.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="179" x="317.5" y="1833.5129">formName := this.formName + "_car"</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="320.5" y="1846.7128"/><ellipse cx="308.5" cy="1856.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="317.5" y="1859.9127">carType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="298.5" x2="501.5" y1="1866.8937" y2="1866.8937"/><!--MD5=[445dfb211326cf05253b172a209c8fec]
+class Services.Forms.Rental.TruckInfo--><rect codeLine="166" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="87.5997" id="Services.Forms.Rental.TruckInfo" style="stroke:#A80036;stroke-width:1.5;" width="214" x="538" y="1787.294"/><ellipse cx="615.75" cy="1803.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M610.75,1804.4502 C610.75,1806.9502 612.8906,1808.7627 615.8125,1808.7627 C617.0469,1808.7627 618.2188,1808.4659 618.9688,1807.9502 C619.5781,1807.5284 619.9063,1807.1065 619.9063,1806.7002 C619.9063,1806.2315 619.4844,1805.8252 618.9844,1805.8252 C618.75,1805.8252 618.5313,1805.9034 618.3281,1806.1065 C617.8906,1806.544 617.8906,1806.544 617.7188,1806.6377 C617.2656,1806.8721 616.625,1807.0127 615.8594,1807.0127 C613.8594,1807.0127 612.5781,1805.9971 612.5781,1804.419 L612.5781,1803.3721 C612.5781,1801.669 613.7969,1800.4659 615.5,1800.4659 C616.0781,1800.4659 616.6563,1800.6065 617.125,1800.8565 C617.5938,1801.1221 617.7656,1801.3096 617.8281,1801.669 C617.9531,1802.3409 618.2031,1802.5909 618.7344,1802.5909 C619.0156,1802.5909 619.2969,1802.4502 619.4844,1802.2315 C619.6094,1802.0596 619.6563,1801.8877 619.6563,1801.4502 L619.6563,1800.0909 C619.6563,1799.669 619.6406,1799.5284 619.5156,1799.3565 C619.3438,1799.1065 619.0625,1798.9502 618.7344,1798.9502 C618.4219,1798.9502 618.2188,1799.0596 618,1799.3252 C616.8281,1798.8252 616.3906,1798.7159 615.4375,1798.7159 C612.7656,1798.7159 610.75,1800.7315 610.75,1803.3565 L610.75,1804.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="636.25" y="1807.242">TruckInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="539" x2="751" y1="1819.294" y2="1819.294"/><ellipse cx="549" cy="1830.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="188" x="558" y="1833.5129">formName := this.formName + "_truck"</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="561" y="1846.7128"/><ellipse cx="549" cy="1856.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="558" y="1859.9127">usageArea</text><line style="stroke:#A80036;stroke-width:1.5;" x1="539" x2="751" y1="1866.8937" y2="1866.8937"/><!--MD5=[521c20184a589f0d787a7876cd16a32b]
+class Services.ServiceInfo--><rect codeLine="185" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="113.9995" id="Services.ServiceInfo" style="stroke:#A80036;stroke-width:1.5;" width="93" x="587.5" y="1163.294"/><ellipse cx="602.5" cy="1179.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M597.5,1180.4502 C597.5,1182.9502 599.6406,1184.7627 602.5625,1184.7627 C603.7969,1184.7627 604.9688,1184.4659 605.7188,1183.9502 C606.3281,1183.5284 606.6563,1183.1065 606.6563,1182.7002 C606.6563,1182.2315 606.2344,1181.8252 605.7344,1181.8252 C605.5,1181.8252 605.2813,1181.9034 605.0781,1182.1065 C604.6406,1182.544 604.6406,1182.544 604.4688,1182.6377 C604.0156,1182.8721 603.375,1183.0127 602.6094,1183.0127 C600.6094,1183.0127 599.3281,1181.9971 599.3281,1180.419 L599.3281,1179.3721 C599.3281,1177.669 600.5469,1176.4659 602.25,1176.4659 C602.8281,1176.4659 603.4063,1176.6065 603.875,1176.8565 C604.3438,1177.1221 604.5156,1177.3096 604.5781,1177.669 C604.7031,1178.3409 604.9531,1178.5909 605.4844,1178.5909 C605.7656,1178.5909 606.0469,1178.4502 606.2344,1178.2315 C606.3594,1178.0596 606.4063,1177.8877 606.4063,1177.4502 L606.4063,1176.0909 C606.4063,1175.669 606.3906,1175.5284 606.2656,1175.3565 C606.0938,1175.1065 605.8125,1174.9502 605.4844,1174.9502 C605.1719,1174.9502 604.9688,1175.0596 604.75,1175.3252 C603.5781,1174.8252 603.1406,1174.7159 602.1875,1174.7159 C599.5156,1174.7159 597.5,1176.7315 597.5,1179.3565 L597.5,1180.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="616.5" y="1183.242">ServiceInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="588.5" x2="679.5" y1="1195.294" y2="1195.294"/><ellipse cx="598.5" cy="1206.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="21" x="607.5" y="1209.5129">type</text><ellipse cx="598.5" cy="1219.4939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="607.5" y="1222.7128">formType</text><ellipse cx="598.5" cy="1232.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="607.5" y="1235.9127">hourlyRate</text><ellipse cx="598.5" cy="1245.8937" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="607.5" y="1249.1126">isAvailable</text><line style="stroke:#A80036;stroke-width:1.5;" x1="588.5" x2="679.5" y1="1256.0936" y2="1256.0936"/><ellipse cx="598.5" cy="1267.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="607.5" y="1270.3125">copy(other)</text><!--MD5=[2cb86bdf9b61918923e2edcee8c6e990]
+class Branches.BranchInfo--><rect codeLine="193" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="113.9995" id="Branches.BranchInfo" style="stroke:#A80036;stroke-width:1.5;" width="94" x="900" y="1163.294"/><ellipse cx="916.35" cy="1179.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M911.35,1180.4502 C911.35,1182.9502 913.4906,1184.7627 916.4125,1184.7627 C917.6469,1184.7627 918.8188,1184.4659 919.5688,1183.9502 C920.1781,1183.5284 920.5063,1183.1065 920.5063,1182.7002 C920.5063,1182.2315 920.0844,1181.8252 919.5844,1181.8252 C919.35,1181.8252 919.1313,1181.9034 918.9281,1182.1065 C918.4906,1182.544 918.4906,1182.544 918.3188,1182.6377 C917.8656,1182.8721 917.225,1183.0127 916.4594,1183.0127 C914.4594,1183.0127 913.1781,1181.9971 913.1781,1180.419 L913.1781,1179.3721 C913.1781,1177.669 914.3969,1176.4659 916.1,1176.4659 C916.6781,1176.4659 917.2563,1176.6065 917.725,1176.8565 C918.1938,1177.1221 918.3656,1177.3096 918.4281,1177.669 C918.5531,1178.3409 918.8031,1178.5909 919.3344,1178.5909 C919.6156,1178.5909 919.8969,1178.4502 920.0844,1178.2315 C920.2094,1178.0596 920.2563,1177.8877 920.2563,1177.4502 L920.2563,1176.0909 C920.2563,1175.669 920.2406,1175.5284 920.1156,1175.3565 C919.9438,1175.1065 919.6625,1174.9502 919.3344,1174.9502 C919.0219,1174.9502 918.8188,1175.0596 918.6,1175.3252 C917.4281,1174.8252 916.9906,1174.7159 916.0375,1174.7159 C913.3656,1174.7159 911.35,1176.7315 911.35,1179.3565 L911.35,1180.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="59" x="930.65" y="1183.242">BranchInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="901" x2="993" y1="1195.294" y2="1195.294"/><ellipse cx="911" cy="1206.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="920" y="1209.5129">List services</text><ellipse cx="911" cy="1219.4939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="37" x="920" y="1222.7128">location</text><ellipse cx="911" cy="1232.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="920" y="1235.9127">businessHour</text><ellipse cx="911" cy="1245.8937" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="920" y="1249.1126">userRating</text><line style="stroke:#A80036;stroke-width:1.5;" x1="901" x2="993" y1="1256.0936" y2="1256.0936"/><ellipse cx="911" cy="1267.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="920" y="1270.3125">copy(other)</text><!--MD5=[c54ba4f61d01a424743e5a1fa0f9e38e]
+class Dummy--><rect codeLine="2" fill="#FEFECE" filter="url(#fcfxqo1by9xew)" height="100.7996" id="Dummy" style="stroke:#A80036;stroke-width:1.5;" width="91" x="1043.5" y="41.294"/><ellipse cx="1066.15" cy="57.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1061.15,58.4502 C1061.15,60.9502 1063.2906,62.7627 1066.2125,62.7627 C1067.4469,62.7627 1068.6188,62.4659 1069.3688,61.9502 C1069.9781,61.5284 1070.3063,61.1065 1070.3063,60.7002 C1070.3063,60.2315 1069.8844,59.8252 1069.3844,59.8252 C1069.15,59.8252 1068.9313,59.9034 1068.7281,60.1065 C1068.2906,60.544 1068.2906,60.544 1068.1188,60.6377 C1067.6656,60.8721 1067.025,61.0127 1066.2594,61.0127 C1064.2594,61.0127 1062.9781,59.9971 1062.9781,58.419 L1062.9781,57.3721 C1062.9781,55.669 1064.1969,54.4659 1065.9,54.4659 C1066.4781,54.4659 1067.0563,54.6065 1067.525,54.8565 C1067.9938,55.1221 1068.1656,55.3096 1068.2281,55.669 C1068.3531,56.3409 1068.6031,56.5909 1069.1344,56.5909 C1069.4156,56.5909 1069.6969,56.4502 1069.8844,56.2315 C1070.0094,56.0596 1070.0563,55.8877 1070.0563,55.4502 L1070.0563,54.0909 C1070.0563,53.669 1070.0406,53.5284 1069.9156,53.3565 C1069.7438,53.1065 1069.4625,52.9502 1069.1344,52.9502 C1068.8219,52.9502 1068.6188,53.0596 1068.4,53.3252 C1067.2281,52.8252 1066.7906,52.7159 1065.8375,52.7159 C1063.1656,52.7159 1061.15,54.7315 1061.15,57.3565 L1061.15,58.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="1081.85" y="61.242">Dummy</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1044.5" x2="1133.5" y1="73.294" y2="73.294"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1051.5" y="81.294"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="1063.5" y="87.5129">private</text><polygon fill="none" points="1054.5,92.4939,1058.5,96.4939,1054.5,100.4939,1050.5,96.4939" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="1063.5" y="100.7128">protected</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1044.5" x2="1133.5" y1="107.6938" y2="107.6938"/><polygon fill="#4177AF" points="1054.5,114.6938,1050.5,120.6938,1058.5,120.6938" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="1063.5" y="121.9127">pkg method()</text><ellipse cx="1054.5" cy="131.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="36" x="1063.5" y="135.1126">public()</text><path d="M6,260.294 L6,285.894 L252,285.894 L252,270.294 L242,260.294 L6,260.294 " fill="#FBFB77" filter="url(#fcfxqo1by9xew)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M242,260.294 L242,270.294 L252,270.294 L242,260.294 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="225" x="12" y="277.371">update() used to update hourlyRate etc</text><!--MD5=[1f13fd731621b7dd95c33246e2099c35]
+link GMN9 to DB.ServiceDB--><path d="M143.42,260.134 C169.83,237.054 228.76,190.044 288.5,172.794 C377.1,147.204 619.79,134.104 703.5,172.794 C721.18,180.964 736.54,194.784 749.18,209.614 " fill="none" id="GMN9-DB.ServiceDB" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[4068f37e404fadaa6c9e1b31a8a5e03a]
+reverse link DB.MyDatabase to DB.UserDB--><path codeLine="73" d="M595.25,111.854 C544.23,130.734 467.95,162.674 409,203.294 C402.96,207.454 396.97,212.164 391.19,217.124 " fill="none" id="DB.MyDatabase-backto-DB.UserDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="600.1,110.074,590.2736,109.4097,595.4044,111.7919,593.0222,116.9227,600.1,110.074" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[769de4900b1b25afcb6d0207b8cefcdc]
+reverse link DB.MyDatabase to DB.FormDB--><path codeLine="74" d="M651,147.364 C651,171.324 651,199.254 651,222.624 " fill="none" id="DB.MyDatabase-backto-DB.FormDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="651,142.314,647,151.314,651,147.314,655,151.314,651,142.314" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7af34a86d6901020571eea995d1ebe34]
+reverse link DB.MyDatabase to DB.ServiceDB--><path codeLine="75" d="M692.3,146.524 C707.6,166.424 725.08,189.154 740.93,209.774 " fill="none" id="DB.MyDatabase-backto-DB.ServiceDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="689.07,142.314,691.3686,151.8909,692.111,146.2829,697.7189,147.0253,689.07,142.314" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8802aaf0a3a088afb5823618d9df6aa0]
+reverse link DB.MyDatabase to DB.BranchDB--><path codeLine="76" d="M706.16,118.914 C748.57,139.814 808.01,170.894 857,203.294 C862.91,207.204 868.9,211.424 874.84,215.774 " fill="none" id="DB.MyDatabase-backto-DB.BranchDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="701.59,116.674,707.9091,124.2284,706.0792,118.8757,711.4318,117.0457,701.59,116.674" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d3e8c2820882c7e2bab897dc7a3ef06d]
+reverse link DB.MyDatabase to DB.UserRequestDB--><path codeLine="77" d="M604.48,146.324 C588.98,164.154 571.5,184.274 555.12,203.114 " fill="none" id="DB.MyDatabase-backto-DB.UserRequestDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="607.96,142.314,599.0321,146.4724,604.6756,146.0839,605.064,151.7274,607.96,142.314" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[98434138af68b6996179db54d00fd194]
+link Users.UserInfo to Users.User--><path codeLine="93" d="M457.57,523.794 C469.18,523.794 480.8,523.794 492.41,523.794 " fill="none" id="Users.UserInfo-Users.User" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="465.5981" y="519.6242">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="477.5223" y="519.8445">1</text><!--MD5=[1298e9181e54ed67680971edd103906c]
+link DB.UserDB to Users.User--><path codeLine="94" d="M371.85,330.574 C382.2,344.294 394.72,357.754 409,367.294 C434.19,384.114 451.4,365.304 475,384.294 C489.27,395.774 500.9,410.934 510.29,426.994 " fill="none" id="DB.UserDB-Users.User" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="368.2436" y="350.1759">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="500.2451" y="415.7756">1</text><!--MD5=[05e92a0a5525574cf852419ace7e2625]
+reverse link Users.User to Users.Admin--><path codeLine="130" d="M508.03,639.614 C497.03,673.804 485.14,710.734 474.74,743.034 " fill="none" id="Users.User-backto-Users.Admin" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="501.43,637.294,514.22,620.404,514.75,641.584,501.43,637.294" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[283d52c6a910dfd43168ee7d08653c7d]
+reverse link Users.User to Users.Employee--><path codeLine="131" d="M563.36,640.264 C568.26,664.594 574.14,689.954 581,713.294 C585.84,729.754 592.11,747.074 598.51,763.254 " fill="none" id="Users.User-backto-Users.Employee" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="556.48,641.544,559.57,620.584,570.23,638.894,556.48,641.544" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[235ffd4adf6e102cb5fc8ce6d00ce751]
+reverse link Users.User to Users.Customer--><path codeLine="132" d="M609.18,631.254 C614.32,638.194 619.61,644.944 625,651.294 C635.76,663.994 696.25,717.604 748.43,763.224 " fill="none" id="Users.User-backto-Users.Customer" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="603.37,635.154,597.5,614.794,614.79,627.054,603.37,635.154" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[680e892dd0f60059d651fdfcacfd734f]
+link DB.UserRequestDB to Users.User--><path codeLine="134" d="M508.93,343.514 C514.13,369.364 520.13,399.194 525.73,427.014 " fill="none" id="DB.UserRequestDB-Users.User" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="503.0056" y="363.6162">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="516.9155" y="415.7972">1</text><!--MD5=[60413bb984d865e39c86a9fa8e240772]
+link DB.ServiceDB to Users.Admin--><path codeLine="135" d="M776.65,337.064 C760.93,408.594 729.68,527.594 680,620.294 C653.12,670.454 637.83,679.554 592,713.294 C569.26,730.034 558.72,726.524 536,743.294 C529.99,747.734 523.99,752.554 518.1,757.594 " fill="none" id="DB.ServiceDB-Users.Admin" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="767.9164" y="356.9581">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="525.8963" y="746.122">1</text><!--MD5=[a6d16406c865a3fb2abcbec2ec607d58]
+link DB.ServiceDB to Users.Employee--><path codeLine="136" d="M796.01,337.004 C803.12,425.444 806.03,589.804 748,713.294 C744.78,720.134 724.72,740.894 701.95,763.204 " fill="none" id="DB.ServiceDB-Users.Employee" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="789.3939" y="356.8915">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="710.3117" y="751.8056">1</text><!--MD5=[19198928b67d928d0d88199a8af0e549]
+link DB.FormDB to Users.Admin--><path codeLine="137" d="M658.95,323.944 C668.59,398.684 678.02,542.864 629,651.294 C628.95,651.414 569.23,710.464 518.03,761.084 " fill="none" id="DB.FormDB-Users.Admin" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="652.5202" y="343.5227">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="525.819" y="766.5188">1</text><!--MD5=[930f84e2209e583f59cf95c9a4de9c07]
+link DB.BranchDB to Users.Employee--><path codeLine="138" d="M919.44,343.304 C879.33,459.524 799.62,684.504 774,713.294 C756.52,732.944 744.02,727.484 723,743.294 C714.83,749.444 706.59,756.214 698.57,763.194 " fill="none" id="DB.BranchDB-Users.Employee" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="909.4803" y="363.8696">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="698.7964" y="751.7945">1</text><!--MD5=[476764039214bed7a3269434c613fd56]
+link DB.BranchDB to Users.Customer--><path codeLine="139" d="M943.6,343.334 C942.5,431.304 934.26,587.084 894,713.294 C888.62,730.174 880.72,747.374 872.25,763.264 " fill="none" id="DB.BranchDB-Users.Customer" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="936.2828" y="363.9029">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="869.707" y="751.8721">1</text><!--MD5=[11a3ba1c3de03380a9151e772df7299d]
+reverse link Services.Forms.FormInfo to Services.Forms.RentalInfo--><path codeLine="159" d="M563.39,1534.694 C558.12,1551.144 552.79,1567.754 547.99,1582.724 " fill="none" id="Services.Forms.FormInfo-backto-Services.Forms.RentalInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="556.76,1532.474,569.53,1515.574,570.09,1536.754,556.76,1532.474" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5adb18e6e58d567e097a96f9b6cbe4e2]
+reverse link Services.Forms.RentalInfo to Services.Forms.Rental.CarInfo--><path codeLine="180" d="M480.05,1713.604 C463.05,1738.384 444.6,1765.274 429.7,1786.994 " fill="none" id="Services.Forms.RentalInfo-backto-Services.Forms.Rental.CarInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="474.44,1709.414,491.52,1696.884,485.98,1717.334,474.44,1709.414" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b75c379463c21101c4e65dc4b1fd828a]
+reverse link Services.Forms.RentalInfo to Services.Forms.Rental.TruckInfo--><path codeLine="181" d="M574.62,1714.324 C589.54,1738.894 605.67,1765.484 618.72,1786.994 " fill="none" id="Services.Forms.RentalInfo-backto-Services.Forms.Rental.TruckInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="568.43,1717.614,564.04,1696.884,580.4,1710.344,568.43,1717.614" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d19989319e832a16ea08b5ee78e21d12]
+reverse link Services.Forms.FormInfo to Services.Forms.MovingInfo--><path codeLine="182" d="M672.05,1520.814 C689.69,1539.244 708.15,1558.524 724.91,1576.034 " fill="none" id="Services.Forms.FormInfo-backto-Services.Forms.MovingInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="666.91,1525.564,658.13,1506.284,677.02,1515.884,666.91,1525.564" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[14d66040dabac990072dde5301f9607a]
+link Services.ServiceInfo to Services.Forms.FormInfo--><path codeLine="201" d="M623.59,1277.484 C618.87,1302.984 613.22,1333.534 608.12,1361.064 " fill="none" id="Services.ServiceInfo-Services.Forms.FormInfo" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="601.1025" y="1297.4817">1..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="588.5256" y="1349.8496">1..*</text><!--MD5=[0665b1a9d6a97c71c00c40a88abce2b0]
+link Users.Admin to Services.Forms.FormInfo--><path codeLine="203" d="M373.82,896.944 C352.62,922.064 335,952.964 335,986.294 C335,986.294 335,986.294 335,1221.294 C335,1322.584 453.28,1385.614 529.98,1415.844 " fill="none" id="Users.Admin-Services.Forms.FormInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="341.4409,1077.8819,341.6485,1068.3736,336.02,1070.0674,341.4409,1077.8819" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="349" y="1077.371">creates</text><!--MD5=[db631cde9a19cacbf2524ec42eef8b11]
+link Users.Admin to Services.ServiceInfo--><path codeLine="204" d="M449,923.524 C453.81,972.524 465.12,1032.974 491,1081.294 C513.97,1124.174 555.02,1161.684 587.26,1186.734 " fill="none" id="Users.Admin-Services.ServiceInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="478.3252,1030.5205,476.7207,1021.1462,471.5171,1023.8796,478.3252,1030.5205" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="485" y="1030.371">creates</text><!--MD5=[1a6229ce82e887a3e6d8574f16bac954]
+link Users.Employee to Services.Forms.FormInfo--><path codeLine="205" d="M563.8,903.574 C547.22,927.874 534,956.574 534,986.294 C534,986.294 534,986.294 534,1221.294 C534,1268.974 547.74,1320.474 562.07,1361.234 " fill="none" id="Users.Employee-Services.Forms.FormInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="538.9811,1078.094,541.9542,1069.06,536.0764,1069.0378,538.9811,1078.094" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="548" y="1077.371">processes</text><!--MD5=[e8136f97603af444feee8ce3b7f3ff58]
+link Users.Employee to Branches.BranchInfo--><path codeLine="206" d="M671.56,903.334 C704.73,954.764 753.51,1025.444 804,1081.294 C834.31,1114.824 871.05,1150.174 899.69,1176.704 " fill="none" id="Users.Employee-Branches.BranchInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="771.2036,1029.9329,767.6647,1021.1052,763.1518,1024.8713,771.2036,1029.9329" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="777" y="1030.371">modify</text><!--MD5=[996f883e3645effb5fa3b6a0c39d1a51]
+link Users.Customer to Services.ServiceInfo--><path codeLine="207" d="M763.83,903.294 C716.39,954.394 659.84,1015.474 659,1017.294 C637.66,1063.294 632.39,1121.194 631.88,1163.204 " fill="none" id="Users.Customer-Services.ServiceInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="661.7366,1030.5524,668.4517,1023.8175,663.2106,1021.1567,661.7366,1030.5524" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="673" y="1030.371">selects</text><!--MD5=[26d7ab7b17f91bab06bde2f6bf3d0227]
+link Users.Customer to Branches.BranchInfo--><path codeLine="208" d="M854.81,903.374 C861.06,920.264 867.49,938.354 873,955.294 C896.13,1026.354 918.72,1109.554 932.74,1163.264 " fill="none" id="Users.Customer-Branches.BranchInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="903.4361,1030.8833,903.6533,1021.3752,898.0231,1023.0635,903.4361,1030.8833" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="911" y="1030.371">selects, rates</text><!--MD5=[c7c6c259ccb81e765e5a666739815033]
+link Users.Customer to Services.Forms.FormInfo--><path codeLine="209" d="M840.3,903.304 C843.95,929.234 847,959.034 847,986.294 C847,986.294 847,986.294 847,1221.294 C847,1320.484 733.12,1383.804 658.17,1414.734 " fill="none" id="Users.Customer-Services.Forms.FormInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="850.3226,1077.8042,856.1257,1070.2693,850.5884,1068.2974,850.3226,1077.8042" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="13" x="861" y="1077.371">fill</text><!--MD5=[c953c38f52ea04d9809f7d6e5e00c59e]
+@startuml
+
+class Dummy {
+  - private
+  # protected
+  ~ pkg method()
+  + public()
+}  /' Legend Dummy ;D '/
+
+class DB.MyDatabase {
+  - db
+  - dbRef
+  + dbPath
+  + setReference()
+}
+
+class Users.UserInfo {
+  + userName
+  + firstName
+  + lastName
+  + email
+  + userType
+  + password
+  + userID
+  + copy(other)
+}
+
+class DB.UserDB {
+  + auth
+  + add()
+  + queryByName()
+  + queryAll()
+  + deleteByUIDs()
+}
+
+class DB.ServiceDB {
+  + add()
+  + update()
+  + updateRate()
+  + queryByType()
+  + deleteByType()
+  + deleteByKeys()
+}
+
+note left: update() used to update hourlyRate etc
+
+class DB.FormDB {
+  + add()
+  + queryByName()
+  + update()
+  + delete()
+}
+
+class DB.BranchDB {
+  + add()
+  + updateBusinessHour()
+  + updateRating()
+  + queryByLocations()
+  + queryServices()
+  + deleteByLocations()
+  + deleteByKeys()
+}
+
+class DB.UserRequestDB {
+  + add()
+  + update()
+  + approve()
+  + queryByUserIDs()
+  + queryAll()
+  + deleteByFormNames()
+  + deleteByKeys()
+}
+
+DB.MyDatabase <- - DB.UserDB
+DB.MyDatabase <- - DB.FormDB
+DB.MyDatabase <- - DB.ServiceDB
+DB.MyDatabase <- - DB.BranchDB
+DB.MyDatabase <- - DB.UserRequestDB
+
+' changed from abstract to normal class because in log-in activity, user type would be undetermined
+class Users.User {
+  + userDB
+  + userRequestDB
+  + userInfo
+  + fbUser
+  + sharedPrefState
+  + deleteAccount()
+  + logout()
+  + login()
+  - emailAuth()
+  + createAccount()
+  - addAccount()
+}
+Users.UserInfo "1" - "1" Users.User
+DB.UserDB "1"      - - "1" Users.User
+
+' N.B. there is basically no such an option in the SignUpActivity to create Admin account
+' but we still keep the method "createAccount()" for admin
+class Users.Admin {
+ + serviceDB
+ + formDB
+ + deleteAccounts()
+ + deleteAccount()
+ + createService()
+ + setHourlyRate()
+ + createForm()
+ + updateFormTemplate()
+ + queryAllUserRequests()
+ + updateUserRequest()
+}
+class Users.Employee {
+  + serviceDB
+  + branchDB
+  + queryServicesByType()
+  + addBranch()
+  + setBusinessHour()
+  + queryAllUserRequests()
+  + processServiceRequest()
+'  + notifyCustomer()
+}
+class Users.Customer {
+  + serviceDB
+  + formDB
+  + branchDB
+  + updateRequest()
+  + updateRequestByFormName()
+  + addForm()
+  + rateBranch()
+}
+
+Users.User <|- - - Users.Admin
+Users.User <|- - - Users.Employee
+Users.User <|- - - Users.Customer
+
+DB.UserRequestDB "1" - - "1" Users.User
+DB.ServiceDB "1"     - - "1" Users.Admin
+DB.ServiceDB "1"     - - "1" Users.Employee
+DB.FormDB "1"        - - "1" Users.Admin
+DB.BranchDB "1"      - - "1" Users.Employee
+DB.BranchDB "1"      - - "1" Users.Customer
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+class Services.Forms.FormInfo {
+  + formName := "_form"
+
+  + firstName
+  + lastName
+  + dateOfBirth
+  + address
+  + email
+  + isApproved
+}
+class Services.Forms.RentalInfo {
+  + formName := this.formName + "_rental"
+
+  + pickupTime
+  + returnTime
+  + licenseType
+}
+Services.Forms.FormInfo <|- - Services.Forms.RentalInfo
+
+class Services.Forms.Rental.CarInfo {
+  + formName := this.formName + "_car"
+
+  + carType
+}
+class Services.Forms.Rental.TruckInfo {
+  + formName := this.formName + "_truck"
+
+  + usageArea
+}
+class Services.Forms.MovingInfo {
+  + formName := this.formName + "_moving"
+
+  + startLocation
+  + endLocation
+  + numberOfMovers
+  + numberOfBoxes
+}
+
+Services.Forms.RentalInfo <|- - Services.Forms.Rental.CarInfo
+Services.Forms.RentalInfo <|- - Services.Forms.Rental.TruckInfo
+Services.Forms.FormInfo   <|- - Services.Forms.MovingInfo
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+class Services.ServiceInfo {
+  + type  /' _car_rental, _truck_rental; _moving '/
+  + formType
+  + hourlyRate
+  + isAvailable
+  + copy(other)
+}
+
+class Branches.BranchInfo {
+  + List services
+  + location
+  + businessHour
+  + userRating
+  + copy(other)
+}
+
+Services.ServiceInfo "1..*" - - "1..*" Services.Forms.FormInfo
+
+Users.Admin    - - - - Services.Forms.FormInfo : creates >
+Users.Admin    - - - - Services.ServiceInfo : creates >
+Users.Employee - - - - Services.Forms.FormInfo : processes >
+Users.Employee - - - - Branches.BranchInfo : modify >
+Users.Customer - - - - Services.ServiceInfo : selects >
+Users.Customer - - - - Branches.BranchInfo : selects, rates >
+Users.Customer - - - - Services.Forms.FormInfo : fill >
+
+@enduml
+
+@startuml
+
+class Dummy {
+  - private
+  # protected
+  ~ pkg method()
+  + public()
+}  
+
+class DB.MyDatabase {
+  - db
+  - dbRef
+  + dbPath
+  + setReference()
+}
+
+class Users.UserInfo {
+  + userName
+  + firstName
+  + lastName
+  + email
+  + userType
+  + password
+  + userID
+  + copy(other)
+}
+
+class DB.UserDB {
+  + auth
+  + add()
+  + queryByName()
+  + queryAll()
+  + deleteByUIDs()
+}
+
+class DB.ServiceDB {
+  + add()
+  + update()
+  + updateRate()
+  + queryByType()
+  + deleteByType()
+  + deleteByKeys()
+}
+
+note left: update() used to update hourlyRate etc
+
+class DB.FormDB {
+  + add()
+  + queryByName()
+  + update()
+  + delete()
+}
+
+class DB.BranchDB {
+  + add()
+  + updateBusinessHour()
+  + updateRating()
+  + queryByLocations()
+  + queryServices()
+  + deleteByLocations()
+  + deleteByKeys()
+}
+
+class DB.UserRequestDB {
+  + add()
+  + update()
+  + approve()
+  + queryByUserIDs()
+  + queryAll()
+  + deleteByFormNames()
+  + deleteByKeys()
+}
+
+DB.MyDatabase <- - DB.UserDB
+DB.MyDatabase <- - DB.FormDB
+DB.MyDatabase <- - DB.ServiceDB
+DB.MyDatabase <- - DB.BranchDB
+DB.MyDatabase <- - DB.UserRequestDB
+
+class Users.User {
+  + userDB
+  + userRequestDB
+  + userInfo
+  + fbUser
+  + sharedPrefState
+  + deleteAccount()
+  + logout()
+  + login()
+  - emailAuth()
+  + createAccount()
+  - addAccount()
+}
+Users.UserInfo "1" - "1" Users.User
+DB.UserDB "1"      - - "1" Users.User
+
+class Users.Admin {
+ + serviceDB
+ + formDB
+ + deleteAccounts()
+ + deleteAccount()
+ + createService()
+ + setHourlyRate()
+ + createForm()
+ + updateFormTemplate()
+ + queryAllUserRequests()
+ + updateUserRequest()
+}
+class Users.Employee {
+  + serviceDB
+  + branchDB
+  + queryServicesByType()
+  + addBranch()
+  + setBusinessHour()
+  + queryAllUserRequests()
+  + processServiceRequest()
+}
+class Users.Customer {
+  + serviceDB
+  + formDB
+  + branchDB
+  + updateRequest()
+  + updateRequestByFormName()
+  + addForm()
+  + rateBranch()
+}
+
+Users.User <|- - - Users.Admin
+Users.User <|- - - Users.Employee
+Users.User <|- - - Users.Customer
+
+DB.UserRequestDB "1" - - "1" Users.User
+DB.ServiceDB "1"     - - "1" Users.Admin
+DB.ServiceDB "1"     - - "1" Users.Employee
+DB.FormDB "1"        - - "1" Users.Admin
+DB.BranchDB "1"      - - "1" Users.Employee
+DB.BranchDB "1"      - - "1" Users.Customer
+
+class Services.Forms.FormInfo {
+  + formName := "_form"
+
+  + firstName
+  + lastName
+  + dateOfBirth
+  + address
+  + email
+  + isApproved
+}
+class Services.Forms.RentalInfo {
+  + formName := this.formName + "_rental"
+
+  + pickupTime
+  + returnTime
+  + licenseType
+}
+Services.Forms.FormInfo <|- - Services.Forms.RentalInfo
+
+class Services.Forms.Rental.CarInfo {
+  + formName := this.formName + "_car"
+
+  + carType
+}
+class Services.Forms.Rental.TruckInfo {
+  + formName := this.formName + "_truck"
+
+  + usageArea
+}
+class Services.Forms.MovingInfo {
+  + formName := this.formName + "_moving"
+
+  + startLocation
+  + endLocation
+  + numberOfMovers
+  + numberOfBoxes
+}
+
+Services.Forms.RentalInfo <|- - Services.Forms.Rental.CarInfo
+Services.Forms.RentalInfo <|- - Services.Forms.Rental.TruckInfo
+Services.Forms.FormInfo   <|- - Services.Forms.MovingInfo
+
+class Services.ServiceInfo {
+  + type  
+  + formType
+  + hourlyRate
+  + isAvailable
+  + copy(other)
+}
+
+class Branches.BranchInfo {
+  + List services
+  + location
+  + businessHour
+  + userRating
+  + copy(other)
+}
+
+Services.ServiceInfo "1..*" - - "1..*" Services.Forms.FormInfo
+
+Users.Admin    - - - - Services.Forms.FormInfo : creates >
+Users.Admin    - - - - Services.ServiceInfo : creates >
+Users.Employee - - - - Services.Forms.FormInfo : processes >
+Users.Employee - - - - Branches.BranchInfo : modify >
+Users.Customer - - - - Services.ServiceInfo : selects >
+Users.Customer - - - - Branches.BranchInfo : selects, rates >
+Users.Customer - - - - Services.Forms.FormInfo : fill >
+
+@enduml
+
+PlantUML version 1.2021.9(Sun Jul 25 06:13:56 EDT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

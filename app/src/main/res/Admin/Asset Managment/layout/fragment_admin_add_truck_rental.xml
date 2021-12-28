@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_car_linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Admin.TruckRental.AdminAddTruckRental">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vehicle Information"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/vehicleMake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vehicle Make"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/vehicleModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vehicle Model"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/numberPlate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Number Plate"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/hourlySetRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Price per Hour"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/distanceRestriction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Maximum distance in kilometers"
+                android:inputType="numberDecimal" />
+
+            <Spinner
+                android:id="@+id/truckType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/truck_type"
+                android:minHeight="48dp"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Form Preview"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/confirmAndAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirm and Add" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

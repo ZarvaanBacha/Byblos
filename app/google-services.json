@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "840908298062",
+    "firebase_url": "https://byblos-23f4a-default-rtdb.firebaseio.com",
+    "project_id": "byblos-23f4a",
+    "storage_bucket": "byblos-23f4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840908298062:android:6e37b6631c6f6598b6701f",
+        "android_client_info": {
+          "package_name": "com.example.byblos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840908298062-sprh7mdnk5levleol4okmnouhsgk33o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSq1KBQXTm6dHsBT9kl85IlU844ihw8EE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840908298062-sprh7mdnk5levleol4okmnouhsgk33o2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840908298062:android:6b22841d4e03fd55b6701f",
+        "android_client_info": {
+          "package_name": "com.example.byblosmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840908298062-sprh7mdnk5levleol4okmnouhsgk33o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSq1KBQXTm6dHsBT9kl85IlU844ihw8EE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840908298062-sprh7mdnk5levleol4okmnouhsgk33o2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840908298062:android:bb3a92f6f7e6ca02b6701f",
+        "android_client_info": {
+          "package_name": "com.teamBravo.byblosMobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840908298062-sprh7mdnk5levleol4okmnouhsgk33o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSq1KBQXTm6dHsBT9kl85IlU844ihw8EE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840908298062-sprh7mdnk5levleol4okmnouhsgk33o2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

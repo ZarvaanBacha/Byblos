@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="711px" preserveAspectRatio="none" style="width:4236px;height:711px;background:#FFFFFF;" version="1.1" viewBox="0 0 4236 711" width="4236px" zoomAndPan="magnify"><defs><filter height="300%" id="fp0gwwpuww3uc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[cdfd548b3455e70392372b1f27091970]
+cluster Services--><polygon fill="#FFFFFF" filter="url(#fp0gwwpuww3uc)" points="258,26.294,322,26.294,329,49.0939,454,49.0939,454,270.294,258,270.294,258,26.294" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="258" x2="329" y1="49.0939" y2="49.0939"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="262" y="41.2999">Services</text><!--MD5=[21e045f3422a4e906944b43fefc3dafb]
+cluster Services.Forms--><polygon fill="#FFFFFF" filter="url(#fp0gwwpuww3uc)" points="478,6.294,589,6.294,596,29.0939,872,29.0939,872,704.294,478,704.294,478,6.294" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="478" x2="596" y1="29.0939" y2="29.0939"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="105" x="482" y="21.2999">Services.Forms</text><!--MD5=[e169ac431914a6adb8cf110c9da1459f]
+cluster DB--><polygon fill="#FFFFFF" filter="url(#fp0gwwpuww3uc)" points="896,12.794,922,12.794,929,35.5939,2955,35.5939,2955,530.294,896,530.294,896,12.794" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="896" x2="929" y1="35.5939" y2="35.5939"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="20" x="900" y="27.7999">DB</text><!--MD5=[99f1202c20af6327a1f4b64fa184355a]
+cluster Branches--><polygon fill="#FFFFFF" filter="url(#fp0gwwpuww3uc)" points="2979,39.294,3050,39.294,3057,62.0939,3175,62.0939,3175,257.294,2979,257.294,2979,39.294" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2979" x2="3057" y1="62.0939" y2="62.0939"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="65" x="2983" y="54.2999">Branches</text><!--MD5=[651a9cb98d76a5fd8afbbb3ec3aad80c]
+cluster Users--><polygon fill="#FFFFFF" filter="url(#fp0gwwpuww3uc)" points="3199,6.294,3244,6.294,3251,29.0939,4219,29.0939,4219,543.294,3199,543.294,3199,6.294" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="3199" x2="3251" y1="29.0939" y2="29.0939"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="39" x="3203" y="21.2999">Users</text><!--MD5=[521c20184a589f0d787a7876cd16a32b]
+class Services.ServiceInfo--><rect codeLine="25" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="193.1989" id="Services.ServiceInfo" style="stroke:#A80036;stroke-width:1.5;" width="163" x="274.5" y="61.294"/><ellipse cx="321.25" cy="77.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M316.25,78.4502 C316.25,80.9502 318.3906,82.7627 321.3125,82.7627 C322.5469,82.7627 323.7188,82.4659 324.4688,81.9502 C325.0781,81.5284 325.4063,81.1065 325.4063,80.7002 C325.4063,80.2315 324.9844,79.8252 324.4844,79.8252 C324.25,79.8252 324.0313,79.9034 323.8281,80.1065 C323.3906,80.544 323.3906,80.544 323.2188,80.6377 C322.7656,80.8721 322.125,81.0127 321.3594,81.0127 C319.3594,81.0127 318.0781,79.9971 318.0781,78.419 L318.0781,77.3721 C318.0781,75.669 319.2969,74.4659 321,74.4659 C321.5781,74.4659 322.1563,74.6065 322.625,74.8565 C323.0938,75.1221 323.2656,75.3096 323.3281,75.669 C323.4531,76.3409 323.7031,76.5909 324.2344,76.5909 C324.5156,76.5909 324.7969,76.4502 324.9844,76.2315 C325.1094,76.0596 325.1563,75.8877 325.1563,75.4502 L325.1563,74.0909 C325.1563,73.669 325.1406,73.5284 325.0156,73.3565 C324.8438,73.1065 324.5625,72.9502 324.2344,72.9502 C323.9219,72.9502 323.7188,73.0596 323.5,73.3252 C322.3281,72.8252 321.8906,72.7159 320.9375,72.7159 C318.2656,72.7159 316.25,74.7315 316.25,77.3565 L316.25,78.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="341.75" y="81.242">ServiceInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="275.5" x2="436.5" y1="93.294" y2="93.294"/><ellipse cx="285.5" cy="104.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="294.5" y="107.5129">String type</text><ellipse cx="285.5" cy="117.4939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="294.5" y="120.7128">String formType</text><ellipse cx="285.5" cy="130.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="294.5" y="133.9127">Double hourlyRate</text><ellipse cx="285.5" cy="143.8937" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="294.5" y="147.1126">Boolean isAvailable</text><line style="stroke:#A80036;stroke-width:1.5;" x1="275.5" x2="436.5" y1="154.0936" y2="154.0936"/><ellipse cx="285.5" cy="165.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="294.5" y="168.3125">String getType()</text><ellipse cx="285.5" cy="178.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="294.5" y="181.5124">String getFormType()</text><ellipse cx="285.5" cy="191.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="294.5" y="194.7123">Double getHourlyRate()</text><ellipse cx="285.5" cy="204.6933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="294.5" y="207.9122">Boolean getAvailable()</text><ellipse cx="285.5" cy="217.8932" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="294.5" y="221.1121">void copy(ServiceInfo)</text><ellipse cx="285.5" cy="231.0931" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="294.5" y="234.312">String toString()</text><ellipse cx="285.5" cy="244.293" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="294.5" y="247.5119">Map&lt;String,Object&gt; toMap()</text><!--MD5=[3d8782c52f488746a95bf1b558914f51]
+class Services.Forms.FormInfo--><rect codeLine="38" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="232.7986" id="Services.Forms.FormInfo" style="stroke:#A80036;stroke-width:1.5;" width="163" x="593.5" y="41.294"/><ellipse cx="646.75" cy="57.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M641.75,58.4502 C641.75,60.9502 643.8906,62.7627 646.8125,62.7627 C648.0469,62.7627 649.2188,62.4659 649.9688,61.9502 C650.5781,61.5284 650.9063,61.1065 650.9063,60.7002 C650.9063,60.2315 650.4844,59.8252 649.9844,59.8252 C649.75,59.8252 649.5313,59.9034 649.3281,60.1065 C648.8906,60.544 648.8906,60.544 648.7188,60.6377 C648.2656,60.8721 647.625,61.0127 646.8594,61.0127 C644.8594,61.0127 643.5781,59.9971 643.5781,58.419 L643.5781,57.3721 C643.5781,55.669 644.7969,54.4659 646.5,54.4659 C647.0781,54.4659 647.6563,54.6065 648.125,54.8565 C648.5938,55.1221 648.7656,55.3096 648.8281,55.669 C648.9531,56.3409 649.2031,56.5909 649.7344,56.5909 C650.0156,56.5909 650.2969,56.4502 650.4844,56.2315 C650.6094,56.0596 650.6563,55.8877 650.6563,55.4502 L650.6563,54.0909 C650.6563,53.669 650.6406,53.5284 650.5156,53.3565 C650.3438,53.1065 650.0625,52.9502 649.7344,52.9502 C649.4219,52.9502 649.2188,53.0596 649,53.3252 C647.8281,52.8252 647.3906,52.7159 646.4375,52.7159 C643.7656,52.7159 641.75,54.7315 641.75,57.3565 L641.75,58.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="667.25" y="61.242">FormInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="594.5" x2="755.5" y1="73.294" y2="73.294"/><ellipse cx="604.5" cy="84.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="613.5" y="87.5129">String firstName</text><ellipse cx="604.5" cy="97.4939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="613.5" y="100.7128">String formName</text><ellipse cx="604.5" cy="110.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="613.5" y="113.9127">boolean isApproved</text><line style="stroke:#A80036;stroke-width:1.5;" x1="594.5" x2="755.5" y1="120.8937" y2="120.8937"/><ellipse cx="604.5" cy="131.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="613.5" y="135.1126">String getFirstName()</text><ellipse cx="604.5" cy="145.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="613.5" y="148.3125">String getLastName()</text><ellipse cx="604.5" cy="158.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="613.5" y="161.5124">String getDateOfBirth()</text><ellipse cx="604.5" cy="171.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="613.5" y="174.7123">String getAddress()</text><ellipse cx="604.5" cy="184.6933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="613.5" y="187.9122">String getEmail()</text><ellipse cx="604.5" cy="197.8932" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="109" x="613.5" y="201.1121">String getFormName()</text><ellipse cx="604.5" cy="211.0931" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="613.5" y="214.312">void setFormName(String)</text><ellipse cx="604.5" cy="224.293" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="613.5" y="227.5119">Boolean getApproved()</text><ellipse cx="604.5" cy="237.4929" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="613.5" y="240.7118">void copy(FormInfo)</text><ellipse cx="604.5" cy="250.6928" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="613.5" y="253.9117">String toString()</text><ellipse cx="604.5" cy="263.8927" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="613.5" y="267.1116">Map&lt;String,Object&gt; toMap()</text><!--MD5=[0dddf461562425636743d0bd9c9adb15]
+class Services.Forms.CarInfo--><rect codeLine="102" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="100.7996" id="Services.Forms.CarInfo" style="stroke:#A80036;stroke-width:1.5;" width="163" x="494.5" y="587.294"/><ellipse cx="551.75" cy="603.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M546.75,604.4502 C546.75,606.9502 548.8906,608.7627 551.8125,608.7627 C553.0469,608.7627 554.2188,608.4659 554.9688,607.9502 C555.5781,607.5284 555.9063,607.1065 555.9063,606.7002 C555.9063,606.2315 555.4844,605.8252 554.9844,605.8252 C554.75,605.8252 554.5313,605.9034 554.3281,606.1065 C553.8906,606.544 553.8906,606.544 553.7188,606.6377 C553.2656,606.8721 552.625,607.0127 551.8594,607.0127 C549.8594,607.0127 548.5781,605.9971 548.5781,604.419 L548.5781,603.3721 C548.5781,601.669 549.7969,600.4659 551.5,600.4659 C552.0781,600.4659 552.6563,600.6065 553.125,600.8565 C553.5938,601.1221 553.7656,601.3096 553.8281,601.669 C553.9531,602.3409 554.2031,602.5909 554.7344,602.5909 C555.0156,602.5909 555.2969,602.4502 555.4844,602.2315 C555.6094,602.0596 555.6563,601.8877 555.6563,601.4502 L555.6563,600.0909 C555.6563,599.669 555.6406,599.5284 555.5156,599.3565 C555.3438,599.1065 555.0625,598.9502 554.7344,598.9502 C554.4219,598.9502 554.2188,599.0596 554,599.3252 C552.8281,598.8252 552.3906,598.7159 551.4375,598.7159 C548.7656,598.7159 546.75,600.7315 546.75,603.3565 L546.75,604.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="572.25" y="607.242">CarInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="495.5" x2="656.5" y1="619.294" y2="619.294"/><ellipse cx="505.5" cy="630.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="514.5" y="633.5129">String carType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="495.5" x2="656.5" y1="640.4939" y2="640.4939"/><ellipse cx="505.5" cy="651.4939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="514.5" y="654.7128">void copy(CarInfo)</text><ellipse cx="505.5" cy="664.6938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="514.5" y="667.9127">String toString()</text><ellipse cx="505.5" cy="677.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="514.5" y="681.1126">Map&lt;String,Object&gt; toMap()</text><!--MD5=[a9d120a55eb3ba8f7c9ff92a69312fd3]
+class Services.Forms.TruckInfo--><rect codeLine="108" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="100.7996" id="Services.Forms.TruckInfo" style="stroke:#A80036;stroke-width:1.5;" width="163" x="692.5" y="587.294"/><ellipse cx="744.75" cy="603.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M739.75,604.4502 C739.75,606.9502 741.8906,608.7627 744.8125,608.7627 C746.0469,608.7627 747.2188,608.4659 747.9688,607.9502 C748.5781,607.5284 748.9063,607.1065 748.9063,606.7002 C748.9063,606.2315 748.4844,605.8252 747.9844,605.8252 C747.75,605.8252 747.5313,605.9034 747.3281,606.1065 C746.8906,606.544 746.8906,606.544 746.7188,606.6377 C746.2656,606.8721 745.625,607.0127 744.8594,607.0127 C742.8594,607.0127 741.5781,605.9971 741.5781,604.419 L741.5781,603.3721 C741.5781,601.669 742.7969,600.4659 744.5,600.4659 C745.0781,600.4659 745.6563,600.6065 746.125,600.8565 C746.5938,601.1221 746.7656,601.3096 746.8281,601.669 C746.9531,602.3409 747.2031,602.5909 747.7344,602.5909 C748.0156,602.5909 748.2969,602.4502 748.4844,602.2315 C748.6094,602.0596 748.6563,601.8877 748.6563,601.4502 L748.6563,600.0909 C748.6563,599.669 748.6406,599.5284 748.5156,599.3565 C748.3438,599.1065 748.0625,598.9502 747.7344,598.9502 C747.4219,598.9502 747.2188,599.0596 747,599.3252 C745.8281,598.8252 745.3906,598.7159 744.4375,598.7159 C741.7656,598.7159 739.75,600.7315 739.75,603.3565 L739.75,604.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="765.25" y="607.242">TruckInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="693.5" x2="854.5" y1="619.294" y2="619.294"/><ellipse cx="703.5" cy="630.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="712.5" y="633.5129">String usageArea</text><line style="stroke:#A80036;stroke-width:1.5;" x1="693.5" x2="854.5" y1="640.4939" y2="640.4939"/><ellipse cx="703.5" cy="651.4939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="712.5" y="654.7128">void copy(TruckInfo)</text><ellipse cx="703.5" cy="664.6938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="712.5" y="667.9127">String toString()</text><ellipse cx="703.5" cy="677.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="712.5" y="681.1126">Map&lt;String,Object&gt; toMap()</text><!--MD5=[40566bfd8720f7dd136848d8c2d4bb8f]
+class Services.Forms.RentalInfo--><rect codeLine="171" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="100.7996" id="Services.Forms.RentalInfo" style="stroke:#A80036;stroke-width:1.5;" width="163" x="494.5" y="380.294"/><ellipse cx="543.75" cy="396.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M538.75,397.4502 C538.75,399.9502 540.8906,401.7627 543.8125,401.7627 C545.0469,401.7627 546.2188,401.4659 546.9688,400.9502 C547.5781,400.5284 547.9063,400.1065 547.9063,399.7002 C547.9063,399.2315 547.4844,398.8252 546.9844,398.8252 C546.75,398.8252 546.5313,398.9034 546.3281,399.1065 C545.8906,399.544 545.8906,399.544 545.7188,399.6377 C545.2656,399.8721 544.625,400.0127 543.8594,400.0127 C541.8594,400.0127 540.5781,398.9971 540.5781,397.419 L540.5781,396.3721 C540.5781,394.669 541.7969,393.4659 543.5,393.4659 C544.0781,393.4659 544.6563,393.6065 545.125,393.8565 C545.5938,394.1221 545.7656,394.3096 545.8281,394.669 C545.9531,395.3409 546.2031,395.5909 546.7344,395.5909 C547.0156,395.5909 547.2969,395.4502 547.4844,395.2315 C547.6094,395.0596 547.6563,394.8877 547.6563,394.4502 L547.6563,393.0909 C547.6563,392.669 547.6406,392.5284 547.5156,392.3565 C547.3438,392.1065 547.0625,391.9502 546.7344,391.9502 C546.4219,391.9502 546.2188,392.0596 546,392.3252 C544.8281,391.8252 544.3906,391.7159 543.4375,391.7159 C540.7656,391.7159 538.75,393.7315 538.75,396.3565 L538.75,397.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="564.25" y="400.242">RentalInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="495.5" x2="656.5" y1="412.294" y2="412.294"/><ellipse cx="505.5" cy="423.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="514.5" y="426.5129">String pickupTime</text><line style="stroke:#A80036;stroke-width:1.5;" x1="495.5" x2="656.5" y1="433.4939" y2="433.4939"/><ellipse cx="505.5" cy="444.4939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="514.5" y="447.7128">void copy(RentalInfo)</text><ellipse cx="505.5" cy="457.6938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="514.5" y="460.9127">String toString()</text><ellipse cx="505.5" cy="470.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="514.5" y="474.1126">Map&lt;String,Object&gt; toMap()</text><!--MD5=[acf492b215eac6456144e25085a32e8b]
+class Services.Forms.MovingInfo--><rect codeLine="177" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="166.7991" id="Services.Forms.MovingInfo" style="stroke:#A80036;stroke-width:1.5;" width="163" x="692.5" y="347.294"/><ellipse cx="739.75" cy="363.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M734.75,364.4502 C734.75,366.9502 736.8906,368.7627 739.8125,368.7627 C741.0469,368.7627 742.2188,368.4659 742.9688,367.9502 C743.5781,367.5284 743.9063,367.1065 743.9063,366.7002 C743.9063,366.2315 743.4844,365.8252 742.9844,365.8252 C742.75,365.8252 742.5313,365.9034 742.3281,366.1065 C741.8906,366.544 741.8906,366.544 741.7188,366.6377 C741.2656,366.8721 740.625,367.0127 739.8594,367.0127 C737.8594,367.0127 736.5781,365.9971 736.5781,364.419 L736.5781,363.3721 C736.5781,361.669 737.7969,360.4659 739.5,360.4659 C740.0781,360.4659 740.6563,360.6065 741.125,360.8565 C741.5938,361.1221 741.7656,361.3096 741.8281,361.669 C741.9531,362.3409 742.2031,362.5909 742.7344,362.5909 C743.0156,362.5909 743.2969,362.4502 743.4844,362.2315 C743.6094,362.0596 743.6563,361.8877 743.6563,361.4502 L743.6563,360.0909 C743.6563,359.669 743.6406,359.5284 743.5156,359.3565 C743.3438,359.1065 743.0625,358.9502 742.7344,358.9502 C742.4219,358.9502 742.2188,359.0596 742,359.3252 C740.8281,358.8252 740.3906,358.7159 739.4375,358.7159 C736.7656,358.7159 734.75,360.7315 734.75,363.3565 L734.75,364.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="60" x="760.25" y="367.242">MovingInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="693.5" x2="854.5" y1="379.294" y2="379.294"/><ellipse cx="703.5" cy="390.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="712.5" y="393.5129">String startLocation</text><ellipse cx="703.5" cy="403.4939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="712.5" y="406.7128">int numberOfMovers</text><line style="stroke:#A80036;stroke-width:1.5;" x1="693.5" x2="854.5" y1="413.6938" y2="413.6938"/><ellipse cx="703.5" cy="424.6938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="712.5" y="427.9127">String getStartLocation()</text><ellipse cx="703.5" cy="437.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="712.5" y="441.1126">String getEndLocation()</text><ellipse cx="703.5" cy="451.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="712.5" y="454.3125">int getNumberOfMovers()</text><ellipse cx="703.5" cy="464.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="712.5" y="467.5124">int getNumberOfBoxes()</text><ellipse cx="703.5" cy="477.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="712.5" y="480.7123">void copy(MovingInfo)</text><ellipse cx="703.5" cy="490.6933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="712.5" y="493.9122">String toString()</text><ellipse cx="703.5" cy="503.8932" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="712.5" y="507.1121">Map&lt;String,Object&gt; toMap()</text><!--MD5=[086a04d10e205073fe21aef67afd2dd8]
+class DB.FormDB--><rect codeLine="54" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="140.3993" id="DB.FormDB" style="stroke:#A80036;stroke-width:1.5;" width="363" x="911.5" y="360.794"/><ellipse cx="1066.25" cy="376.794" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1061.25,377.9502 C1061.25,380.4502 1063.3906,382.2627 1066.3125,382.2627 C1067.5469,382.2627 1068.7188,381.9659 1069.4688,381.4502 C1070.0781,381.0284 1070.4063,380.6065 1070.4063,380.2002 C1070.4063,379.7315 1069.9844,379.3252 1069.4844,379.3252 C1069.25,379.3252 1069.0313,379.4034 1068.8281,379.6065 C1068.3906,380.044 1068.3906,380.044 1068.2188,380.1377 C1067.7656,380.3721 1067.125,380.5127 1066.3594,380.5127 C1064.3594,380.5127 1063.0781,379.4971 1063.0781,377.919 L1063.0781,376.8721 C1063.0781,375.169 1064.2969,373.9659 1066,373.9659 C1066.5781,373.9659 1067.1563,374.1065 1067.625,374.3565 C1068.0938,374.6221 1068.2656,374.8096 1068.3281,375.169 C1068.4531,375.8409 1068.7031,376.0909 1069.2344,376.0909 C1069.5156,376.0909 1069.7969,375.9502 1069.9844,375.7315 C1070.1094,375.5596 1070.1563,375.3877 1070.1563,374.9502 L1070.1563,373.5909 C1070.1563,373.169 1070.1406,373.0284 1070.0156,372.8565 C1069.8438,372.6065 1069.5625,372.4502 1069.2344,372.4502 C1068.9219,372.4502 1068.7188,372.5596 1068.5,372.8252 C1067.3281,372.3252 1066.8906,372.2159 1065.9375,372.2159 C1063.2656,372.2159 1061.25,374.2315 1061.25,376.8565 L1061.25,377.9502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="1086.75" y="380.742">FormDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="912.5" x2="1273.5" y1="392.794" y2="392.794"/><line style="stroke:#A80036;stroke-width:1.5;" x1="912.5" x2="1273.5" y1="400.794" y2="400.794"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="919.5" y="408.794"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="337" x="931.5" y="415.0129">void updateFormByKeys(DatabaseReference,Map&lt;String,FormInfo&gt;)</text><ellipse cx="922.5" cy="424.9939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="931.5" y="428.2128">String addForm(FormInfo)</text><ellipse cx="922.5" cy="438.1938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="272" x="931.5" y="441.4127">void queryFormsByName(String,Map&lt;String,FormInfo&gt;)</text><ellipse cx="922.5" cy="451.3937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="286" x="931.5" y="454.6126">FormInfo getFormInfoFromSnapshot(String,DataSnapshot)</text><ellipse cx="922.5" cy="464.5936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="207" x="931.5" y="467.8125">void updateFormByName(String,FormInfo)</text><ellipse cx="922.5" cy="477.7935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="197" x="931.5" y="481.0124">void deleteFormsByNames(List&lt;String&gt;)</text><ellipse cx="922.5" cy="490.9934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="187" x="931.5" y="494.2123">void deleteFormsByKeys(List&lt;String&gt;)</text><!--MD5=[5e74c8be5fb8254fa9386766fa5196c4]
+class DB.UserRequestDB--><rect codeLine="63" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="166.7991" id="DB.UserRequestDB" style="stroke:#A80036;stroke-width:1.5;" width="433" x="1309.5" y="347.294"/><ellipse cx="1477.25" cy="363.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1472.25,364.4502 C1472.25,366.9502 1474.3906,368.7627 1477.3125,368.7627 C1478.5469,368.7627 1479.7188,368.4659 1480.4688,367.9502 C1481.0781,367.5284 1481.4063,367.1065 1481.4063,366.7002 C1481.4063,366.2315 1480.9844,365.8252 1480.4844,365.8252 C1480.25,365.8252 1480.0313,365.9034 1479.8281,366.1065 C1479.3906,366.544 1479.3906,366.544 1479.2188,366.6377 C1478.7656,366.8721 1478.125,367.0127 1477.3594,367.0127 C1475.3594,367.0127 1474.0781,365.9971 1474.0781,364.419 L1474.0781,363.3721 C1474.0781,361.669 1475.2969,360.4659 1477,360.4659 C1477.5781,360.4659 1478.1563,360.6065 1478.625,360.8565 C1479.0938,361.1221 1479.2656,361.3096 1479.3281,361.669 C1479.4531,362.3409 1479.7031,362.5909 1480.2344,362.5909 C1480.5156,362.5909 1480.7969,362.4502 1480.9844,362.2315 C1481.1094,362.0596 1481.1563,361.8877 1481.1563,361.4502 L1481.1563,360.0909 C1481.1563,359.669 1481.1406,359.5284 1481.0156,359.3565 C1480.8438,359.1065 1480.5625,358.9502 1480.2344,358.9502 C1479.9219,358.9502 1479.7188,359.0596 1479.5,359.3252 C1478.3281,358.8252 1477.8906,358.7159 1476.9375,358.7159 C1474.2656,358.7159 1472.25,360.7315 1472.25,363.3565 L1472.25,364.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="89" x="1497.75" y="367.242">UserRequestDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1310.5" x2="1741.5" y1="379.294" y2="379.294"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1310.5" x2="1741.5" y1="387.294" y2="387.294"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1317.5" y="395.294"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="407" x="1329.5" y="401.5129">void updateUserRequestByKeys(DatabaseReference,String,Map&lt;String,FormInfo&gt;)</text><ellipse cx="1320.5" cy="411.4939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="197" x="1329.5" y="414.7128">String addUserRequest(String,FormInfo)</text><ellipse cx="1320.5" cy="424.6938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="303" x="1329.5" y="427.9127">void updateUserRequestByFormName(String,String,FormInfo)</text><ellipse cx="1320.5" cy="437.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="267" x="1329.5" y="441.1126">void updateUserRequestByKey(String,String,FormInfo)</text><ellipse cx="1320.5" cy="451.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="238" x="1329.5" y="454.3125">void approveRequestByKeys(String,List&lt;String&gt;)</text><ellipse cx="1320.5" cy="464.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="381" x="1329.5" y="467.5124">void queryUserRequestsByUserIDs(List&lt;String&gt;,Map&lt;String,List&lt;FormInfo&gt;&gt;)</text><ellipse cx="1320.5" cy="477.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="278" x="1329.5" y="480.7123">void queryAllUserRequests(Map&lt;String,List&lt;FormInfo&gt;&gt;)</text><ellipse cx="1320.5" cy="490.6933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="293" x="1329.5" y="493.9122">void deleteUserRequestsByFormNames(String,List&lt;String&gt;)</text><ellipse cx="1320.5" cy="503.8932" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="257" x="1329.5" y="507.1121">void deleteUserRequestsByKeys(String,List&lt;String&gt;)</text><!--MD5=[90177ddf1b4f215e1d7fad6ccd0abc0f]
+class DB.ServiceDB--><rect codeLine="114" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="127.1994" id="DB.ServiceDB" style="stroke:#A80036;stroke-width:1.5;" width="385" x="1777.5" y="367.294"/><ellipse cx="1936.75" cy="383.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1931.75,384.4502 C1931.75,386.9502 1933.8906,388.7627 1936.8125,388.7627 C1938.0469,388.7627 1939.2188,388.4659 1939.9688,387.9502 C1940.5781,387.5284 1940.9063,387.1065 1940.9063,386.7002 C1940.9063,386.2315 1940.4844,385.8252 1939.9844,385.8252 C1939.75,385.8252 1939.5313,385.9034 1939.3281,386.1065 C1938.8906,386.544 1938.8906,386.544 1938.7188,386.6377 C1938.2656,386.8721 1937.625,387.0127 1936.8594,387.0127 C1934.8594,387.0127 1933.5781,385.9971 1933.5781,384.419 L1933.5781,383.3721 C1933.5781,381.669 1934.7969,380.4659 1936.5,380.4659 C1937.0781,380.4659 1937.6563,380.6065 1938.125,380.8565 C1938.5938,381.1221 1938.7656,381.3096 1938.8281,381.669 C1938.9531,382.3409 1939.2031,382.5909 1939.7344,382.5909 C1940.0156,382.5909 1940.2969,382.4502 1940.4844,382.2315 C1940.6094,382.0596 1940.6563,381.8877 1940.6563,381.4502 L1940.6563,380.0909 C1940.6563,379.669 1940.6406,379.5284 1940.5156,379.3565 C1940.3438,379.1065 1940.0625,378.9502 1939.7344,378.9502 C1939.4219,378.9502 1939.2188,379.0596 1939,379.3252 C1937.8281,378.8252 1937.3906,378.7159 1936.4375,378.7159 C1933.7656,378.7159 1931.75,380.7315 1931.75,383.3565 L1931.75,384.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="1957.25" y="387.242">ServiceDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1778.5" x2="2161.5" y1="399.294" y2="399.294"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1778.5" x2="2161.5" y1="407.294" y2="407.294"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1785.5" y="415.294"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="359" x="1797.5" y="421.5129">void updateServiceByKeys(DatabaseReference,Map&lt;String,ServiceInfo&gt;)</text><ellipse cx="1788.5" cy="431.4939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="187" x="1797.5" y="434.7128">void updateServiceRate(String,double)</text><ellipse cx="1788.5" cy="444.6938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="1797.5" y="447.9127">String addService(ServiceInfo)</text><ellipse cx="1788.5" cy="457.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="290" x="1797.5" y="461.1126">void queryServicesByType(String,Map&lt;String,ServiceInfo&gt;)</text><ellipse cx="1788.5" cy="471.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="198" x="1797.5" y="474.3125">void deleteServicesByType(List&lt;String&gt;)</text><ellipse cx="1788.5" cy="484.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="198" x="1797.5" y="487.5124">void deleteServicesByKeys(List&lt;String&gt;)</text><!--MD5=[1dfdb84994952133b049b57489fd479c]
+class DB.MyDatabase--><rect codeLine="122" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="219.5987" id="DB.MyDatabase" style="stroke:#A80036;stroke-width:1.5;" width="240" x="1850" y="47.794"/><ellipse cx="1931.25" cy="63.794" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1926.25,64.9502 C1926.25,67.4502 1928.3906,69.2627 1931.3125,69.2627 C1932.5469,69.2627 1933.7188,68.9659 1934.4688,68.4502 C1935.0781,68.0284 1935.4063,67.6065 1935.4063,67.2002 C1935.4063,66.7315 1934.9844,66.3252 1934.4844,66.3252 C1934.25,66.3252 1934.0313,66.4034 1933.8281,66.6065 C1933.3906,67.044 1933.3906,67.044 1933.2188,67.1377 C1932.7656,67.3721 1932.125,67.5127 1931.3594,67.5127 C1929.3594,67.5127 1928.0781,66.4971 1928.0781,64.919 L1928.0781,63.8721 C1928.0781,62.169 1929.2969,60.9659 1931,60.9659 C1931.5781,60.9659 1932.1563,61.1065 1932.625,61.3565 C1933.0938,61.6221 1933.2656,61.8096 1933.3281,62.169 C1933.4531,62.8409 1933.7031,63.0909 1934.2344,63.0909 C1934.5156,63.0909 1934.7969,62.9502 1934.9844,62.7315 C1935.1094,62.5596 1935.1563,62.3877 1935.1563,61.9502 L1935.1563,60.5909 C1935.1563,60.169 1935.1406,60.0284 1935.0156,59.8565 C1934.8438,59.6065 1934.5625,59.4502 1934.2344,59.4502 C1933.9219,59.4502 1933.7188,59.5596 1933.5,59.8252 C1932.3281,59.3252 1931.8906,59.2159 1930.9375,59.2159 C1928.2656,59.2159 1926.25,61.2315 1926.25,63.8565 L1926.25,64.9502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="69" x="1951.75" y="67.742">MyDatabase</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1851" x2="2089" y1="79.794" y2="79.794"/><ellipse cx="1861" cy="90.794" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="172" x="1870" y="94.0129">String ROOT_KEY_STR_SERVICE</text><ellipse cx="1861" cy="103.9939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="158" x="1870" y="107.2128">String ROOT_KEY_STR_FORM</text><ellipse cx="1861" cy="117.1938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="155" x="1870" y="120.4127">String ROOT_KEY_STR_USER</text><ellipse cx="1861" cy="130.3937" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="171" x="1870" y="133.6126">String ROOT_KEY_STR_BRANCH</text><ellipse cx="1861" cy="143.5936" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="214" x="1870" y="146.8125">String ROOT_KEY_STR_USER_REQUEST</text><ellipse cx="1861" cy="156.7935" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="1870" y="160.0124">String dbPath</text><polygon fill="none" points="1861,165.9934,1857,171.9934,1865,171.9934" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="1870" y="173.2123">FirebaseDatabase db</text><polygon fill="none" points="1861,179.1933,1857,185.1933,1865,185.1933" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="1870" y="186.4122">DatabaseReference dbRef</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1851" x2="2089" y1="193.3932" y2="193.3932"/><ellipse cx="1861" cy="204.3932" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="155" x="1870" y="207.6121">DatabaseReference getDbRef()</text><ellipse cx="1861" cy="217.5931" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="1870" y="220.812">FirebaseDatabase getDb()</text><ellipse cx="1861" cy="230.793" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="1870" y="234.0119">void setReference(String)</text><ellipse cx="1861" cy="243.9929" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="185" x="1870" y="247.2118">void updateEntryByKey(String,Object)</text><ellipse cx="1861" cy="257.1928" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="189" x="1870" y="260.4117">void deleteEntriesByKeys(List&lt;String&gt;)</text><!--MD5=[c35f6dd1cc86b80c818e2e44fc8ed053]
+class DB.UserDB--><rect codeLine="137" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="113.9995" id="DB.UserDB" style="stroke:#A80036;stroke-width:1.5;" width="318" x="2198" y="373.794"/><ellipse cx="2331.25" cy="389.794" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2326.25,390.9502 C2326.25,393.4502 2328.3906,395.2627 2331.3125,395.2627 C2332.5469,395.2627 2333.7188,394.9659 2334.4688,394.4502 C2335.0781,394.0284 2335.4063,393.6065 2335.4063,393.2002 C2335.4063,392.7315 2334.9844,392.3252 2334.4844,392.3252 C2334.25,392.3252 2334.0313,392.4034 2333.8281,392.6065 C2333.3906,393.044 2333.3906,393.044 2333.2188,393.1377 C2332.7656,393.3721 2332.125,393.5127 2331.3594,393.5127 C2329.3594,393.5127 2328.0781,392.4971 2328.0781,390.919 L2328.0781,389.8721 C2328.0781,388.169 2329.2969,386.9659 2331,386.9659 C2331.5781,386.9659 2332.1563,387.1065 2332.625,387.3565 C2333.0938,387.6221 2333.2656,387.8096 2333.3281,388.169 C2333.4531,388.8409 2333.7031,389.0909 2334.2344,389.0909 C2334.5156,389.0909 2334.7969,388.9502 2334.9844,388.7315 C2335.1094,388.5596 2335.1563,388.3877 2335.1563,387.9502 L2335.1563,386.5909 C2335.1563,386.169 2335.1406,386.0284 2335.0156,385.8565 C2334.8438,385.6065 2334.5625,385.4502 2334.2344,385.4502 C2333.9219,385.4502 2333.7188,385.5596 2333.5,385.8252 C2332.3281,385.3252 2331.8906,385.2159 2330.9375,385.2159 C2328.2656,385.2159 2326.25,387.2315 2326.25,389.8565 L2326.25,390.9502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="43" x="2351.75" y="393.742">UserDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2199" x2="2515" y1="405.794" y2="405.794"/><ellipse cx="2209" cy="416.794" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="2218" y="420.0129">FirebaseAuth auth</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2199" x2="2515" y1="426.9939" y2="426.9939"/><ellipse cx="2209" cy="437.9939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="193" x="2218" y="441.2128">String addUser(FirebaseUser,UserInfo)</text><ellipse cx="2209" cy="451.1938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="292" x="2218" y="454.4127">void queryUsersByUserName(String,Map&lt;String,UserInfo&gt;)</text><ellipse cx="2209" cy="464.3937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="218" x="2218" y="467.6126">void queryAllUserInfo(Map&lt;String,UserInfo&gt;)</text><ellipse cx="2209" cy="477.5936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="179" x="2218" y="480.8125">void deleteUserByUIDs(List&lt;String&gt;)</text><!--MD5=[5b490bb0e594383bd79bee79592355ed]
+class DB.BranchDB--><rect codeLine="188" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="153.5992" id="DB.BranchDB" style="stroke:#A80036;stroke-width:1.5;" width="387" x="2551.5" y="353.794"/><ellipse cx="2712.75" cy="369.794" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2707.75,370.9502 C2707.75,373.4502 2709.8906,375.2627 2712.8125,375.2627 C2714.0469,375.2627 2715.2188,374.9659 2715.9688,374.4502 C2716.5781,374.0284 2716.9063,373.6065 2716.9063,373.2002 C2716.9063,372.7315 2716.4844,372.3252 2715.9844,372.3252 C2715.75,372.3252 2715.5313,372.4034 2715.3281,372.6065 C2714.8906,373.044 2714.8906,373.044 2714.7188,373.1377 C2714.2656,373.3721 2713.625,373.5127 2712.8594,373.5127 C2710.8594,373.5127 2709.5781,372.4971 2709.5781,370.919 L2709.5781,369.8721 C2709.5781,368.169 2710.7969,366.9659 2712.5,366.9659 C2713.0781,366.9659 2713.6563,367.1065 2714.125,367.3565 C2714.5938,367.6221 2714.7656,367.8096 2714.8281,368.169 C2714.9531,368.8409 2715.2031,369.0909 2715.7344,369.0909 C2716.0156,369.0909 2716.2969,368.9502 2716.4844,368.7315 C2716.6094,368.5596 2716.6563,368.3877 2716.6563,367.9502 L2716.6563,366.5909 C2716.6563,366.169 2716.6406,366.0284 2716.5156,365.8565 C2716.3438,365.6065 2716.0625,365.4502 2715.7344,365.4502 C2715.4219,365.4502 2715.2188,365.5596 2715,365.8252 C2713.8281,365.3252 2713.3906,365.2159 2712.4375,365.2159 C2709.7656,365.2159 2707.75,367.2315 2707.75,369.8565 L2707.75,370.9502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="2733.25" y="373.742">BranchDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2552.5" x2="2937.5" y1="385.794" y2="385.794"/><line style="stroke:#A80036;stroke-width:1.5;" x1="2552.5" x2="2937.5" y1="393.794" y2="393.794"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2559.5" y="401.794"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="355" x="2571.5" y="408.0129">void updateBranchByKeys(DatabaseReference,Map&lt;String,BranchInfo&gt;)</text><ellipse cx="2562.5" cy="417.9939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="145" x="2571.5" y="421.2128">String addBranch(BranchInfo)</text><ellipse cx="2562.5" cy="431.1938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="246" x="2571.5" y="434.4127">void updateBusinessHourByLocation(String,String)</text><ellipse cx="2562.5" cy="444.3937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="226" x="2571.5" y="447.6126">void updateBranchRatingByLocation(String,int)</text><ellipse cx="2562.5" cy="457.5936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="308" x="2571.5" y="460.8125">void queryBranchesByLocation(String,Map&lt;String,BranchInfo&gt;)</text><ellipse cx="2562.5" cy="470.7935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="361" x="2571.5" y="474.0124">void queryServicesByLocation(String,ServiceDB,Map&lt;String,ServiceInfo&gt;)</text><ellipse cx="2562.5" cy="483.9934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="224" x="2571.5" y="487.2123">void deleteBranchesByLocations(List&lt;String&gt;)</text><ellipse cx="2562.5" cy="497.1933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="202" x="2571.5" y="500.4122">void deleteBranchesByKeys(List&lt;String&gt;)</text><!--MD5=[2cb86bdf9b61918923e2edcee8c6e990]
+class Branches.BranchInfo--><rect codeLine="81" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="166.7991" id="Branches.BranchInfo" style="stroke:#A80036;stroke-width:1.5;" width="163" x="2995.5" y="74.294"/><ellipse cx="3043.25" cy="90.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3038.25,91.4502 C3038.25,93.9502 3040.3906,95.7627 3043.3125,95.7627 C3044.5469,95.7627 3045.7188,95.4659 3046.4688,94.9502 C3047.0781,94.5284 3047.4063,94.1065 3047.4063,93.7002 C3047.4063,93.2315 3046.9844,92.8252 3046.4844,92.8252 C3046.25,92.8252 3046.0313,92.9034 3045.8281,93.1065 C3045.3906,93.544 3045.3906,93.544 3045.2188,93.6377 C3044.7656,93.8721 3044.125,94.0127 3043.3594,94.0127 C3041.3594,94.0127 3040.0781,92.9971 3040.0781,91.419 L3040.0781,90.3721 C3040.0781,88.669 3041.2969,87.4659 3043,87.4659 C3043.5781,87.4659 3044.1563,87.6065 3044.625,87.8565 C3045.0938,88.1221 3045.2656,88.3096 3045.3281,88.669 C3045.4531,89.3409 3045.7031,89.5909 3046.2344,89.5909 C3046.5156,89.5909 3046.7969,89.4502 3046.9844,89.2315 C3047.1094,89.0596 3047.1563,88.8877 3047.1563,88.4502 L3047.1563,87.0909 C3047.1563,86.669 3047.1406,86.5284 3047.0156,86.3565 C3046.8438,86.1065 3046.5625,85.9502 3046.2344,85.9502 C3045.9219,85.9502 3045.7188,86.0596 3045.5,86.3252 C3044.3281,85.8252 3043.8906,85.7159 3042.9375,85.7159 C3040.2656,85.7159 3038.25,87.7315 3038.25,90.3565 L3038.25,91.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="59" x="3063.75" y="94.242">BranchInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2996.5" x2="3157.5" y1="106.294" y2="106.294"/><ellipse cx="3006.5" cy="117.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="3015.5" y="120.5129">List&lt;String&gt; serviceList</text><ellipse cx="3006.5" cy="130.4939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="3015.5" y="133.7128">String location</text><ellipse cx="3006.5" cy="143.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="3015.5" y="146.9127">int userRating</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2996.5" x2="3157.5" y1="153.8937" y2="153.8937"/><ellipse cx="3006.5" cy="164.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="3015.5" y="168.1126">List&lt;String&gt; getServiceList()</text><ellipse cx="3006.5" cy="178.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="3015.5" y="181.3125">String getLocation()</text><ellipse cx="3006.5" cy="191.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="3015.5" y="194.5124">String getBusinessHour()</text><ellipse cx="3006.5" cy="204.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="3015.5" y="207.7123">int getUserRating()</text><ellipse cx="3006.5" cy="217.6933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="3015.5" y="220.9122">String toString()</text><ellipse cx="3006.5" cy="230.8932" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="3015.5" y="234.1121">Map&lt;String,Object&gt; toMap()</text><!--MD5=[1dd9901c4c93975d33b7384d739b8358]
+class Users.Customer--><rect codeLine="92" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="153.5992" id="Users.Customer" style="stroke:#A80036;stroke-width:1.5;" width="298" x="3215" y="353.794"/><ellipse cx="3333.25" cy="369.794" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3328.25,370.9502 C3328.25,373.4502 3330.3906,375.2627 3333.3125,375.2627 C3334.5469,375.2627 3335.7188,374.9659 3336.4688,374.4502 C3337.0781,374.0284 3337.4063,373.6065 3337.4063,373.2002 C3337.4063,372.7315 3336.9844,372.3252 3336.4844,372.3252 C3336.25,372.3252 3336.0313,372.4034 3335.8281,372.6065 C3335.3906,373.044 3335.3906,373.044 3335.2188,373.1377 C3334.7656,373.3721 3334.125,373.5127 3333.3594,373.5127 C3331.3594,373.5127 3330.0781,372.4971 3330.0781,370.919 L3330.0781,369.8721 C3330.0781,368.169 3331.2969,366.9659 3333,366.9659 C3333.5781,366.9659 3334.1563,367.1065 3334.625,367.3565 C3335.0938,367.6221 3335.2656,367.8096 3335.3281,368.169 C3335.4531,368.8409 3335.7031,369.0909 3336.2344,369.0909 C3336.5156,369.0909 3336.7969,368.9502 3336.9844,368.7315 C3337.1094,368.5596 3337.1563,368.3877 3337.1563,367.9502 L3337.1563,366.5909 C3337.1563,366.169 3337.1406,366.0284 3337.0156,365.8565 C3336.8438,365.6065 3336.5625,365.4502 3336.2344,365.4502 C3335.9219,365.4502 3335.7188,365.5596 3335.5,365.8252 C3334.3281,365.3252 3333.8906,365.2159 3332.9375,365.2159 C3330.2656,365.2159 3328.25,367.2315 3328.25,369.8565 L3328.25,370.9502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="3353.75" y="373.742">Customer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3216" x2="3512" y1="385.794" y2="385.794"/><ellipse cx="3226" cy="396.794" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="54" x="3235" y="400.0129">String TAG</text><ellipse cx="3226" cy="409.9939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="3235" y="413.2128">ServiceDB serviceDB</text><ellipse cx="3226" cy="423.1938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="3235" y="426.4127">FormDB formDB</text><ellipse cx="3226" cy="436.3937" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="3235" y="439.6126">BranchDB branchDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3216" x2="3512" y1="446.5936" y2="446.5936"/><ellipse cx="3226" cy="457.5936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="204" x="3235" y="460.8125">void updateUserRequest(String,FormInfo)</text><ellipse cx="3226" cy="470.7935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="272" x="3235" y="474.0124">void updateUserRequestByFormName(String,FormInfo)</text><ellipse cx="3226" cy="483.9934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="3235" y="487.2123">String addForm(FormInfo)</text><ellipse cx="3226" cy="497.1933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="3235" y="500.4122">void rateBranch(String,int)</text><!--MD5=[498892046d15e203799efcf820d8edf0]
+class Users.User--><rect codeLine="144" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="232.7986" id="Users.User" style="stroke:#A80036;stroke-width:1.5;" width="203" x="3604.5" y="41.294"/><ellipse cx="3688.75" cy="57.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3683.75,58.4502 C3683.75,60.9502 3685.8906,62.7627 3688.8125,62.7627 C3690.0469,62.7627 3691.2188,62.4659 3691.9688,61.9502 C3692.5781,61.5284 3692.9063,61.1065 3692.9063,60.7002 C3692.9063,60.2315 3692.4844,59.8252 3691.9844,59.8252 C3691.75,59.8252 3691.5313,59.9034 3691.3281,60.1065 C3690.8906,60.544 3690.8906,60.544 3690.7188,60.6377 C3690.2656,60.8721 3689.625,61.0127 3688.8594,61.0127 C3686.8594,61.0127 3685.5781,59.9971 3685.5781,58.419 L3685.5781,57.3721 C3685.5781,55.669 3686.7969,54.4659 3688.5,54.4659 C3689.0781,54.4659 3689.6563,54.6065 3690.125,54.8565 C3690.5938,55.1221 3690.7656,55.3096 3690.8281,55.669 C3690.9531,56.3409 3691.2031,56.5909 3691.7344,56.5909 C3692.0156,56.5909 3692.2969,56.4502 3692.4844,56.2315 C3692.6094,56.0596 3692.6563,55.8877 3692.6563,55.4502 L3692.6563,54.0909 C3692.6563,53.669 3692.6406,53.5284 3692.5156,53.3565 C3692.3438,53.1065 3692.0625,52.9502 3691.7344,52.9502 C3691.4219,52.9502 3691.2188,53.0596 3691,53.3252 C3689.8281,52.8252 3689.3906,52.7159 3688.4375,52.7159 C3685.7656,52.7159 3683.75,54.7315 3683.75,57.3565 L3683.75,58.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="3709.25" y="61.242">User</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3605.5" x2="3806.5" y1="73.294" y2="73.294"/><ellipse cx="3615.5" cy="84.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="54" x="3624.5" y="87.5129">String TAG</text><ellipse cx="3615.5" cy="97.4939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="3624.5" y="100.7128">UserDB userDB</text><ellipse cx="3615.5" cy="110.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="161" x="3624.5" y="113.9127">UserRequestDB userRequestDB</text><ellipse cx="3615.5" cy="123.8937" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="3624.5" y="127.1126">UserInfo userInfo</text><ellipse cx="3615.5" cy="137.0936" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="3624.5" y="140.3125">FirebaseUser fbUser</text><ellipse cx="3615.5" cy="150.2935" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="177" x="3624.5" y="153.5124">SharedPreferences sharedPrefState</text><ellipse cx="3615.5" cy="163.4934" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="3624.5" y="166.7123">String dbUserEntryKey</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3605.5" x2="3806.5" y1="173.6933" y2="173.6933"/><ellipse cx="3615.5" cy="184.6933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="135" x="3624.5" y="187.9122">void deleteAccount(Activity)</text><ellipse cx="3615.5" cy="197.8932" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="3624.5" y="201.1121">void logout(Activity)</text><ellipse cx="3615.5" cy="211.0931" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="3624.5" y="214.312">void login(Activity,Intent)</text><ellipse cx="3615.5" cy="224.293" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="3624.5" y="227.5119">void login(Activity,Intent,Query)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="3612.5" y="234.4929"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="3624.5" y="240.7118">void emailAuth(Activity,Intent)</text><ellipse cx="3615.5" cy="250.6928" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="167" x="3624.5" y="253.9117">void createAccount(Activity,Intent)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="3612.5" y="260.8927"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="3624.5" y="267.1116">void addAccount(Activity,Intent)</text><!--MD5=[7784aaeed3ed7623316ec763903fdd90]
+class Users.Employee--><rect codeLine="160" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="166.7991" id="Users.Employee" style="stroke:#A80036;stroke-width:1.5;" width="316" x="3548" y="347.294"/><ellipse cx="3674.25" cy="363.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3669.25,364.4502 C3669.25,366.9502 3671.3906,368.7627 3674.3125,368.7627 C3675.5469,368.7627 3676.7188,368.4659 3677.4688,367.9502 C3678.0781,367.5284 3678.4063,367.1065 3678.4063,366.7002 C3678.4063,366.2315 3677.9844,365.8252 3677.4844,365.8252 C3677.25,365.8252 3677.0313,365.9034 3676.8281,366.1065 C3676.3906,366.544 3676.3906,366.544 3676.2188,366.6377 C3675.7656,366.8721 3675.125,367.0127 3674.3594,367.0127 C3672.3594,367.0127 3671.0781,365.9971 3671.0781,364.419 L3671.0781,363.3721 C3671.0781,361.669 3672.2969,360.4659 3674,360.4659 C3674.5781,360.4659 3675.1563,360.6065 3675.625,360.8565 C3676.0938,361.1221 3676.2656,361.3096 3676.3281,361.669 C3676.4531,362.3409 3676.7031,362.5909 3677.2344,362.5909 C3677.5156,362.5909 3677.7969,362.4502 3677.9844,362.2315 C3678.1094,362.0596 3678.1563,361.8877 3678.1563,361.4502 L3678.1563,360.0909 C3678.1563,359.669 3678.1406,359.5284 3678.0156,359.3565 C3677.8438,359.1065 3677.5625,358.9502 3677.2344,358.9502 C3676.9219,358.9502 3676.7188,359.0596 3676.5,359.3252 C3675.3281,358.8252 3674.8906,358.7159 3673.9375,358.7159 C3671.2656,358.7159 3669.25,360.7315 3669.25,363.3565 L3669.25,364.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="3694.75" y="367.242">Employee</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3549" x2="3863" y1="379.294" y2="379.294"/><ellipse cx="3559" cy="390.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="54" x="3568" y="393.5129">String TAG</text><ellipse cx="3559" cy="403.4939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="3568" y="406.7128">ServiceDB serviceDB</text><ellipse cx="3559" cy="416.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="3568" y="419.9127">BranchDB branchDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3549" x2="3863" y1="426.8937" y2="426.8937"/><ellipse cx="3559" cy="437.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="290" x="3568" y="441.1126">void queryServicesByType(String,Map&lt;String,ServiceInfo&gt;)</text><ellipse cx="3559" cy="451.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="3568" y="454.3125">void addBranch(BranchInfo)</text><ellipse cx="3559" cy="464.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="174" x="3568" y="467.5124">void setBusinessHour(String,String)</text><ellipse cx="3559" cy="477.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="278" x="3568" y="480.7123">void queryAllUserRequests(Map&lt;String,List&lt;FormInfo&gt;&gt;)</text><ellipse cx="3559" cy="490.6933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="224" x="3568" y="493.9122">void processUserRequest(String,List&lt;String&gt;)</text><ellipse cx="3559" cy="503.8932" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="3568" y="507.1121">void notifyCustomer()</text><!--MD5=[6f7f282d8858f4a1cdb226a9a6f83f26]
+class Users.UserInfo--><rect codeLine="198" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="166.7991" id="Users.UserInfo" style="stroke:#A80036;stroke-width:1.5;" width="133" x="3326.5" y="74.294"/><ellipse cx="3366.25" cy="90.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3361.25,91.4502 C3361.25,93.9502 3363.3906,95.7627 3366.3125,95.7627 C3367.5469,95.7627 3368.7188,95.4659 3369.4688,94.9502 C3370.0781,94.5284 3370.4063,94.1065 3370.4063,93.7002 C3370.4063,93.2315 3369.9844,92.8252 3369.4844,92.8252 C3369.25,92.8252 3369.0313,92.9034 3368.8281,93.1065 C3368.3906,93.544 3368.3906,93.544 3368.2188,93.6377 C3367.7656,93.8721 3367.125,94.0127 3366.3594,94.0127 C3364.3594,94.0127 3363.0781,92.9971 3363.0781,91.419 L3363.0781,90.3721 C3363.0781,88.669 3364.2969,87.4659 3366,87.4659 C3366.5781,87.4659 3367.1563,87.6065 3367.625,87.8565 C3368.0938,88.1221 3368.2656,88.3096 3368.3281,88.669 C3368.4531,89.3409 3368.7031,89.5909 3369.2344,89.5909 C3369.5156,89.5909 3369.7969,89.4502 3369.9844,89.2315 C3370.1094,89.0596 3370.1563,88.8877 3370.1563,88.4502 L3370.1563,87.0909 C3370.1563,86.669 3370.1406,86.5284 3370.0156,86.3565 C3369.8438,86.1065 3369.5625,85.9502 3369.2344,85.9502 C3368.9219,85.9502 3368.7188,86.0596 3368.5,86.3252 C3367.3281,85.8252 3366.8906,85.7159 3365.9375,85.7159 C3363.2656,85.7159 3361.25,87.7315 3361.25,90.3565 L3361.25,91.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="46" x="3385.75" y="94.242">UserInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3327.5" x2="3458.5" y1="106.294" y2="106.294"/><ellipse cx="3337.5" cy="117.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="3346.5" y="120.5129">String userName</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3327.5" x2="3458.5" y1="127.4939" y2="127.4939"/><ellipse cx="3337.5" cy="138.4939" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="3346.5" y="141.7128">String getUserName()</text><ellipse cx="3337.5" cy="151.6938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="3346.5" y="154.9127">String getFirstName()</text><ellipse cx="3337.5" cy="164.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="3346.5" y="168.1126">String getLastName()</text><ellipse cx="3337.5" cy="178.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="3346.5" y="181.3125">String getEmail()</text><ellipse cx="3337.5" cy="191.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="3346.5" y="194.5124">String getPassword()</text><ellipse cx="3337.5" cy="204.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="3346.5" y="207.7123">String getUserType()</text><ellipse cx="3337.5" cy="217.6933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="3346.5" y="220.9122">void copy(UserInfo)</text><ellipse cx="3337.5" cy="230.8932" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="3346.5" y="234.1121">String toString()</text><!--MD5=[684093deba542c1356ebb5d655e1257f]
+class Users.Admin--><rect codeLine="209" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="193.1989" id="Users.Admin" style="stroke:#A80036;stroke-width:1.5;" width="304" x="3899" y="334.294"/><ellipse cx="4029.25" cy="350.294" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M4024.25,351.4502 C4024.25,353.9502 4026.3906,355.7627 4029.3125,355.7627 C4030.5469,355.7627 4031.7188,355.4659 4032.4688,354.9502 C4033.0781,354.5284 4033.4063,354.1065 4033.4063,353.7002 C4033.4063,353.2315 4032.9844,352.8252 4032.4844,352.8252 C4032.25,352.8252 4032.0313,352.9034 4031.8281,353.1065 C4031.3906,353.544 4031.3906,353.544 4031.2188,353.6377 C4030.7656,353.8721 4030.125,354.0127 4029.3594,354.0127 C4027.3594,354.0127 4026.0781,352.9971 4026.0781,351.419 L4026.0781,350.3721 C4026.0781,348.669 4027.2969,347.4659 4029,347.4659 C4029.5781,347.4659 4030.1563,347.6065 4030.625,347.8565 C4031.0938,348.1221 4031.2656,348.3096 4031.3281,348.669 C4031.4531,349.3409 4031.7031,349.5909 4032.2344,349.5909 C4032.5156,349.5909 4032.7969,349.4502 4032.9844,349.2315 C4033.1094,349.0596 4033.1563,348.8877 4033.1563,348.4502 L4033.1563,347.0909 C4033.1563,346.669 4033.1406,346.5284 4033.0156,346.3565 C4032.8438,346.1065 4032.5625,345.9502 4032.2344,345.9502 C4031.9219,345.9502 4031.7188,346.0596 4031.5,346.3252 C4030.3281,345.8252 4029.8906,345.7159 4028.9375,345.7159 C4026.2656,345.7159 4024.25,347.7315 4024.25,350.3565 L4024.25,351.4502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="4049.75" y="354.242">Admin</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3900" x2="4202" y1="366.294" y2="366.294"/><ellipse cx="3910" cy="377.294" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="54" x="3919" y="380.5129">String TAG</text><ellipse cx="3910" cy="390.4939" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="3919" y="393.7128">ServiceDB serviceDB</text><ellipse cx="3910" cy="403.6938" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="3919" y="406.9127">FormDB formDB</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3900" x2="4202" y1="413.8937" y2="413.8937"/><ellipse cx="3910" cy="424.8937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="163" x="3919" y="428.1126">void deleteAccounts(List&lt;String&gt;)</text><ellipse cx="3910" cy="438.0936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="3919" y="441.3125">void deleteAccount(String)</text><ellipse cx="3910" cy="451.2935" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="3919" y="454.5124">String createService(ServiceInfo)</text><ellipse cx="3910" cy="464.4934" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="164" x="3919" y="467.7123">void setHourlyRate(String,double)</text><ellipse cx="3910" cy="477.6933" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="3919" y="480.9122">String createForm(FormInfo)</text><ellipse cx="3910" cy="490.8932" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="3919" y="494.1121">void updateFormTemplate(String,FormInfo)</text><ellipse cx="3910" cy="504.0931" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="278" x="3919" y="507.312">void queryAllUserRequests(Map&lt;String,List&lt;FormInfo&gt;&gt;)</text><ellipse cx="3910" cy="517.293" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="235" x="3919" y="520.5119">void updateUserRequest(String,String,FormInfo)</text><!--MD5=[5fc9b60f5d5c64ad0df8704dae8d48bb]
+class Utilities--><rect codeLine="74" fill="#FEFECE" filter="url(#fp0gwwpuww3uc)" height="113.9995" id="Utilities" style="stroke:#A80036;stroke-width:1.5;" width="230" x="9" y="100.794"/><ellipse cx="99.75" cy="116.794" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M94.75,117.9502 C94.75,120.4502 96.8906,122.2627 99.8125,122.2627 C101.0469,122.2627 102.2188,121.9659 102.9688,121.4502 C103.5781,121.0284 103.9063,120.6065 103.9063,120.2002 C103.9063,119.7315 103.4844,119.3252 102.9844,119.3252 C102.75,119.3252 102.5313,119.4034 102.3281,119.6065 C101.8906,120.044 101.8906,120.044 101.7188,120.1377 C101.2656,120.3721 100.625,120.5127 99.8594,120.5127 C97.8594,120.5127 96.5781,119.4971 96.5781,117.919 L96.5781,116.8721 C96.5781,115.169 97.7969,113.9659 99.5,113.9659 C100.0781,113.9659 100.6563,114.1065 101.125,114.3565 C101.5938,114.6221 101.7656,114.8096 101.8281,115.169 C101.9531,115.8409 102.2031,116.0909 102.7344,116.0909 C103.0156,116.0909 103.2969,115.9502 103.4844,115.7315 C103.6094,115.5596 103.6563,115.3877 103.6563,114.9502 L103.6563,113.5909 C103.6563,113.169 103.6406,113.0284 103.5156,112.8565 C103.3438,112.6065 103.0625,112.4502 102.7344,112.4502 C102.4219,112.4502 102.2188,112.5596 102,112.8252 C100.8281,112.3252 100.3906,112.2159 99.4375,112.2159 C96.7656,112.2159 94.75,114.2315 94.75,116.8565 L94.75,117.9502 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="120.25" y="120.742">Utilities</text><line style="stroke:#A80036;stroke-width:1.5;" x1="10" x2="238" y1="132.794" y2="132.794"/><polygon fill="none" points="20,139.794,16,145.794,24,145.794" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="54" x="29" y="147.0129">String TAG</text><polygon fill="none" points="20,152.9939,16,158.9939,24,158.9939" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="144" x="29" y="160.2128">Character[] INVALID_CHARS</text><line style="stroke:#A80036;stroke-width:1.5;" x1="10" x2="238" y1="167.1938" y2="167.1938"/><ellipse cx="20" cy="178.1938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="177" x="29" y="181.4127">boolean nameChecker(String,String)</text><ellipse cx="20" cy="191.3937" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="144" x="29" y="194.6126">boolean emailChecker(String)</text><ellipse cx="20" cy="204.5936" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="204" x="29" y="207.8125">boolean stringChecker(String,Character[])</text><!--MD5=[769de4900b1b25afcb6d0207b8cefcdc]
+reverse link DB.MyDatabase to DB.FormDB--><path codeLine="224" d="M1830.09,186.684 C1691.29,216.274 1473.64,267.914 1292,334.294 C1270.94,341.984 1249.12,351.154 1227.98,360.714 " fill="none" id="DB.MyDatabase-backto-DB.FormDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="1828.97,179.764,1849.98,182.474,1831.86,193.464,1828.97,179.764" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d3e8c2820882c7e2bab897dc7a3ef06d]
+reverse link DB.MyDatabase to DB.UserRequestDB--><path codeLine="225" d="M1832.48,242.724 C1778.08,275.934 1715.73,313.994 1661.53,347.074 " fill="none" id="DB.MyDatabase-backto-DB.UserRequestDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="1829.13,236.574,1849.85,232.134,1836.42,248.524,1829.13,236.574" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[235ffd4adf6e102cb5fc8ce6d00ce751]
+reverse link Users.User to Users.Customer--><path codeLine="226" d="M3588.51,251.894 C3546.6,285.104 3499.91,322.094 3460.02,353.704 " fill="none" id="Users.User-backto-Users.Customer" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="3584.29,246.304,3604.31,239.374,3592.99,257.274,3584.29,246.304" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[892ef190840e17684ab04efb3b840c67]
+reverse link Services.Forms.RentalInfo to Services.Forms.CarInfo--><path codeLine="227" d="M576,501.594 C576,529.744 576,561.574 576,587.274 " fill="none" id="Services.Forms.RentalInfo-backto-Services.Forms.CarInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="569,501.414,576,481.414,583,501.414,569,501.414" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[99978c6dbbaedd27a013da9000e0adad]
+reverse link Services.Forms.RentalInfo to Services.Forms.TruckInfo--><path codeLine="228" d="M626.62,496.894 C641.61,515.044 658.45,534.404 675,551.294 C686.92,563.464 700.35,575.834 713.39,587.254 " fill="none" id="Services.Forms.RentalInfo-backto-Services.Forms.TruckInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="621.17,501.284,613.98,481.354,632.03,492.454,621.17,501.284" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7af34a86d6901020571eea995d1ebe34]
+reverse link DB.MyDatabase to DB.ServiceDB--><path codeLine="229" d="M1970,288.174 C1970,315.594 1970,343.344 1970,366.924 " fill="none" id="DB.MyDatabase-backto-DB.ServiceDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="1963,287.844,1970,267.844,1977,287.844,1963,287.844" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4068f37e404fadaa6c9e1b31a8a5e03a]
+reverse link DB.MyDatabase to DB.UserDB--><path codeLine="230" d="M2106.71,254.524 C2163.7,294.434 2227.89,339.384 2277.01,373.774 " fill="none" id="DB.MyDatabase-backto-DB.UserDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="2102.43,260.074,2090.06,242.874,2110.46,248.604,2102.43,260.074" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[283d52c6a910dfd43168ee7d08653c7d]
+reverse link Users.User to Users.Employee--><path codeLine="231" d="M3706,294.704 C3706,312.644 3706,330.574 3706,347.234 " fill="none" id="Users.User-backto-Users.Employee" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="3699,294.504,3706,274.504,3713,294.504,3699,294.504" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[11a3ba1c3de03380a9151e772df7299d]
+reverse link Services.Forms.FormInfo to Services.Forms.RentalInfo--><path codeLine="232" d="M625.72,293.694 C614.43,324.604 603.12,355.564 594.15,380.124 " fill="none" id="Services.Forms.FormInfo-backto-Services.Forms.RentalInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="619.29,290.894,632.73,274.504,632.44,295.694,619.29,290.894" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d19989319e832a16ea08b5ee78e21d12]
+reverse link Services.Forms.FormInfo to Services.Forms.MovingInfo--><path codeLine="233" d="M724.23,293.544 C730.92,311.864 737.62,330.214 743.84,347.234 " fill="none" id="Services.Forms.FormInfo-backto-Services.Forms.MovingInfo" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="717.56,295.694,717.27,274.504,730.71,290.894,717.56,295.694" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8802aaf0a3a088afb5823618d9df6aa0]
+reverse link DB.MyDatabase to DB.BranchDB--><path codeLine="234" d="M2109.46,196.994 C2224.6,229.764 2391.63,280.164 2534,334.294 C2549.79,340.294 2566.07,346.904 2582.27,353.744 " fill="none" id="DB.MyDatabase-backto-DB.BranchDB" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="2107.35,203.664,2090.01,191.484,2111.16,190.194,2107.35,203.664" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[05e92a0a5525574cf852419ace7e2625]
+reverse link Users.User to Users.Admin--><path codeLine="235" d="M3823.59,251.164 C3857.7,277.954 3895.01,307.264 3929.37,334.254 " fill="none" id="Users.User-backto-Users.Admin" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="3819.05,256.494,3807.65,238.634,3827.7,245.484,3819.05,256.494" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[346ae2ff3f9787a14ee130d7fd839dda]
+@startuml
+'class WelcomePageActivity {
+'~ {static} String TAG
+'- UserDB userDB
+'- User user
+'- TextView welcomeText
+'# void onCreate(Bundle)
+'}
+'class MainActivity {
+'~ {static} String TAG
+'# void onCreate(Bundle)
+'}
+'class LoginActivity {
+'~ {static} String TAG
+'- UserDB myDatabase
+'- User user
+'# void onCreate(Bundle)
+'}
+'class SignupActivity {
+'- String userType
+'- UserDB myDatabase
+'- User user
+'# void onCreate(Bundle)
+'}
+
+class Services.ServiceInfo {
++ String type
++ String formType
++ Double hourlyRate
++ Boolean isAvailable
++ String getType()
++ String getFormType()
++ Double getHourlyRate()
++ Boolean getAvailable()
++ void copy(ServiceInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class Services.Forms.FormInfo {
++ String firstName
++ String formName
++ boolean isApproved
++ String getFirstName()
++ String getLastName()
++ String getDateOfBirth()
++ String getAddress()
++ String getEmail()
++ String getFormName()
++ void setFormName(String)
++ Boolean getApproved()
++ void copy(FormInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class DB.FormDB {
+- {static} void updateFormByKeys(DatabaseReference,Map<String,FormInfo>)
++ String addForm(FormInfo)
++ void queryFormsByName(String,Map<String,FormInfo>)
++ {static} FormInfo getFormInfoFromSnapshot(String,DataSnapshot)
++ void updateFormByName(String,FormInfo)
++ void deleteFormsByNames(List<String>)
++ void deleteFormsByKeys(List<String>)
+}
+class DB.UserRequestDB {
+- {static} void updateUserRequestByKeys(DatabaseReference,String,Map<String,FormInfo>)
++ String addUserRequest(String,FormInfo)
++ void updateUserRequestByFormName(String,String,FormInfo)
++ void updateUserRequestByKey(String,String,FormInfo)
++ void approveRequestByKeys(String,List<String>)
++ void queryUserRequestsByUserIDs(List<String>,Map<String,List<FormInfo>>)
++ void queryAllUserRequests(Map<String,List<FormInfo>>)
++ void deleteUserRequestsByFormNames(String,List<String>)
++ void deleteUserRequestsByKeys(String,List<String>)
+}
+class Utilities {
+~ {static} String TAG
+~ {static} Character[] INVALID_CHARS
++ {static} boolean nameChecker(String,String)
++ {static} boolean emailChecker(String)
++ {static} boolean stringChecker(String,Character[])
+}
+class Branches.BranchInfo {
++ List<String> serviceList
++ String location
++ int userRating
++ List<String> getServiceList()
++ String getLocation()
++ String getBusinessHour()
++ int getUserRating()
++ String toString()
++ Map<String,Object> toMap()
+}
+class Users.Customer {
++ {static} String TAG
++ ServiceDB serviceDB
++ FormDB formDB
++ BranchDB branchDB
++ void updateUserRequest(String,FormInfo)
++ void updateUserRequestByFormName(String,FormInfo)
++ String addForm(FormInfo)
++ void rateBranch(String,int)
+}
+class Services.Forms.CarInfo {
++ String carType
++ void copy(CarInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class Services.Forms.TruckInfo {
++ String usageArea
++ void copy(TruckInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class DB.ServiceDB {
+- {static} void updateServiceByKeys(DatabaseReference,Map<String,ServiceInfo>)
++ void updateServiceRate(String,double)
++ String addService(ServiceInfo)
++ void queryServicesByType(String,Map<String,ServiceInfo>)
++ void deleteServicesByType(List<String>)
++ void deleteServicesByKeys(List<String>)
+}
+class DB.MyDatabase {
++ {static} String ROOT_KEY_STR_SERVICE
++ {static} String ROOT_KEY_STR_FORM
++ {static} String ROOT_KEY_STR_USER
++ {static} String ROOT_KEY_STR_BRANCH
++ {static} String ROOT_KEY_STR_USER_REQUEST
++ String dbPath
+~ FirebaseDatabase db
+~ DatabaseReference dbRef
++ DatabaseReference getDbRef()
++ FirebaseDatabase getDb()
++ void setReference(String)
++ void updateEntryByKey(String,Object)
++ void deleteEntriesByKeys(List<String>)
+}
+class DB.UserDB {
++ FirebaseAuth auth
++ String addUser(FirebaseUser,UserInfo)
++ void queryUsersByUserName(String,Map<String,UserInfo>)
++ void queryAllUserInfo(Map<String,UserInfo>)
++ void deleteUserByUIDs(List<String>)
+}
+class Users.User {
++ {static} String TAG
++ UserDB userDB
++ UserRequestDB userRequestDB
++ UserInfo userInfo
++ FirebaseUser fbUser
++ SharedPreferences sharedPrefState
++ String dbUserEntryKey
++ void deleteAccount(Activity)
++ void logout(Activity)
++ void login(Activity,Intent)
++ void login(Activity,Intent,Query)
+- void emailAuth(Activity,Intent)
++ void createAccount(Activity,Intent)
+- void addAccount(Activity,Intent)
+}
+class Users.Employee {
++ {static} String TAG
++ ServiceDB serviceDB
++ BranchDB branchDB
++ void queryServicesByType(String,Map<String,ServiceInfo>)
++ void addBranch(BranchInfo)
++ void setBusinessHour(String,String)
++ void queryAllUserRequests(Map<String,List<FormInfo>>)
++ void processUserRequest(String,List<String>)
++ void notifyCustomer()
+}
+class Services.Forms.RentalInfo {
++ String pickupTime
++ void copy(RentalInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class Services.Forms.MovingInfo {
++ String startLocation
++ int numberOfMovers
++ String getStartLocation()
++ String getEndLocation()
++ int getNumberOfMovers()
++ int getNumberOfBoxes()
++ void copy(MovingInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class DB.BranchDB {
+- {static} void updateBranchByKeys(DatabaseReference,Map<String,BranchInfo>)
++ String addBranch(BranchInfo)
++ void updateBusinessHourByLocation(String,String)
++ void updateBranchRatingByLocation(String,int)
++ void queryBranchesByLocation(String,Map<String,BranchInfo>)
++ void queryServicesByLocation(String,ServiceDB,Map<String,ServiceInfo>)
++ void deleteBranchesByLocations(List<String>)
++ void deleteBranchesByKeys(List<String>)
+}
+class Users.UserInfo {
++ String userName
++ String getUserName()
++ String getFirstName()
++ String getLastName()
++ String getEmail()
++ String getPassword()
++ String getUserType()
++ void copy(UserInfo)
++ String toString()
+}
+class Users.Admin {
++ {static} String TAG
++ ServiceDB serviceDB
++ FormDB formDB
++ void deleteAccounts(List<String>)
++ void deleteAccount(String)
++ String createService(ServiceInfo)
++ void setHourlyRate(String,double)
++ String createForm(FormInfo)
++ void updateFormTemplate(String,FormInfo)
++ void queryAllUserRequests(Map<String,List<FormInfo>>)
++ void updateUserRequest(String,String,FormInfo)
+}
+
+
+DB.MyDatabase             <|- - DB.FormDB
+DB.MyDatabase             <|- - DB.UserRequestDB
+Users.User                <|- - Users.Customer
+Services.Forms.RentalInfo <|- - Services.Forms.CarInfo
+Services.Forms.RentalInfo <|- - Services.Forms.TruckInfo
+DB.MyDatabase             <|- - DB.ServiceDB
+DB.MyDatabase             <|- - DB.UserDB
+Users.User                <|- - Users.Employee
+Services.Forms.FormInfo   <|- - Services.Forms.RentalInfo
+Services.Forms.FormInfo   <|- - Services.Forms.MovingInfo
+DB.MyDatabase             <|- - DB.BranchDB
+Users.User                <|- - Users.Admin
+
+
+@enduml
+
+@startuml
+
+class Services.ServiceInfo {
++ String type
++ String formType
++ Double hourlyRate
++ Boolean isAvailable
++ String getType()
++ String getFormType()
++ Double getHourlyRate()
++ Boolean getAvailable()
++ void copy(ServiceInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class Services.Forms.FormInfo {
++ String firstName
++ String formName
++ boolean isApproved
++ String getFirstName()
++ String getLastName()
++ String getDateOfBirth()
++ String getAddress()
++ String getEmail()
++ String getFormName()
++ void setFormName(String)
++ Boolean getApproved()
++ void copy(FormInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class DB.FormDB {
+- {static} void updateFormByKeys(DatabaseReference,Map<String,FormInfo>)
++ String addForm(FormInfo)
++ void queryFormsByName(String,Map<String,FormInfo>)
++ {static} FormInfo getFormInfoFromSnapshot(String,DataSnapshot)
++ void updateFormByName(String,FormInfo)
++ void deleteFormsByNames(List<String>)
++ void deleteFormsByKeys(List<String>)
+}
+class DB.UserRequestDB {
+- {static} void updateUserRequestByKeys(DatabaseReference,String,Map<String,FormInfo>)
++ String addUserRequest(String,FormInfo)
++ void updateUserRequestByFormName(String,String,FormInfo)
++ void updateUserRequestByKey(String,String,FormInfo)
++ void approveRequestByKeys(String,List<String>)
++ void queryUserRequestsByUserIDs(List<String>,Map<String,List<FormInfo>>)
++ void queryAllUserRequests(Map<String,List<FormInfo>>)
++ void deleteUserRequestsByFormNames(String,List<String>)
++ void deleteUserRequestsByKeys(String,List<String>)
+}
+class Utilities {
+~ {static} String TAG
+~ {static} Character[] INVALID_CHARS
++ {static} boolean nameChecker(String,String)
++ {static} boolean emailChecker(String)
++ {static} boolean stringChecker(String,Character[])
+}
+class Branches.BranchInfo {
++ List<String> serviceList
++ String location
++ int userRating
++ List<String> getServiceList()
++ String getLocation()
++ String getBusinessHour()
++ int getUserRating()
++ String toString()
++ Map<String,Object> toMap()
+}
+class Users.Customer {
++ {static} String TAG
++ ServiceDB serviceDB
++ FormDB formDB
++ BranchDB branchDB
++ void updateUserRequest(String,FormInfo)
++ void updateUserRequestByFormName(String,FormInfo)
++ String addForm(FormInfo)
++ void rateBranch(String,int)
+}
+class Services.Forms.CarInfo {
++ String carType
++ void copy(CarInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class Services.Forms.TruckInfo {
++ String usageArea
++ void copy(TruckInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class DB.ServiceDB {
+- {static} void updateServiceByKeys(DatabaseReference,Map<String,ServiceInfo>)
++ void updateServiceRate(String,double)
++ String addService(ServiceInfo)
++ void queryServicesByType(String,Map<String,ServiceInfo>)
++ void deleteServicesByType(List<String>)
++ void deleteServicesByKeys(List<String>)
+}
+class DB.MyDatabase {
++ {static} String ROOT_KEY_STR_SERVICE
++ {static} String ROOT_KEY_STR_FORM
++ {static} String ROOT_KEY_STR_USER
++ {static} String ROOT_KEY_STR_BRANCH
++ {static} String ROOT_KEY_STR_USER_REQUEST
++ String dbPath
+~ FirebaseDatabase db
+~ DatabaseReference dbRef
++ DatabaseReference getDbRef()
++ FirebaseDatabase getDb()
++ void setReference(String)
++ void updateEntryByKey(String,Object)
++ void deleteEntriesByKeys(List<String>)
+}
+class DB.UserDB {
++ FirebaseAuth auth
++ String addUser(FirebaseUser,UserInfo)
++ void queryUsersByUserName(String,Map<String,UserInfo>)
++ void queryAllUserInfo(Map<String,UserInfo>)
++ void deleteUserByUIDs(List<String>)
+}
+class Users.User {
++ {static} String TAG
++ UserDB userDB
++ UserRequestDB userRequestDB
++ UserInfo userInfo
++ FirebaseUser fbUser
++ SharedPreferences sharedPrefState
++ String dbUserEntryKey
++ void deleteAccount(Activity)
++ void logout(Activity)
++ void login(Activity,Intent)
++ void login(Activity,Intent,Query)
+- void emailAuth(Activity,Intent)
++ void createAccount(Activity,Intent)
+- void addAccount(Activity,Intent)
+}
+class Users.Employee {
++ {static} String TAG
++ ServiceDB serviceDB
++ BranchDB branchDB
++ void queryServicesByType(String,Map<String,ServiceInfo>)
++ void addBranch(BranchInfo)
++ void setBusinessHour(String,String)
++ void queryAllUserRequests(Map<String,List<FormInfo>>)
++ void processUserRequest(String,List<String>)
++ void notifyCustomer()
+}
+class Services.Forms.RentalInfo {
++ String pickupTime
++ void copy(RentalInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class Services.Forms.MovingInfo {
++ String startLocation
++ int numberOfMovers
++ String getStartLocation()
++ String getEndLocation()
++ int getNumberOfMovers()
++ int getNumberOfBoxes()
++ void copy(MovingInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class DB.BranchDB {
+- {static} void updateBranchByKeys(DatabaseReference,Map<String,BranchInfo>)
++ String addBranch(BranchInfo)
++ void updateBusinessHourByLocation(String,String)
++ void updateBranchRatingByLocation(String,int)
++ void queryBranchesByLocation(String,Map<String,BranchInfo>)
++ void queryServicesByLocation(String,ServiceDB,Map<String,ServiceInfo>)
++ void deleteBranchesByLocations(List<String>)
++ void deleteBranchesByKeys(List<String>)
+}
+class Users.UserInfo {
++ String userName
++ String getUserName()
++ String getFirstName()
++ String getLastName()
++ String getEmail()
++ String getPassword()
++ String getUserType()
++ void copy(UserInfo)
++ String toString()
+}
+class Users.Admin {
++ {static} String TAG
++ ServiceDB serviceDB
++ FormDB formDB
++ void deleteAccounts(List<String>)
++ void deleteAccount(String)
++ String createService(ServiceInfo)
++ void setHourlyRate(String,double)
++ String createForm(FormInfo)
++ void updateFormTemplate(String,FormInfo)
++ void queryAllUserRequests(Map<String,List<FormInfo>>)
++ void updateUserRequest(String,String,FormInfo)
+}
+
+
+DB.MyDatabase             <|- - DB.FormDB
+DB.MyDatabase             <|- - DB.UserRequestDB
+Users.User                <|- - Users.Customer
+Services.Forms.RentalInfo <|- - Services.Forms.CarInfo
+Services.Forms.RentalInfo <|- - Services.Forms.TruckInfo
+DB.MyDatabase             <|- - DB.ServiceDB
+DB.MyDatabase             <|- - DB.UserDB
+Users.User                <|- - Users.Employee
+Services.Forms.FormInfo   <|- - Services.Forms.RentalInfo
+Services.Forms.FormInfo   <|- - Services.Forms.MovingInfo
+DB.MyDatabase             <|- - DB.BranchDB
+Users.User                <|- - Users.Admin
+
+
+@enduml
+
+PlantUML version 1.2021.9(Sun Jul 25 06:13:56 EDT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

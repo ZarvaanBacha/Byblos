@@ -1,0 +1,164 @@
+@startuml
+
+class Dummy {
+  - private
+  # protected
+  ~ pkg method()
+  + public()
+}  /' Legend Dummy ;D '/
+
+class DB.MyDatabase {
+  - db
+  - dbRef
+  + getDbRef()
+  + setReference()
+}
+
+class Users.AccountInfo {
+  + userName
+  + firstName
+  + lastName
+  + email
+  + userType
+  + password
+}
+
+class DB.UserDB {
+  + addUser()
+  + deleteUser()
+  + List<User> getUserList()
+}
+
+class DB.ServiceDB {
+  + addService()
+  + updateService()
+  + deleteService()
+  + getService()
+  + deleteService()
+  + deleteServices()
+}
+
+class DB.FormDB {
+  + addForm()
+  + updateForm()
+  + deleteForm()
+  + getForm()
+  + deleteForm()
+  + deleteForms()
+}
+
+DB.MyDatabase <-- DB.UserDB
+DB.MyDatabase <----- DB.FormDB
+DB.MyDatabase <--- DB.ServiceDB
+
+' changed from abstract to normal class because in log-in activity, user type would be undetermined
+class Users.User {
+  + FirebaseUser fbUser
+  + UserInfo info
+  + createAccount()
+  + login()
+  + logout()
+}
+Users.AccountInfo "1" - "1" Users.User
+DB.UserDB "1"          -- "1" Users.User
+
+' N.B. there is basically no such an option in the SignUpActivity to create Admin account
+' but we still keep the method "createAccount()" for admin
+class Users.User.Admin {
+  + createService()
+  + deleteAccounts(User user)
+
+  + setHourlyRate()
+  + setForm(form, customerFilledForm)
+}
+class Users.User.Employee {
+  + selectService()
+  + setBusinessHour()
+  + boolean processServiceRequest()
+
+  + notifyCustomer()
+}
+class Users.User.Customer {
+  + searchBranch()
+  + selectService()
+  + getForm(Service service).fill()
+  + submitForm()
+
+  + rateBranch()
+}
+Users.User <|-- Users.User.Admin
+Users.User <|-- Users.User.Employee
+Users.User <|-- Users.User.Customer
+DB.ServiceDB "1" -- "1" Services.Service
+
+
+' ------------------------------------------
+class Services.Forms.Form {
+  + firstName
+  + lastName
+  + dateOfBirth
+  + address
+  + email
+  + formType = "_form"
+  + copy(other)
+}
+class Services.Forms.Rental {
+  + pickupTime
+  + returnTime
+  + licenseType
+  + formType = this.formType + "_rental"
+  + copy(other)
+}
+Services.Forms.Form <|-- Services.Forms.Rental
+
+class Services.Forms.Rental.Car {
+  + carType
+  + formType = this.formType + "_car"
+  + copy(other)
+}
+class Services.Forms.Rental.Truck {
+  + usageArea
+  + formType = this.formType + "_truck"
+  + copy(other)
+}
+class Services.Forms.Moving {
+  + startLocation
+  + endLocation
+  + numberOfMovers
+  + numberOfBoxes
+  + formType = this.formType + "_moving"
+  + copy(other)
+}
+
+Services.Forms.Rental <|-- Services.Forms.Rental.Car
+Services.Forms.Rental <|-- Services.Forms.Rental.Truck
+Services.Forms.Form   <|-- Services.Forms.Moving
+DB.FormDB - Services.Forms.Form
+
+' ------------------------------------------
+class Services.ServiceInfo {
+  + type
+  + formType
+  + hourlyRate
+  + isApproved
+}
+
+class Services.Service {
+  + form
+  + type
+  + hourlyRate
+  + isApproved
+  + setUpService()  /' can be use to change service type by Admin '/
+  + getForm()
+  + approve()
+  + reject()
+}
+
+Services.ServiceInfo "1" - "1" Services.Service
+Services.Service "1" -- "1" Services.Forms.Form
+Users.User.Admin     -- Services.Service : creates >
+Users.User.Employee  -- Services.Service : processes >
+Users.User.Customer  -- Services.Service : selects >
+Users.User.Customer  -- Services.Forms.Form : fill >
+
+@enduml

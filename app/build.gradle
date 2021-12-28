@@ -1,0 +1,74 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.example.byblos"
+        minSdk 29
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    sourceSets {
+        main {
+            res {
+                srcDirs 'src/main/res',
+                        'src/main/res/Admin',
+                        'src/main/res/Employee',
+                        'src/main/res/Customer',
+                        'src/main/res/Admin/Dashboard',
+                        'src/main/res/Admin/Asset Managment',
+                        'src/main/res/Admin/Asset Management/Car',
+                        'src/main/res/Admin/User Managment',
+                        'src/main/res',
+                        'src/main/res/Employee/Dashboard',
+                        'src/main/res/Employee/Manage Branch',
+                        'src/main/res/Employee/Services Offered',
+                        'src/main/res/Customer/Dashboard',
+                        'src/main/res/Customer/Select Branch',
+                        'src/main/res/Forms',
+                        'src/main/res/Customer/Select Service',
+                        'src/main/res/Customer/Form Status',
+                        'src/main/res/Employee/Manage Requests'
+            }
+        }
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'com.google.firebase:firebase-database:20.0.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.4.0'
+    implementation 'androidx.test.espresso:espresso-idling-resource:3.4.0' // for async testing
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.android.gms:play-services-gcm:17.0.0'
+    implementation 'com.google.firebase:firebase-analytics:20.0.2'
+
+    def fragment_version = "1.4.0"
+    debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
+
+}

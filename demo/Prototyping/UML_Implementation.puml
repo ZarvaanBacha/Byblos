@@ -1,0 +1,239 @@
+@startuml
+'class WelcomePageActivity {
+'~ {static} String TAG
+'- UserDB userDB
+'- User user
+'- TextView welcomeText
+'# void onCreate(Bundle)
+'}
+'class MainActivity {
+'~ {static} String TAG
+'# void onCreate(Bundle)
+'}
+'class LoginActivity {
+'~ {static} String TAG
+'- UserDB myDatabase
+'- User user
+'# void onCreate(Bundle)
+'}
+'class SignupActivity {
+'- String userType
+'- UserDB myDatabase
+'- User user
+'# void onCreate(Bundle)
+'}
+
+class Services.ServiceInfo {
++ String type
++ String formType
++ Double hourlyRate
++ Boolean isAvailable
++ String getType()
++ String getFormType()
++ Double getHourlyRate()
++ Boolean getAvailable()
++ void copy(ServiceInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class Services.Forms.FormInfo {
++ String firstName
++ String formName
++ boolean isApproved
++ String getFirstName()
++ String getLastName()
++ String getDateOfBirth()
++ String getAddress()
++ String getEmail()
++ String getFormName()
++ void setFormName(String)
++ Boolean getApproved()
++ void copy(FormInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class DB.FormDB {
+- {static} void updateFormByKeys(DatabaseReference,Map<String,FormInfo>)
++ String addForm(FormInfo)
++ void queryFormsByName(String,Map<String,FormInfo>)
++ {static} FormInfo getFormInfoFromSnapshot(String,DataSnapshot)
++ void updateFormByName(String,FormInfo)
++ void deleteFormsByNames(List<String>)
++ void deleteFormsByKeys(List<String>)
+}
+class DB.UserRequestDB {
+- {static} void updateUserRequestByKeys(DatabaseReference,String,Map<String,FormInfo>)
++ String addUserRequest(String,FormInfo)
++ void updateUserRequestByFormName(String,String,FormInfo)
++ void updateUserRequestByKey(String,String,FormInfo)
++ void approveRequestByKeys(String,List<String>)
++ void queryUserRequestsByUserIDs(List<String>,Map<String,List<FormInfo>>)
++ void queryAllUserRequests(Map<String,List<FormInfo>>)
++ void deleteUserRequestsByFormNames(String,List<String>)
++ void deleteUserRequestsByKeys(String,List<String>)
+}
+class Utilities {
+~ {static} String TAG
+~ {static} Character[] INVALID_CHARS
++ {static} boolean nameChecker(String,String)
++ {static} boolean emailChecker(String)
++ {static} boolean stringChecker(String,Character[])
+}
+class Branches.BranchInfo {
++ List<String> serviceList
++ String location
++ int userRating
++ List<String> getServiceList()
++ String getLocation()
++ String getBusinessHour()
++ int getUserRating()
++ String toString()
++ Map<String,Object> toMap()
+}
+class Users.Customer {
++ {static} String TAG
++ ServiceDB serviceDB
++ FormDB formDB
++ BranchDB branchDB
++ void updateUserRequest(String,FormInfo)
++ void updateUserRequestByFormName(String,FormInfo)
++ String addForm(FormInfo)
++ void rateBranch(String,int)
+}
+class Services.Forms.CarInfo {
++ String carType
++ void copy(CarInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class Services.Forms.TruckInfo {
++ String usageArea
++ void copy(TruckInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class DB.ServiceDB {
+- {static} void updateServiceByKeys(DatabaseReference,Map<String,ServiceInfo>)
++ void updateServiceRate(String,double)
++ String addService(ServiceInfo)
++ void queryServicesByType(String,Map<String,ServiceInfo>)
++ void deleteServicesByType(List<String>)
++ void deleteServicesByKeys(List<String>)
+}
+class DB.MyDatabase {
++ {static} String ROOT_KEY_STR_SERVICE
++ {static} String ROOT_KEY_STR_FORM
++ {static} String ROOT_KEY_STR_USER
++ {static} String ROOT_KEY_STR_BRANCH
++ {static} String ROOT_KEY_STR_USER_REQUEST
++ String dbPath
+~ FirebaseDatabase db
+~ DatabaseReference dbRef
++ DatabaseReference getDbRef()
++ FirebaseDatabase getDb()
++ void setReference(String)
++ void updateEntryByKey(String,Object)
++ void deleteEntriesByKeys(List<String>)
+}
+class DB.UserDB {
++ FirebaseAuth auth
++ String addUser(FirebaseUser,UserInfo)
++ void queryUsersByUserName(String,Map<String,UserInfo>)
++ void queryAllUserInfo(Map<String,UserInfo>)
++ void deleteUserByUIDs(List<String>)
+}
+class Users.User {
++ {static} String TAG
++ UserDB userDB
++ UserRequestDB userRequestDB
++ UserInfo userInfo
++ FirebaseUser fbUser
++ SharedPreferences sharedPrefState
++ String dbUserEntryKey
++ void deleteAccount(Activity)
++ void logout(Activity)
++ void login(Activity,Intent)
++ void login(Activity,Intent,Query)
+- void emailAuth(Activity,Intent)
++ void createAccount(Activity,Intent)
+- void addAccount(Activity,Intent)
+}
+class Users.Employee {
++ {static} String TAG
++ ServiceDB serviceDB
++ BranchDB branchDB
++ void queryServicesByType(String,Map<String,ServiceInfo>)
++ void addBranch(BranchInfo)
++ void setBusinessHour(String,String)
++ void queryAllUserRequests(Map<String,List<FormInfo>>)
++ void processUserRequest(String,List<String>)
++ void notifyCustomer()
+}
+class Services.Forms.RentalInfo {
++ String pickupTime
++ void copy(RentalInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class Services.Forms.MovingInfo {
++ String startLocation
++ int numberOfMovers
++ String getStartLocation()
++ String getEndLocation()
++ int getNumberOfMovers()
++ int getNumberOfBoxes()
++ void copy(MovingInfo)
++ String toString()
++ Map<String,Object> toMap()
+}
+class DB.BranchDB {
+- {static} void updateBranchByKeys(DatabaseReference,Map<String,BranchInfo>)
++ String addBranch(BranchInfo)
++ void updateBusinessHourByLocation(String,String)
++ void updateBranchRatingByLocation(String,int)
++ void queryBranchesByLocation(String,Map<String,BranchInfo>)
++ void queryServicesByLocation(String,ServiceDB,Map<String,ServiceInfo>)
++ void deleteBranchesByLocations(List<String>)
++ void deleteBranchesByKeys(List<String>)
+}
+class Users.UserInfo {
++ String userName
++ String getUserName()
++ String getFirstName()
++ String getLastName()
++ String getEmail()
++ String getPassword()
++ String getUserType()
++ void copy(UserInfo)
++ String toString()
+}
+class Users.Admin {
++ {static} String TAG
++ ServiceDB serviceDB
++ FormDB formDB
++ void deleteAccounts(List<String>)
++ void deleteAccount(String)
++ String createService(ServiceInfo)
++ void setHourlyRate(String,double)
++ String createForm(FormInfo)
++ void updateFormTemplate(String,FormInfo)
++ void queryAllUserRequests(Map<String,List<FormInfo>>)
++ void updateUserRequest(String,String,FormInfo)
+}
+
+
+DB.MyDatabase             <|-- DB.FormDB
+DB.MyDatabase             <|-- DB.UserRequestDB
+Users.User                <|-- Users.Customer
+Services.Forms.RentalInfo <|-- Services.Forms.CarInfo
+Services.Forms.RentalInfo <|-- Services.Forms.TruckInfo
+DB.MyDatabase             <|-- DB.ServiceDB
+DB.MyDatabase             <|-- DB.UserDB
+Users.User                <|-- Users.Employee
+Services.Forms.FormInfo   <|-- Services.Forms.RentalInfo
+Services.Forms.FormInfo   <|-- Services.Forms.MovingInfo
+DB.MyDatabase             <|-- DB.BranchDB
+Users.User                <|-- Users.Admin
+
+
+@enduml

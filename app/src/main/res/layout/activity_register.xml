@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_login"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:height="44dp"
+            android:text="@string/registration"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/firstNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/enter_your_first_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/lastNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/enter_your_last_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/enter_your_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/passwordInput_reg"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/enter_your_password"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/employeeRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="@string/employee" />
+
+            <RadioButton
+                android:id="@+id/customerRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:checked="false"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="@string/customer" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/registerButton_reg"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:height="45dp"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="50dp"
+            android:padding="10dp"
+            android:text="@string/register"
+            app:cornerRadius="100dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,685 @@
+@startuml
+class Dummy {
+- private
+# protected
+~ pkg method()
++ public()
+}
+
+class Employee.EmployeeViewServices {
+~ LinearLayout layoutToDraw
+- DatabaseReference mDatabase
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
+- FirebaseAuth mAuth
++ {static} EmployeeViewServices newInstance()
++ void onCreate()
++ View onCreateView()
++ void displayItems()
++ void displayItem()
++ TextView createTextView()
++ void deleteService()
+}
+class Admin.CarRental.AdminAddCarRental {
+- DatabaseReference mDatabase
+~ EditText vehicleMake
+~ EditText vehicleModel
+~ EditText numberPlate
+~ EditText hourlySetRate
+~ Spinner vehicleType
+~ Button confirmAndAdd
+~ boolean[] isTextValid
++ {static} AdminAddCarRental newInstance()
++ void onCreate()
++ View onCreateView()
++ void addData()
+}
+class Forms.TruckRentalForm {
+~ LinearLayout layoutToDraw
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
+~ boolean[] isTextValid
+- DatabaseReference mDatabase
+- FirebaseAuth mAuth
++ {static} TruckRentalForm newInstance()
++ void onCreate()
++ View onCreateView()
++ void submitForm()
+}
+class Employee.EmployeeCreateBranch {
+- DatabaseReference mDatabase
+- FirebaseAuth mAuth
+~ boolean[] isTextValid
++ {static} EmployeeCreateBranch newInstance()
++ void onCreate()
++ View onCreateView()
++ List<String> setDays()
++ List<Integer> setTimings()
++ void createBranch()
+}
+class Services.carService {
+~ String identifier
+~ String numberPlate
+~ String price
++ String getNumberPlate()
++ String getIdentifier()
++ String getPrice()
++ void setIdentifier()
++ String toString()
+}
+class Services.Forms.Form {
+# String FirstName
+# String isApproved
++ String getFirstName()
++ String getLastName()
++ String getDateOfBirth()
++ String getAddress()
++ String getEmail()
++ String getIsApproved()
++ String getFormIdentifier()
++ String getServiceIdentifier()
++ void setFirstName()
++ void setLastName()
++ void setDateOfBirth()
++ void setAddress()
++ void setEmail()
++ void setIsApproved()
++ void setFormIdentifier()
++ void setServiceIdentifier()
++ void resetForm()
+}
+class Admin.CarRental.AdminCarRental {
+~ Fragment car_add
+~ Fragment car_view
+~ FloatingActionButton floatingActionButton
++ {static} AdminCarRental newInstance()
++ void onCreate()
++ View onCreateView()
++ void onViewCreated()
++ void add_car()
++ void view_car()
+}
+class Admin.AdminNavDrawer {
++ {static} AdminNavDrawer newInstance()
++ void onCreate()
++ View onCreateView()
+}
+class Users.User {
+# String firstName
++ String getFirstName()
++ String getLastName()
++ String getEmail()
++ String getPassword()
++ String getUserType()
++ String getIdentifier()
++ void setIdentifier()
++ String toString()
+}
+class Admin.MovingServices.AdminAddMovingAssistance {
+- DatabaseReference mDatabase
+~ EditText numberOfMovers
+~ EditText hourlySetRate
+~ Button confirmAndAdd
++ {static} AdminAddMovingAssistance newInstance()
++ void onCreate()
++ View onCreateView()
++ void addData()
+}
+class Services.movingServices {
+~ String identifier
+~ String price
+~ String numberOfMovers
+~ String branchIdentifier
++ String formID
++ String getNumberOfMovers()
++ String getIdentifier()
++ String getPrice()
++ void setIdentifier()
++ void setFormID()
++ void setBranch()
++ void removeBranch()
++ String getBranch()
++ String getFormID()
++ String toString()
+}
+class Admin.MovingServices.AdminViewMovingAssistance {
+~ LinearLayout layoutToDraw
+- DatabaseReference mDatabase
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
++ {static} AdminViewMovingAssistance newInstance()
++ void onCreate()
++ View onCreateView()
++ void generateItems()
++ void createItem()
++ TextView createTextView()
++ void deleteMovingService()
+}
+class Employee.EmployeeManageServices {
+~ FloatingActionButton floatingActionButton
+- DatabaseReference mDatabase
+- FirebaseAuth mAuth
+~ Fragment service_add
+~ Fragment service_view
++ {static} EmployeeManageServices newInstance()
++ void onCreate()
++ View onCreateView()
++ void displayServices()
++ void addServices()
+}
+class Admin.AdminManageUsers {
+- TabLayout tabLayout
+- ViewPager viewPager
++ {static} AdminManageUsers newInstance()
++ void onCreate()
++ View onCreateView()
+}
+class Employee.EmployeeToolbar {
+- {static} String ARG_PARAM1
+- {static} String ARG_PARAM2
+- String mParam1
+- String mParam2
++ {static} EmployeeToolbar newInstance()
++ void onCreate()
++ View onCreateView()
+}
+class Employee.EmployeeViewBranch {
+- DatabaseReference mDatabase
+- FirebaseAuth mAuth
+~ boolean[] isTextValid
++ {static} EmployeeViewBranch newInstance()
++ void onCreate()
++ View onCreateView()
++ void displayBranch()
++ List<String> setDays()
++ List<Integer> setTimings()
++ void modifyBranch()
++ void dayOpen()
++ void setTime()
+}
+class Admin.AdminToolbar {
+- {static} String ARG_PARAM1
+- {static} String ARG_PARAM2
+- String mParam1
+- String mParam2
++ {static} AdminToolbar newInstance()
++ void onCreate()
++ View onCreateView()
+}
+class Customer.CustomerSelectService {
+~ LinearLayout layoutToDraw
+- DatabaseReference mDatabase
+- FirebaseAuth mAuth
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
++ {static} CustomerSelectService newInstance()
++ void onCreate()
++ View onCreateView()
++ void determineView()
++ void viewServices()
++ void displayItem()
++ TextView createTextView()
++ void selectService()
++ void launchForm()
++ void switchToBranchSelect()
+}
+class Admin.AdminManageCustomers {
+~ LinearLayout layoutToDraw
+- DatabaseReference mDatabase
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
++ {static} AdminManageCustomers newInstance()
++ void onCreate()
++ View onCreateView()
++ void generateItems()
++ void createItem()
++ TextView createTextView()
++ void deleteUser()
+}
+class Services.truckService {
+~ String identifier
+~ String numberPlate
+~ String price
+~ String distanceRestriction
++ String getNumberPlate()
++ String getDistanceRestriction()
++ String getIdentifier()
++ String getPrice()
++ void setIdentifier()
++ String toString()
+}
+class Utilities.Utilities {
+~ {static} String TAG
+~ {static} Character[] INVALID_CHARS
++ {static} void toastCancel()
++ {static} boolean nameChecker()
++ {static} boolean generalTextChecker()
++ {static} boolean emailChecker()
+- {static} boolean numberChecker()
+- {static} boolean timeStrChecker()
+- {static} boolean dateStrChecker()
++ {static} boolean stringChecker()
++ {static} boolean validateTextView_Password()
++ {static} boolean validateTextView_General()
++ {static} boolean validateTextView_Address()
++ {static} boolean validateTextView_Email()
++ {static} boolean validateTextView_Time()
++ {static} boolean validateTextView_DriverLicense()
++ {static} boolean validateTextView_DateOfBirth()
++ {static} boolean validateTextView_Boxes()
++ {static} boolean validateTextView_CarNames()
++ {static} boolean validateTextView_Price()
+}
+class Branch.BranchInfo {
+# List<String> serviceList
+# List<String> daysOpen
+# List<Integer> timings
+# String location
+# int userRating
+# String branchUID
+# String managerUID
++ List<String> getServiceList()
++ List<String> getDaysOpen()
++ List<Integer> getTimings()
++ String getLocation()
++ int getUserRating()
++ String getBranchUID()
++ String getManagerUID()
++ void setTimings()
++ void setDaysOpen()
++ void setLocation()
++ void setUserRating()
++ void setBranchUID()
++ void setManagerUID()
++ void addService()
++ List<String> removeService()
++ String toString()
+}
+class Admin.MovingServices.AdminMovingAssistance {
+~ Fragment moving_assistance_add
+~ Fragment moving_assistance_view
+~ FloatingActionButton floatingActionButton
++ {static} AdminMovingAssistance newInstance()
++ void onCreate()
++ View onCreateView()
++ void add_team()
++ void view_team()
+}
+class Admin.AdminManageServices {
+- TabLayout tabLayout
+- ViewPager viewPager
++ void onCreate()
++ View onCreateView()
+}
+class Admin.CarRental.AdminViewCarRental {
+~ LinearLayout layoutToDraw
+- DatabaseReference mDatabase
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
++ {static} AdminViewCarRental newInstance()
++ void onCreate()
++ View onCreateView()
++ void generateItems()
++ void createItem()
++ TextView createTextView()
++ void deleteCarService()
+}
+class Forms.CarRentalForm {
+~ LinearLayout layoutToDraw
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
+~ boolean[] isTextValid
+- DatabaseReference mDatabase
+- FirebaseAuth mAuth
++ {static} CarRentalForm newInstance()
++ void onCreate()
++ View onCreateView()
++ void submitForm()
+}
+class Employee.EmployeeNavDrawer {
++ {static} EmployeeNavDrawer newInstance()
++ void onCreate()
++ View onCreateView()
+}
+class Admin.AdminDashboard {
+~ DrawerLayout drawerLayout
+~ FragmentManager fragmentManager
+# void onCreate()
++ void clickNavigationDrawer()
++ void manageServices()
++ void manageUsers()
++ void logOut()
+- {static} void openDrawer()
+- {static} void closeDrawer()
+}
+class Services.vehicle {
++ String make
++ String model
++ String type
++ String branchIdentifier
++ String formID
++ String getMake()
++ String getModel()
++ String getType()
++ String getFormID()
++ void setBranch()
++ void removeBranch()
++ String getBranch()
++ void setFormID()
+}
+class Customer.CustomerViewBranch {
+~ LinearLayout layoutToDraw
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
+~ boolean isAddressTextValid
+~ boolean[] isTimeTextsValid
+- DatabaseReference mDatabase
+- FirebaseAuth mAuth
++ {static} CustomerViewBranch newInstance()
++ void onCreate()
++ View onCreateView()
++ void listBranches()
++ void createItem()
++ TextView createTextView()
++ void selectBranch()
++ void listBranchesByAddress()
++ void listBranchesByHour()
++ void listBranchesByService()
++ void clearSearchText()
+}
+class Admin.TruckRental.AdminTruckRental {
+~ Fragment truck_add
+~ Fragment truck_view
+~ FloatingActionButton floatingActionButton
++ {static} AdminTruckRental newInstance()
++ void onCreate()
++ View onCreateView()
++ void onViewCreated()
++ void add_truck()
++ void view_truck()
+}
+class Services.Forms.MovingInfo {
+# String startLocation
+# int numberOfMovers
++ String getStartLocation()
++ String getEndLocation()
++ int getNumberOfMovers()
++ int getNumberOfBoxes()
++ void setStartLocation()
++ void setEndLocation()
++ void setNumberOfMovers()
++ void setNumberOfBoxes()
++ String toString()
+}
+class Forms.MovingAssistanceForm {
+~ LinearLayout layoutToDraw
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
+~ boolean[] isTextValid
+- DatabaseReference mDatabase
+- FirebaseAuth mAuth
++ {static} MovingAssistanceForm newInstance()
++ void onCreate()
++ View onCreateView()
++ void submitForm()
+}
+class Services.Forms.Rental.RentalForm {
+# String PickUpTime
++ String getPickUpTime()
++ String getReturnTime()
++ String getLicenseType()
++ void setLicenseType()
++ void setReturnTime()
++ void setPickUpTime()
+}
+class Services.Forms.Rental.CarInfo {
+# String CarType
++ String getCarType()
++ void setCarType()
++ String toString()
+}
+class Customer.CustomerNavDrawer {
+- {static} String ARG_PARAM1
+- {static} String ARG_PARAM2
+- String mParam1
+- String mParam2
++ {static} CustomerNavDrawer newInstance()
++ void onCreate()
++ View onCreateView()
+}
+abstract class Utilities.InputTextValidator {
+- TextView textView
++ {abstract}void validate()
++ void afterTextChanged()
++ void beforeTextChanged()
++ void onTextChanged()
+}
+class Employee.EmployeeAddServices {
+~ LinearLayout layoutToDraw
+- DatabaseReference mDatabase
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
+- FirebaseAuth mAuth
++ {static} EmployeeAddServices newInstance()
++ void onCreate()
++ View onCreateView()
++ void generateItems()
++ void displayItem()
++ TextView createTextView()
++ void addService()
+}
+class Services.Forms.Rental.TruckInfo {
+# String usageArea
++ String getUsageArea()
++ void setUsageArea()
++ String toString()
+}
+class Admin.TruckRental.AdminViewTruckRental {
+~ LinearLayout layoutToDraw
+- DatabaseReference mDatabase
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
++ {static} AdminViewTruckRental newInstance()
++ void onCreate()
++ View onCreateView()
++ void generateItems()
++ void createItem()
++ TextView createTextView()
++ void deleteTruckService()
+}
+class Employee.EmployeeDashboard {
+~ DrawerLayout drawerLayout
+~ FragmentManager fragmentManager
+# void onCreate()
++ void clickNavigationDrawer()
++ void manageBranch()
++ void manageServicesOffered()
++ void manageRequests()
++ void logOut()
+- {static} void openDrawer()
+- {static} void closeDrawer()
+}
+class Employee.EmployeeManageRequests {
+~ LinearLayout layoutToDraw
+- DatabaseReference mDatabase
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
+- FirebaseAuth mAuth
++ {static} EmployeeManageRequests newInstance()
++ void onCreate()
++ View onCreateView()
++ void displayItems()
++ void generateCarRequest()
++ void generateTruckRequest()
++ void generateMovingAssistanceRequest()
++ TextView createTextView()
++ void approve()
++ void reject()
+}
+class Users.Employee {
+# String branchUID
+# ArrayList<String> formUIDs
++ String getBranchUID()
++ ArrayList<String> getFormUIDs()
++ void setBranchUID()
++ void addFormUID()
++ void removeFormUID()
++ String toString()
+}
+class Admin.TruckRental.AdminAddTruckRental {
+~ DatabaseReference mDatabase
+~ EditText vehicleMake
+~ EditText vehicleModel
+~ EditText numberPlate
+~ EditText hourlySetRate
+~ EditText distanceRestriction
+~ Spinner truckType
+~ Button confirmAndAdd
++ {static} AdminAddTruckRental newInstance()
++ void onCreate()
++ View onCreateView()
++ void addData()
+}
+class Admin.AdminManageEmployees {
+~ LinearLayout layoutToDraw
+- DatabaseReference mDatabase
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
++ {static} AdminManageEmployees newInstance()
++ void onCreate()
++ View onCreateView()
++ void generateItems()
++ void createItem()
++ TextView createTextView()
++ void deleteUser()
+}
+class Users.Admin {
+}
+class Customer.CustomerToolbar {
+- {static} String ARG_PARAM1
+- {static} String ARG_PARAM2
+- String mParam1
+- String mParam2
++ {static} CustomerToolbar newInstance()
++ void onCreate()
++ View onCreateView()
+}
+class Customer.CustomerDashboard {
+~ DrawerLayout drawerLayout
+~ FragmentManager fragmentManager
+# void onCreate()
++ void clickNavigationDrawer()
++ void selectBranch()
++ void selectServicesFromBranch()
++ void formStatus()
++ void logOut()
+- {static} void openDrawer()
+- {static} void closeDrawer()
++ void viewCarRentalForm()
++ void viewTruckRentalForm()
++ void viewMovingAssistanceForm()
+}
+class Users.Customer {
+~ String preferredBranchUID
+~ String serviceSelectedUID
+~ String formUID
++ void setPreferredBranchUID()
++ void setServiceSelectedUID()
++ void setFormUID()
++ void resetFormUID()
++ String getPreferredBranchUID()
++ String getServiceSelectedUID()
++ String getFormUID()
++ String toString()
+}
+class Customer.CustomerFormStatus {
+- DatabaseReference mDatabase
+- FirebaseAuth mAuth
+~ ViewGroup.LayoutParams layoutParams
+~ Context thiscontext
++ {static} CustomerFormStatus newInstance()
++ void onCreate()
++ View onCreateView()
++ void getRequestStatus()
++ void setRating()
+}
+class Employee.EmployeeManageBranch {
+- FirebaseAuth mAuth
+~ Fragment branch_create
+~ Fragment branch_view
++ {static} EmployeeManageBranch newInstance()
++ void onCreate()
++ View onCreateView()
++ void setView()
++ void createBranch()
++ void viewBranch()
+}
+
+
+android.text.TextWatcher <|.. Utilities.InputTextValidator
+
+Services.Forms.Form <|-- Services.Forms.Rental.RentalForm
+Services.Forms.Form <|-- Services.Forms.MovingInfo
+Services.Forms.Rental.RentalForm <|-- Services.Forms.Rental.TruckInfo
+Users.User <|-- Users.Admin
+note top of Users : FirebaseDB Query Container Classes
+note top of Services: FirebaseDB Query Container Classes
+note top of Branch: FirebaseDB Query Container Classes
+note top of Services.Forms: FirebaseDB Query Container Classes
+Services.vehicle <|-- Services.truckService
+Users.User <|-- Users.Employee
+Services.vehicle <|-- Services.carService
+Users.User <|-- Users.Customer
+Services.Forms.Rental.RentalForm <|-- Services.Forms.Rental.CarInfo
+
+' --- ADMIN ---
+Admin.AdminDashboard   "1" -- "1" Admin.AdminNavDrawer
+Admin.AdminDashboard   "1" -- "1" Admin.AdminToolbar
+Admin.AdminDashboard   "1" -- "1" Admin.AdminManageServices
+Admin.AdminDashboard   "1" -- "1" Admin.AdminManageUsers
+Admin.AdminManageUsers "1" -- "1" Admin.AdminManageEmployees
+Admin.AdminManageUsers "1" -- "1" Admin.AdminManageCustomers
+
+Admin.AdminManageServices --- Admin.CarRental
+Admin.AdminManageServices --- Admin.TruckRental
+Admin.AdminManageServices --- Admin.MovingServices
+
+Admin.CarRental.AdminCarRental -- Admin.CarRental.AdminViewCarRental
+Admin.CarRental.AdminCarRental -- Admin.CarRental.AdminAddCarRental
+
+Admin.TruckRental.AdminTruckRental -- Admin.TruckRental.AdminViewTruckRental
+Admin.TruckRental.AdminTruckRental -- Admin.TruckRental.AdminAddTruckRental
+
+Admin.MovingServices.AdminMovingAssistance -- Admin.MovingServices.AdminViewMovingAssistance
+Admin.MovingServices.AdminMovingAssistance -- Admin.MovingServices.AdminAddMovingAssistance
+
+
+' --- EMPLOYEE ---
+Employee.EmployeeDashboard      "1" -- "1" Employee.EmployeeNavDrawer
+Employee.EmployeeDashboard      "1" -- "1" Employee.EmployeeToolbar
+Employee.EmployeeDashboard      "1" -- "1" Employee.EmployeeManageBranch
+Employee.EmployeeDashboard      "1" -- "1" Employee.EmployeeManageServices
+Employee.EmployeeDashboard      "1" -- "1" Employee.EmployeeManageRequests
+Employee.EmployeeDashboard      "1" -- "1" Employee.EmployeeViewBranch
+Employee.EmployeeManageBranch   "1" -- "1" Employee.EmployeeCreateBranch
+Employee.EmployeeManageServices "1" -- "1" Employee.EmployeeAddServices
+Employee.EmployeeManageServices "1" -- "1" Employee.EmployeeViewServices
+
+Employee.EmployeeDashboard -- Forms.TruckRentalForm
+Employee.EmployeeDashboard -- Forms.CarRentalForm
+Employee.EmployeeDashboard -- Forms.MovingAssistanceForm
+
+
+' --- CUSTOMER ---
+Customer.CustomerDashboard "1" -- "1" Customer.CustomerNavDrawer
+Customer.CustomerDashboard "1" -- "1" Customer.CustomerToolbar
+Customer.CustomerDashboard "1" -- "1" Customer.CustomerViewBranch
+Customer.CustomerDashboard "1" -- "1" Customer.CustomerSelectService
+Customer.CustomerDashboard "1" -- "1" Customer.CustomerFormStatus
+
+Customer.CustomerDashboard -- Forms.TruckRentalForm
+Customer.CustomerDashboard -- Forms.CarRentalForm
+Customer.CustomerDashboard -- Forms.MovingAssistanceForm
+
+
+@enduml

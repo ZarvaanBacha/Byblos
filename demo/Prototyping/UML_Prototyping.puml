@@ -1,0 +1,212 @@
+@startuml
+
+class Dummy {
+  - private
+  # protected
+  ~ pkg method()
+  + public()
+}  /' Legend Dummy ;D '/
+
+class DB.MyDatabase {
+  - db
+  - dbRef
+  + dbPath
+  + setReference()
+}
+
+class Users.UserInfo {
+  + userName
+  + firstName
+  + lastName
+  + email
+  + userType
+  + password
+  + userID
+  + copy(other)
+}
+
+class DB.UserDB {
+  + auth
+  + add()
+  + queryByName()
+  + queryAll()
+  + deleteByUIDs()
+}
+
+class DB.ServiceDB {
+  + add()
+  + update()
+  + updateRate()
+  + queryByType()
+  + deleteByType()
+  + deleteByKeys()
+}
+
+note left: update() used to update hourlyRate etc
+
+class DB.FormDB {
+  + add()
+  + queryByName()
+  + update()
+  + delete()
+}
+
+class DB.BranchDB {
+  + add()
+  + updateBusinessHour()
+  + updateRating()
+  + queryByLocations()
+  + queryServices()
+  + deleteByLocations()
+  + deleteByKeys()
+}
+
+class DB.UserRequestDB {
+  + add()
+  + update()
+  + approve()
+  + queryByUserIDs()
+  + queryAll()
+  + deleteByFormNames()
+  + deleteByKeys()
+}
+
+DB.MyDatabase <-- DB.UserDB
+DB.MyDatabase <-- DB.FormDB
+DB.MyDatabase <-- DB.ServiceDB
+DB.MyDatabase <-- DB.BranchDB
+DB.MyDatabase <-- DB.UserRequestDB
+
+' changed from abstract to normal class because in log-in activity, user type would be undetermined
+class Users.User {
+  + userDB
+  + userRequestDB
+  + userInfo
+  + fbUser
+  + sharedPrefState
+  + deleteAccount()
+  + logout()
+  + login()
+  - emailAuth()
+  + createAccount()
+  - addAccount()
+}
+Users.UserInfo "1" - "1" Users.User
+DB.UserDB "1"      -- "1" Users.User
+
+' N.B. there is basically no such an option in the SignUpActivity to create Admin account
+' but we still keep the method "createAccount()" for admin
+class Users.Admin {
+ + serviceDB
+ + formDB
+ + deleteAccounts()
+ + deleteAccount()
+ + createService()
+ + setHourlyRate()
+ + createForm()
+ + updateFormTemplate()
+ + queryAllUserRequests()
+ + updateUserRequest()
+}
+class Users.Employee {
+  + serviceDB
+  + branchDB
+  + queryServicesByType()
+  + addBranch()
+  + setBusinessHour()
+  + queryAllUserRequests()
+  + processServiceRequest()
+'  + notifyCustomer()
+}
+class Users.Customer {
+  + serviceDB
+  + formDB
+  + branchDB
+  + updateRequest()
+  + updateRequestByFormName()
+  + addForm()
+  + rateBranch()
+}
+
+Users.User <|--- Users.Admin
+Users.User <|--- Users.Employee
+Users.User <|--- Users.Customer
+
+DB.UserRequestDB "1" -- "1" Users.User
+DB.ServiceDB "1"     -- "1" Users.Admin
+DB.ServiceDB "1"     -- "1" Users.Employee
+DB.FormDB "1"        -- "1" Users.Admin
+DB.BranchDB "1"      -- "1" Users.Employee
+DB.BranchDB "1"      -- "1" Users.Customer
+
+' ------------------------------------------
+class Services.Forms.FormInfo {
+  + formName := "_form"
+
+  + firstName
+  + lastName
+  + dateOfBirth
+  + address
+  + email
+  + isApproved
+}
+class Services.Forms.RentalInfo {
+  + formName := this.formName + "_rental"
+
+  + pickupTime
+  + returnTime
+  + licenseType
+}
+Services.Forms.FormInfo <|-- Services.Forms.RentalInfo
+
+class Services.Forms.Rental.CarInfo {
+  + formName := this.formName + "_car"
+
+  + carType
+}
+class Services.Forms.Rental.TruckInfo {
+  + formName := this.formName + "_truck"
+
+  + usageArea
+}
+class Services.Forms.MovingInfo {
+  + formName := this.formName + "_moving"
+
+  + startLocation
+  + endLocation
+  + numberOfMovers
+  + numberOfBoxes
+}
+
+Services.Forms.RentalInfo <|-- Services.Forms.Rental.CarInfo
+Services.Forms.RentalInfo <|-- Services.Forms.Rental.TruckInfo
+Services.Forms.FormInfo   <|-- Services.Forms.MovingInfo
+
+' ------------------------------------------
+class Services.ServiceInfo {
+  + type  /' _car_rental, _truck_rental; _moving '/
+  + formType
+  + hourlyRate
+  + isAvailable
+  + copy(other)
+}
+
+class Branches.BranchInfo {
+  + List services
+  + location
+  + businessHour
+  + userRating
+  + copy(other)
+}
+
+Services.ServiceInfo "1..*" -- "1..*" Services.Forms.FormInfo
+
+Users.Admin    ---- Services.Forms.FormInfo : creates >
+Users.Admin    ---- Services.ServiceInfo : creates >
+Users.Employee ---- Services.Forms.FormInfo : processes >
+Users.Employee ---- Branches.BranchInfo : modify >
+Users.Customer ---- Services.ServiceInfo : selects >
+Users.Customer ---- Branches.BranchInfo : selects, rates >
+Users.Customer ---- Services.Forms.FormInfo : fill >
+
+@enduml

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Employee.EmployeeCreateBranch">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You already have a branch linked to your account "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Branch Editor"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:id="@+id/relLayout1">
+
+                <EditText
+                    android:id="@+id/addressEnter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:hint="Enter Address to modify"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Days Open"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/Monday"
+                    android:text="Mon">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/Tuesday"
+                    android:text="Tue">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/Wednesday"
+                    android:text="Wed">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/Thursday"
+                    android:text="Thu">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/Friday"
+                    android:text="Fri">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/Saturday"
+                    android:text="Sat">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/Sunday"
+                    android:text="Sun">
+                </CheckBox>
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Opening Time"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <TimePicker
+                    android:id="@+id/openingTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+
+                    android:timePickerMode="spinner"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Closing"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    />
+
+                <TimePicker
+                    android:id="@+id/closingTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+
+                    android:timePickerMode="spinner"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/confirmAndOverwrite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirm and Overwrite" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
